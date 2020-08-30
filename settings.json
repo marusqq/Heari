@@ -1,0 +1,15 @@
+{
+    "webpages": {
+        "delfi"         : false,
+        "15min"         : false,
+        "lrytas"        : true,
+        "verslozinios"  : false
+    },
+
+    "url": {
+        "delfi"         : "https://www.delfi.lt/",
+        "15min"         : "https://www.15min.lt/",
+        "lrytas"        : "https://www.lrytas.lt/",
+        "verslozinios"  : "https://www.vz.lt/"
+    }
+}
