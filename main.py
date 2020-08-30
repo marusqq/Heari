@@ -131,6 +131,6 @@ for webpage in data['webpages']:
             except:
               print('no created_files/articles_lrytas.docx')
 
-            util.save_in_file(articles, 'created_files/articles_lrytas.txt', testing = False)
+            util.save_in_file(articles, 'created_files/articles_lrytas.txt', False)
             to_word(articles, 'created_files/articles_lrytas.docx')
 # #       

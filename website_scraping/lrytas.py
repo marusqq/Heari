@@ -21,27 +21,27 @@ def scrape_lrytas(url):
 
     soup = BeautifulSoup(page.text, "html.parser") 
     
-    #return page.text
+    
 
     articles = []
     article_titles = []
     article_links = []
 
-    for article in soup.find_all('h3', class_ = "h1"):
+    for article in soup.find_all('h3'):
+        #articles.append(article)
+        # article_text = article.text.replace('\n', '')
+        article_title = article.find('a')['href'].text
+        # if article_title:
         
-        article_text = article.text.replace('\n', '')
-        article_titles.append(article_text)
+        article_titles.append(str(article))
+
         article_links.append('link')
-        
+    
         # if article_text and article.find('a'):
         #     article_link = article.find('a')['href']
         #     article_titles.append(article_text)
         #     article_links.append(article_link)
-        
-
-       
-            
-
+    #return page.text
     articles.append(article_titles)
     articles.append(article_links)
 
