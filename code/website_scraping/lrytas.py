@@ -28,14 +28,25 @@ def scrape_lrytas(url):
     article_links = []
 
     for article in soup.find_all('h3'):
-        #articles.append(article)
-        # article_text = article.text.replace('\n', '')
-        article_title = article.find('a')['href'].text
-        # if article_title:
+        # print(article)
+        # articles.append(article)
         
-        article_titles.append(str(article))
+        article_text = article.text.split('\n')
+        if len(article_text) > 1:
+            article_text = article_text[1]
 
-        article_links.append('link')
+            article_link = article.find('a')
+            if article_link is not None:
+                article_link = article.find('a')['href']
+        else:
+            continue
+            
+        print(article_text)
+        print(article_link)
+        input()
+        article_titles.append(article_text)
+        article_links.append(article_link)
+        
     
         # if article_text and article.find('a'):
         #     article_link = article.find('a')['href']

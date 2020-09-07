@@ -1,0 +1,2 @@
+green hex: 71a95a
+black hex: 000000
