@@ -2,13 +2,13 @@
 # -*- coding: UTF-8 -*-
 __author__ = "Marius Pozniakovas"
 __email__ = "pozniakovui@gmail.com"
-'''script to scrape delfi'''
+'''script to scrape lrytas'''
 
 import sys, time
 from bs4 import BeautifulSoup
 import requests
 
-def scrape_delfi(url):
+def scrape_vzinios(url):
 
     try:
         page = requests.get(url)
@@ -28,15 +28,14 @@ def scrape_delfi(url):
     article_titles = []
     article_links = []
 
-    for article in soup.find_all('h3', class_ = "headline-title"):
-        article_title = article.find('a', class_ = "CBarticleTitle")
+    for article in soup.find_all('div', class_ = "one-article"):
+        article_text = article.find('a')['title']
         article_link = article.find('a')['href']
-        if article_title:
-            article_titles.append(article_title.text)
-            article_links.append(article_link)
-
+            
+        article_titles.append(article_text)
+        article_links.append(article_link)
+        
     articles.append(article_titles)
     articles.append(article_links)
 
     return articles
-    #save_in_file(page.text, os.path.join('created_files/' + str(now) + '_' + url.split('.')[1] + '.txt'))

@@ -4,7 +4,7 @@ __author__ = "Marius Pozniakovas"
 __email__ = "pozniakovui@gmail.com"
 '''script to scrape 15min'''
 
-import sys,time
+import sys, time
 from bs4 import BeautifulSoup
 import requests
 
@@ -21,6 +21,9 @@ def scrape_15min(url):
 
     soup = BeautifulSoup(page.text, "html.parser") 
     
+    #return HTML
+    #return str(soup)
+
     articles = []
     article_titles = []
     article_links = []

@@ -1,0 +1,2670 @@
+
+<!DOCTYPE html>
+
+<html lang="lt">
+<head>
+<script type="text/javascript">
+				if(window.location.pathname=='/'&&window.location.host!='www.vz.lt'){window.location.replace('https://www.vz.lt');}
+			</script>
+<base href="https://www.vz.lt/"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>
+								Visos naujienos - Verslo žinios
+		</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+<meta content="index,follow" name="robots">
+<meta content="always" name="referrer">
+<meta content="rb9gXdq8mXPTZ7zC_xdOVU0v8GTapTuYRsSDDngmcrY" name="google-site-verification"/>
+<meta content="Verslo žinios" id="metaAuthor" name="author"/>
+<meta content="" name="description">
+<meta content="" name="keywords"/>
+<link href="https://www.vz.lt/visos-naujienos" rel="canonical"/>
+<meta content="" property="og:description"/>
+<meta content="Visos naujienos - Verslo žinios" property="og:title"/>
+<meta content="https://www.vz.lt/img/logo_big.jpg" property="og:image"/>
+<meta content="https://www.vz.lt/visos-naujienos" property="og:url"/>
+<meta content="vz.lt" property="og:site_name"/>
+<link href="//cdnjs.cloudflare.com" rel="dns-prefetch"/>
+<link href="//freep.bite.lt" rel="dns-prefetch"/>
+<link href="//www.google-analytics.com" rel="dns-prefetch"/>
+<link href="//ced.sascdn.com" rel="dns-prefetch"/>
+<link href="//www14.smartadserver.com" rel="dns-prefetch"/>
+<link href="//apis.google.com" rel="dns-prefetch"/>
+<link href="//www.linkedin.com" rel="dns-prefetch"/>
+<link href="//connect.facebook.net" rel="dns-prefetch"/>
+<link href="//s7.addthis.com" rel="dns-prefetch"/>
+<link href="//tcr.tynt.com" rel="dns-prefetch"/>
+<link href="//cdn.onthe.io" rel="dns-prefetch"/>
+<link href="https://www.vz.lt/manifest.json" rel="manifest"/>
+<meta content="#bb012a" name="theme-color"/>
+<link href="https://www.vz.lt/favicon.ico" rel="shortcut icon">
+<link href="https://www.vz.lt/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="https://www.vz.lt/img/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.vz.lt/vzlt_srch.xml" rel="search" title="Vz.lt" type="application/opensearchdescription+xml"/>
+<!-- Base MasterSlider style sheet -->
+<link href="https://www.vz.lt/css/masterslider.css" rel="stylesheet"/>
+<!-- MasterSlider Template Style -->
+<link href="https://www.vz.lt/css/ms-staff-style.css" rel="stylesheet" type="text/css"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet"/>
+<link href="https://www.vz.lt/css/standard.min.css" rel="stylesheet" type="text/css">
+<link href="https://www.vz.lt/css/style.min.css?v20" rel="stylesheet" type="text/css">
+<link href="https://www.vz.lt/css/print.css" rel="stylesheet" type="text/css">
+<!--[if IE]>
+			<script src="https://www.vz.lt/js/html5shiv.min.js"></script>
+			<script src="https://www.vz.lt/js/respond.min.js"></script>
+			<link href="https://www.vz.lt/css/ie.css" rel="stylesheet" />
+		<![endif]-->
+<link href="/css/flipclock.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery.min.js" type="text/javascript"></script>
+<script src="/js/splayer/splayer.min.js?v20" type="text/javascript"></script>
+<script src="/js/splayer/vz-splayer.min.js?v20" type="text/javascript"></script>
+<script type="text/javascript">
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	(function(w,d,t,u,n,a,m,l,s){ w[n]=w[n]||function(){
+	(w[n].q=w[n].q||[]).push(arguments);}; a=d.createElement(t);
+	m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m); 
+	})(window,document,'script','https://bart.bonnieraws.dergan.net/bart.js','_BART'); 
+
+	var vzCountersMaster = '';
+	var vzCountersTarget = 'logged=no';
+	var SessionSingleSale = ''; //
+
+	ga('create', 'UA-724652-3', 'vz.lt');
+	ga('require', 'displayfeatures');
+
+	ga('set', 'dimension1', 'Regular');
+
+	
+
+	ga(function(tracker) {
+	  var clientId = tracker.get('clientId');
+	  ga('set', 'dimension8', clientId);
+	  
+	});
+
+	function getWidth() {
+		if (self.innerWidth) {
+		   return self.innerWidth;
+		}
+		else if (document.documentElement && document.documentElement.clientHeight){
+			return document.documentElement.clientWidth;
+		}
+		else if (document.body) {
+			return document.body.clientWidth;
+		}
+		return 0;
+	}
+
+	function logUserArticle(title) {
+		return;
+	}
+	
+	$(function() {
+		var e=document.createElement("iframe");e.frameBorder=0,e.width="0px",e.height="0px",e.style.visibility="hidden",e.style.position="absolute",e.style.bottom="-2000px",e.style.left="0",e.id="fp",e.setAttribute("src","https://login.vz.lt/userfp/fingerptinting.collect.html"),document.body.appendChild(e);	
+	});
+
+</script>
+</link></link></link></link></meta></meta></meta></head>
+<body class="clearfix home">
+<!-- Master -->
+<div id="header">
+<div id="fixedmenuoffset"></div>
+<div id="mainmenu">
+<div class="top clearfix">
+<div id="menu-opener">
+<div class="hamburger hamburger--squeeze">
+<div class="hamburger-box">
+<div class="hamburger-inner"></div>
+</div>
+</div>
+</div>
+<div class="logo">
+<a href="https://www.vz.lt/">
+<img alt="Verslo žinios" class="svg-image vz-logo" height="28px" src="https://www.vz.lt/img/svg/logo-25.svg"/>
+</a>
+</div>
+<nav class="menu-links hidden-xs">
+<ul>
+<li><a href="https://www.vz.lt/premium" onclick="ga('send','event','Menu','Premium','Top Menu Click');">Premium</a></li>
+<li class="active"><a href="https://www.vz.lt/visos-naujienos" onclick="ga('send','event','Menu','Naujausios','Top Menu Click');">Naujausios</a></li>
+<li><a href="https://www.vz.lt/skaitomiausi-straipsniai" onclick="ga('send','event','Menu','Skaitomiausios','Top Menu Click');">Skaitomiausios</a></li>
+<li><a href="https://www.vz.lt/verslo-aplinka/seimo-rinkimai" onclick="ga('send','event','Menu','Renkame Seimą','Top Menu Click');"><img alt="svg" class="svg-image hidden hide-ie dot-pulse" src="/img/svg/dot-pulse.svg"/> Renkame Seimą</a></li>
+</ul>
+</nav>
+<div class="rside">
+<script type="text/javascript">
+	var MANO = {};
+	MANO.host = 'https://mano.vz.lt';
+	MANO.dev =  false;
+	MANO.dataType =  'json';
+	MANO.loginReload = true;
+</script>
+<div class="hidden io-user-type">Regular</div>
+<ul>
+<li class="link"><a href="https://parduotuve.vz.lt/vz-prenumerata/prenumerata.3.php" onclick="ga('send','event','Menu','Prenumeruoti','Top Menu Click');" target="_blank">Prenumeruoti</a></li>
+<li class="relative notifications">
+<div class="notifications-opener">
+<img alt="Pranešimai" class="svg-image notifications" src="/img/svg/notifications-icon.svg">
+<div class="notification-count">1</div>
+</img></div>
+<div class="notifications-dropdown">
+<div class="notification-dropdown-wrapper">
+<h6>Pranešimų nėra</h6>
+</div>
+<div class="notification-btns"></div>
+</div>
+</li>
+<li data-target="#loginModal" data-toggle="modal"><img alt="Neprisijungęs" class="svg-image logged-out" src="/img/svg/logged-out.svg"/></li>
+<li data-open="search-wr"><img alt="Paieška" class="svg-image search-btn" src="/img/svg/search.svg"/></li>
+</ul>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<!-- Login & Registration modal in 1 -->
+<div aria-labelledby="loginModalLabel" class="modal fade disabled" id="loginModal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content" id="login-form-modal">
+<div class="modal-header">
+<button aria-label="Uždaryti" class="close" data-dismiss="modal" type="button">
+<img class="svg-image" src="https://www.vz.lt/img/svg/close.svg"/>
+</button>
+<h4 class="modal-title" id="loginModalLabel">Prisijungimas prie paskyros</h4>
+</div>
+<div class="modal-body">
+<div class="col-xs-12 soc-log" id="social">
+<div class="row">
+<div>
+<a class="active-social" href="#" id="FBLogin" onclick="callFbLogin(); return false;">
+<img alt="Facebook" class="svg-image" src="/img/svg/FB.svg"/>
+<p><strong>Prisijungti</strong></p>
+</a>
+</div>
+<div>
+<a class="active-social" href="#" id="INLogin">
+<img alt="Linkedin" class="svg-image" src="/img/svg/IN.svg"/>
+<p><strong>Prisijungti</strong></p>
+</a>
+</div>
+<div>
+<a class="active-social" href="#" id="GPLogin">
+<img alt="Google" class="svg-image" src="/img/svg/G.svg"/>
+<p><strong>Prisijungti</strong></p>
+</a>
+</div>
+<div>
+<a class="active-social" href="#" id="APLogin">
+<img alt="svg" class="svg-image" src="/img/apple.svg"/>
+<div data-border="false" data-color="white" data-type="sign in" id="appleid-signin"></div>
+<p><strong>Prisijungti</strong></p>
+</a>
+</div>
+</div>
+<div class="social-error"></div>
+<form action="#" id="social-login-form" method="post">
+<input name="hash" type="hidden"/>
+<input name="fingerprint" type="hidden" value="00"/>
+<input name="social" type="hidden"/>
+<input name="socialID" type="hidden"/>
+<input name="socialAccessToken" type="hidden"/>
+</form>
+</div>
+<div class="login-form">
+<div class="separator separator-bottom">
+<span>arba</span>
+</div>
+<form action="#" id="vzloginform" method="post">
+<div class="form-holder clearfix">
+<input name="hash" type="hidden"/>
+<input name="md5" type="hidden"/>
+<input name="fingerprint" type="hidden" value="00"/>
+<div class="label-wrap">
+<label class="input-label">Vartotojo vardas</label>
+<input name="identity" type="text"/>
+</div>
+<div class="identity-message"></div>
+<div class="label-wrap">
+<label class="input-label">Slaptažodis</label>
+<input autocomplete="new-password" id="credential" name="credential" type="password">
+</input></div>
+<div class="login-error-messages">
+<div class="credential-message errorMessage"></div>
+<a href="https://mano.vz.lt/remember" target="_blank">Pamiršote slaptažodį?</a>
+</div>
+<input class="submit-btn" type="submit" value="Prisijungti"/>
+<a class="btn reg" href="javascript:;" onclick="showRegModal();">Kurti paskyrą</a>
+<a class="btn buy" href="https://parduotuve.vz.lt/vz-prenumerata/prenumerata.3.php" onclick="ga('send','event','Prenumerata','Subscription select', document.location.href);">Prenumeruoti</a>
+</div>
+</form>
+</div>
+</div>
+<div class="modal-footer">
+<div class="support-wr">
+<p><strong>Reikia pagalbos?</strong> Kreipkitės į „Verslo žinių“ Klientų aptarnavimo sk. telefonu <a href="tel:852526330">(8 5) 252 6330</a> arba el. paštu <a href="mailto:prenumerata@verslozinios.lt">prenumerata@verslozinios.lt</a>.</p>
+</div>
+</div>
+</div>
+<div class="modal-content" id="reg-form-modal">
+<div class="modal-header">
+<button aria-label="Uždaryti" class="close" data-dismiss="modal" type="button">
+<img class="svg-image" src="https://www.vz.lt/img/svg/close.svg">
+</img></button>
+<h4 class="modal-title" id="loginModalLabel">Sukurti paskyrą</h4>
+</div>
+<div class="modal-body no-padding">
+<iframe data-src="https://mano.vz.lt/registracija?frame=1" frameborder="0" height="430" id="regframe" marginheight="0px" marginwidth="0px" name="regframe" scrolling="no" style="min-width:100%;width:100%;*width:100%;border:none"></iframe>
+<script>
+					$(document).ready(function(){ 
+						window.addEventListener('message', function(e) {
+							var iframe = $('#regframe');
+							if(e.data[0] == 'setHeight') {
+								var height = e.data[1];
+								iframe.height(height);
+								iframe.css('width','100%');
+							}
+							if(e.data[0] == 'changeModal') {
+								showLoginModal();
+							} 
+						}, false);
+					});
+				</script>
+</div>
+</div>
+</div>
+</div>
+<script src="/js/SessionInfo.min.js?"></script>
+<script type="text/javascript">
+
+$(function(){
+
+$('#ELogin').on('click', function(e){
+	e.preventDefault();
+	$('#loginModal').removeClass('disabled');
+});
+
+	 // Revalidate
+    /* Last Validate: , Current Date: 20200916 */
+    
+    	VzRequireRelogin();
+    
+
+    // Relogin by cookie
+    if ($.cookie('VzRequireRelogin'))
+    	VzRequireRelogin();
+    	
+});
+
+</script>
+</div>
+</div>
+<div class="bottom">
+<div class="login-wr apr-panel" id="login-form-holder">
+<div class="clearfix">
+<!-- VZ LOGIN -->
+<div class="vz-login-wr col-lg-3 col-md-3 col-sm-4 col-xs-12 right">
+<span class="close-this-col">
+<img alt="Close" class="svg-image" src="https://www.vz.lt/img/svg/close.svg">
+</img></span>
+<div class="inner-wr">
+<h3><span>VŽ</span> Premium</h3>
+<form action="/apps/pbcs.dll/exec?name=synclogin.js" method="post">
+<div class="form-holder clearfix">
+<input name="email" placeholder="Vartotojas" type="text">
+<a href="https://www.vz.lt/pages/reminder.html" target="_blank">Pamiršote slaptažodį?</a>
+<input name="pwd" placeholder="Slaptažodis" type="password">
+<input class="login-submit-btn" name="logon" type="submit" value="Prisijungti">
+</input></input></input></div>
+</form>
+<div class="links-holder display-table">
+<div class="txt display-table-cell valign-middle text-center">
+<span>Neturite paskyros?</span>
+</div>
+<div class="cta display-table-cell text-center io-subscription-block">
+<a class="action-btn io-subscription-button" href="http://parduotuve.vz.lt/vz-prenumerata/prenumerata.3.php?utm_source=vz&amp;utm_medium=subscription&amp;utm_campaign=header%20button" onclick="ga('send','event','Prenumerata','Subscription select', document.location.href);" target="_blank">Prenumeruoti</a>
+</div>
+</div>
+</div>
+</div>
+<!-- SOCIAL LOGIN -->
+<div class="soc-login-wr col-lg-9 col-md-9 col-sm-8 col-xs-12 right">
+<div class="beta-wr" data-placement="left" data-toggle="tooltip" title="Jūsų patogumui bandome naują funkciją. Prisijunkite prenumeratoriaus vardu, susiekite jį su savo socialine paskyra ir vėliau galėsite jungtis su savo „Facebook“, „Google+“, „Linkedin“ vartotoju."></div>
+<div class="alert error-wr mtop30 hide">
+				Netinkamas vartotojas/slaptažodis.
+			</div>
+<h6><span>Prisijunkite patogiau!</span> Nuo šiol galite tai daryti su savo <em>Facebook</em>, <em>Google+</em>, <em>LinkedIn</em> paskyra arba užpildę registracijos laukus</h6>
+<div class="inner-wr">
+<div class="columns-wr clearfix">
+<div class="col-lg-4" id="fb-form">
+<div class="display-table soc-table">
+<div class="display-table-cell valign-middle text-left">
+<div class="userpic">
+<img alt="svg" class="svg-image" src="/img/svg/fb-circle.svg">
+</img></div>
+</div>
+<div class="display-table-cell valign-middle text-center">
+<div class="display-table full-width text-left">
+<div class="if-tied display-table-cell valign-middle hide">
+<img alt="Susieta" src="/img/chained.png" title="Susieta paskyra">
+</img></div>
+<div class="logoff-btn display-table-cell valign-middle hide">
+<a href="#" onclick="fbLogout()" title="Atsijungti"><img alt="Atsijungti" class="cancel-login-icon" src="/img/cancel-login-bigger.png"/></a>
+</div>
+<div class="display-table-cell valign-middle">
+<span class="username dimm">Neprisijungta</span>
+</div>
+</div>
+</div>
+<div class="display-table-cell valign-middle text-right">
+<button class="login-btn" id="fb-login" onclick="fbLogin()">Prisijungti</button>
+<button class="login-btn chain hide" id="fb-use" onclick="javascript:void(0)">Susieti</button>
+</div>
+</div>
+</div>
+<div class="col-lg-4" id="gp-form">
+<div class="display-table soc-table">
+<div class="display-table-cell valign-middle text-left">
+<div class="userpic">
+<img alt="svg" class="svg-image" src="/img/svg/gplus-circle.svg"/>
+</div>
+</div>
+<div class="display-table-cell valign-middle text-center">
+<div class="display-table full-width text-left">
+<div class="if-tied display-table-cell valign-middle hide">
+<img alt="Susieta" src="/img/chained.png" title="Susieta paskyra"/>
+</div>
+<div class="logoff-btn display-table-cell valign-middle hide">
+<a href="#" onclick="gpLogout()" title="Atsijungti"><img alt="Atsijungti" class="cancel-login-icon" src="/img/cancel-login-bigger.png"/></a>
+</div>
+<div class="display-table-cell valign-middle">
+<span class="username dimm">Neprisijungta</span>
+</div>
+</div>
+</div>
+<div class="display-table-cell valign-middle text-right">
+<button class="login-btn" id="gp-login" onclick="gpLogin()">Prisijungti</button>
+<button class="login-btn chain hide" id="gp-use" onclick="javascript:void(0)">Susieti</button>
+</div>
+</div>
+</div>
+<div class="col-lg-4" id="in-form">
+<div class="display-table soc-table">
+<div class="display-table-cell valign-middle text-left">
+<div class="userpic">
+<img alt="svg" class="svg-image" src="/img/svg/in-circle.svg"/>
+</div>
+</div>
+<div class="display-table-cell valign-middle text-center">
+<div class="display-table full-width text-left">
+<div class="if-tied display-table-cell valign-middle hide">
+<img alt="Susieta" src="/img/chained.png" title="Susieta paskyra"/>
+</div>
+<div class="logoff-btn display-table-cell valign-middle hide">
+<a href="#" onclick="inLogout()" title="Atsijungti"><img alt="Atsijungti" class="cancel-login-icon" src="/img/cancel-login-bigger.png"/></a>
+</div>
+<div class="display-table-cell valign-middle">
+<span class="username dimm">Neprisijungta</span>
+</div>
+</div>
+</div>
+<div class="display-table-cell valign-middle text-right">
+<button class="login-btn" id="in-login" onclick="inLogin()">Prisijungti</button>
+<button class="login-btn chain hide" id="in-use" onclick="javascript:void(0)">Susieti</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col col-xs-12 btmlinks mild">
+				„Verslo žinių“ prenumeratos skyrius: 
+				<div><i aria-hidden="true" class="fa fa-phone"></i> <a href="tel:852526330">(85) 252 6330</a>,    <a href="tel:852526408">(85) 252 6408</a></div>
+<div><i aria-hidden="true" class="fa fa-envelope"></i> <a href="mailto:prenumerata@verslozinios.lt">prenumerata@verslozinios.lt</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="search-wr apr-panel">
+<div class="inner-wr">
+<div class="search-bar-container">
+<form action="https://www.vz.lt/section/" method="get">
+<input name="template" type="hidden" value="search"/>
+<div class="form-holder clearfix">
+<input name="search" placeholder="Ieškoti..." type="text">
+<button class="search-submit-btn" type="submit" value="Ieškoti">
+<img alt="icon" class="svg-image" src="/img/svg/search-btn.svg"/>
+</button>
+</input></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="vz-menu">
+<div class="mobile-search-wr">
+<div class="search-bar-container">
+<form action="https://www.vz.lt/section/" method="get">
+<input name="template" type="hidden" value="search"/>
+<div class="form-holder clearfix">
+<div class="search-icon">
+<img alt="icon" class="svg-image" src="/img/svg/search-icon.svg"/>
+</div>
+<input name="search" placeholder="Ieškoti..." type="text">
+<button class="search-submit-btn" type="submit" value="Ieškoti">
+<img alt="icon" class="svg-image" src="/img/svg/search-btn.svg"/>
+</button>
+</input></div>
+</form>
+</div>
+</div>
+<div class="inner-wr">
+<div class="row">
+<div class="column col-xs-12 col-sm-5 col-md-5 col-lg-5">
+<h3>Temos</h3>
+<ul class="top-links">
+<li><a href="https://www.vz.lt/premium" onclick="ga('send','event','Menu','Premium','Top Menu Click');">Premium</a></li>
+<li class="active"><a href="https://www.vz.lt/visos-naujienos" onclick="ga('send','event','Menu','Naujausios','Top Menu Click');">Naujausios</a></li>
+<li><a href="https://www.vz.lt/skaitomiausi-straipsniai" onclick="ga('send','event','Menu','Skaitomiausios','Top Menu Click');">Skaitomiausios</a></li>
+<!--li><a onclick="ga('send','event','Menu','Rinkimai','Top Menu Click');" href="https://www.vz.lt/verslo-aplinka/rinkimai">Rinkimai</a></li-->
+<li><a href="https://www.vz.lt/verslo-aplinka/seimo-rinkimai" onclick="ga('send','event','Menu','Renkame Seimą','Top Menu Click');"><img alt="svg" class="svg-image hidden hide-ie dot-pulse" src="/img/svg/dot-pulse.svg"/> Renkame Seimą</a></li>
+</ul>
+<ul class="two-columns">
+<li><a href="https://www.vz.lt/finansai-apskaita" onclick="ga('send','event','Menu','Finansai','Top Menu Click');">Finansai</a></li>
+<li><a href="https://www.vz.lt/smulkusis-verslas" onclick="ga('send','event','Menu','Gazelė','Top Menu Click');">Gazelė</a></li>
+<li><a href="https://www.vz.lt/laisvalaikis" onclick="ga('send','event','Menu','Laisvalaikis','Top Menu Click');">Laisvalaikis</a></li>
+<li><a href="https://www.vz.lt/transportas-logistika" onclick="ga('send','event','Menu','Transportas','Top Menu Click');">Logistika ir transportas</a></li>
+<li><a href="https://www.vz.lt/izvalgos" onclick="ga('send','event','Menu','Nuomonės','Top Menu Click');">Nuomonės</a></li>
+<li>
+<a href="https://www.vz.lt/paslaugos" onclick="ga('send','event','Menu','Paslaugos','Top Menu Click');">Paslaugos</a>
+</li>
+<li><a href="https://www.vz.lt/pramone" onclick="ga('send','event','Menu','Pramonė','Top Menu Click');">Pramonė</a></li>
+<li><a href="https://www.vz.lt/prekyba" onclick="ga('send','event','Menu','Prekyba','Top Menu Click');">Prekyba</a></li>
+<li><a href="https://www.vz.lt/rinkos" onclick="ga('send','event','Menu','Rinkos','Top Menu Click');">Rinkos</a></li>
+<li><a href="https://www.vz.lt/nekilnojamasis-turtas-statyba" onclick="ga('send','event','Menu','Statyba ir NT','Top Menu Click');">Statyba ir NT</a></li>
+<li><a href="https://www.vz.lt/verslo-valdymas" onclick="ga('send','event','Menu','Vadyba','Top Menu Click');">Vadyba</a></li>
+<li><a href="https://www.vz.lt/verslo-aplinka" onclick="ga('send','event','Menu','Verslo aplinka','Top Menu Click');">Verslo aplinka</a></li>
+<li><a href="https://www.vz.lt/rinkos/lukas-investuoja" onclick="ga('send','event','Menu','Lukas investuoja','Top Menu Click');">Lukas investuoja</a></li>
+<li><a href="https://www.vz.lt/premium/verslo-klase" onclick="ga('send','event','Menu','Žurnalas Verslo klasė','Top Menu Click');" target="_blank">Verslo klasė</a></li>
+<li><a href="https://www.vz.lt/premium/financial-times" onclick="ga('send','event','Menu','Financial times','Top Menu Click');">Financial Times</a></li>
+<li><a href="https://www.vz.lt/koronavirusas" onclick="ga('send','event','Menu','Koronavirusas','Top Menu Click');">Koronavirusas</a></li>
+</ul>
+</div>
+<div class="column col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<h3>Produktai</h3>
+<ul>
+<li><a href="https://www.vz.lt/verslo-balsas" onclick="ga('send','event','Menu','Podkastai','Top Menu Click');">Podkastai</a></li>
+<li><a href="https://apzvalgos.vz.lt/" onclick="ga('send','event','Menu','Sektorių apžvalgos','Top Menu Click');" target="_blank">Sektorių apžvalgos</a></li>
+<li><a href="https://mano.vz.lt/registracija" onclick="ga('send','event','Menu','Personalizuotas naujienlaiškis','Top Menu Click');" target="_blank">Personalizuotas naujienlaiškis</a></li>
+<li><a href="https://www.vz.lt/pages/savaitrasciai.html" onclick="ga('send','event','Menu','Naujienlaiškiai','Top Menu Click');" target="_blank">Nemokami e. savaitraščiai</a></li>
+<li><a href="https://konferencijos.vz.lt" onclick="ga('send','event','Menu','Konferencijos','Top Menu Click');" target="_blank">Konferencijos</a></li>
+<li><a href="https://akademija.vz.lt" onclick="ga('send','event','Menu','Akademija','Top Menu Click');" target="_blank">Akademija</a></li>
+<li><a href="https://darboteise.vz.lt" onclick="ga('send','event','Menu','Darbo teisės vadovas','Top Menu Click');" target="_blank">Darbo teisės vadovas</a></li>
+<li><a href="https://www.cv.lt" onclick="ga('send','event','Menu','cv.lt','Top Menu Click');" target="_blank">Darbo skelbimų portalas cv.lt</a></li>
+<li><a href="https://laikrastis.vz.lt/" onclick="ga('send','event','Menu','e-laikraštis','Top Menu Click');" target="_blank">e-„Verslo žinios“</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+<h3>Projektai</h3>
+<ul>
+<li><a href="https://www.vz.lt/sektoriu-lyderiai" onclick="ga('send','event','Menu','Sektorių lyderiai','Top Menu Click');">Lietuvos sektorių lyderiai</a></li>
+<li><a href="https://www.vz.lt/lietuvos-verslo-lyderiai" onclick="ga('send','event','Menu','Lietuvos verslo lyderiai','Top Menu Click');">Lietuvos verslo lyderiai</a></li>
+<li><a href="https://www.vz.lt/reitingai" onclick="ga('send','event','Menu','Reitingai','Top Menu Click');">Reitingai</a></li>
+<li><a href="https://www.vz.lt/verslas" onclick="ga('send','event','Menu','Verslas 20XX','Top Menu Click');">Verslas 2020</a></li>
+<li><a href="https://www.vz.lt/ismani-lietuva" onclick="ga('send','event','Menu','Išmani Lietuva','Top Menu Click');">Išmani Lietuva</a></li>
+<li><a href="https://www.vz.lt/verslo-sprendimai" onclick="ga('send','event','Menu','Verslo sprendimai','Top Menu Click');">Verslo sprendimai</a></li>
+<li><a href="https://www.vz.lt/verslo-tribuna" onclick="ga('send','event','Menu','Verslo tribūna','Top Menu Click');">Verslo tribūna <span data-toggle="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</span></a></li>
+<li><a href="https://www.vz.lt/eksperto-atsakymai" onclick="ga('send','event','Menu','Eksperto įžvlagos','Top Menu Click');">Eksperto įžvalgos <span data-toggle="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</span></a></li>
+<!--li><a onclick="ga('send','event','Menu','Rinkimai','Top Menu Click');" href="https://www.vz.lt/verslo-aplinka/rinkimai">Rinkimai 2019</a></li-->
+</ul>
+</div>
+</div>
+</div>
+<div class="menu-footer">
+<div class="inner-wr">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<ul class="links clearfix">
+<li><a href="https://www.vz.lt/apie" onclick="ga('send','event','Menu','Apie','Top Menu Click');">Apie VŽ</a></li>
+<li><a href="https://www.vz.lt/kontaktai" onclick="ga('send','event','Menu','Kontaktai','Top Menu Click');">Kontaktai</a></li>
+<li><a href="https://www.vz.lt/komunikacijos-paslaugos" onclick="ga('send','event','Menu','Komunikacijos paslaugos','Top Menu Click');">Komunikacijos paslaugos</a></li>
+<li><a href="https://www.cv.lt/verslo-%C5%BEinios-darbo-skelbimai" onclick="ga('send','event','Menu','Karjera','Top Menu Click');" target="_blank">Karjera</a></li>
+<li class="borderless"><a href="/citavimo-taisykles" onclick="ga('send','event','Menu','Citavimo taisyklės','Top Menu Click');">Citavimo taisyklės</a></li>
+<li class="hidden-sm hidden-md hidden-lg"><a href="https://parduotuve.vz.lt/vz-prenumerata/prenumerata.3.php" onclick="ga('send','event','Menu','Prenumerata','Top Menu Click');" target="_blank">Prenumeruoti</a></li>
+</ul>
+</div>
+<div class="mtb col-xs-12 col-sm-4 col-md-2 col-lg-2">
+<ul class="soc clearfix">
+<li><a href="https://www.vz.lt/section/?template=rss" target="_blank"><i aria-hidden="true" class="fa fa-rss"></i></a></li>
+<li><a href="https://www.linkedin.com/company/verslo-zinios/" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
+<li><a href="https://twitter.com/vzinios" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/verslozinios" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--1010-->
+<div class="banners">
+<div class="container">
+<div class="row">
+<div class="col">
+<div class="banner text-center">
+<!-- Skydelis 1 -->
+<div id="sas_52650"></div>
+<!-- Skydelis Mobile 1 -->
+<div id="sas_52796"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+			window._io_config = window._io_config || {};
+			window._io_config['0.2.0'] = window._io_config['0.2.0'] || [];
+			window._io_config['0.2.0'].push({
+				page_url: document.location.href,
+				page_url_canonical: $('link[rel="canonical"]').length>0 ? $('link[rel="canonical"]')[0].href : document.location.href ,
+				page_title: document.title,
+				page_type: 'default',
+				page_language: 'lt'
+			});			
+		</script>
+</div>
+<div class="printHead">
+<div class="container">
+<div class="logo">
+<img alt="logo" height="48" src="https://www.vz.lt/img/logo.png" width="118">
+</img></div>
+</div>
+</div>
+<div class="content-holder">
+<div class="holder">
+<div class="container content">
+<div class="row">
+<div class="col col-sm-9 col-md-8 col-lg-8" id="main">
+<div class="main">
+<div class="news-category-title">
+<h1>Visos naujienos</h1>
+</div>
+<div class="articles-list">
+<h3>Šiandien</h3>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/keiciasicitybee-vadovas" title="Keičiasi „CityBee“ vadovas">
+<img alt="Keičiasi „CityBee“ vadovas" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919668/AR/0/AR-200919668.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus">
+</img></a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/keiciasicitybee-vadovas" title="Keičiasi „CityBee“ vadovas">
+				Keičiasi „CityBee“ vadovas
+			</a>
+<p class="visible-lg">Nuo rugsėjo 24 d. keičiasi mobilumo paslaugų įmonės „CityBee“ vadovas. Juo paskirtas Giedrius Audickas,...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/transportas-logistika">Logistika ir transportas</a>
+<div class="clearfix"></div>
+<span class="time">14:41</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/ateities-ekonomikos-dnr-plano-lesos--ir-gelezinkelio-pervazoms-modernizuoti" title="Ateities ekonomikos DNR plano lėšos – ir geležinkelio pervažoms modernizuoti">
+<img alt="Ateities ekonomikos DNR plano lėšos – ir geležinkelio pervažoms modernizuoti" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919669/AR/0/AR-200919669.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus">
+</img></a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/ateities-ekonomikos-dnr-plano-lesos--ir-gelezinkelio-pervazoms-modernizuoti" title="Ateities ekonomikos DNR plano lėšos – ir geležinkelio pervažoms modernizuoti">
+				Ateities ekonomikos DNR plano lėšos – ir geležinkelio pervažoms modernizuoti
+			</a>
+<p class="visible-lg">Iki kitų metų pabaigos numatoma modernizuoti 10 geležinkelio pervažų linijoje Vilnius-Klaipėda, pastatyti...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/transportas-logistika">Logistika ir transportas</a>
+<div class="clearfix"></div>
+<span class="time">14:39</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/berlynas-siulo-vasingtonui-sanderi-del-nord-stream-2" title="Berlynas siūlo Vašingtonui sandėrį dėl „Nord Stream 2“">
+<img alt="Berlynas siūlo Vašingtonui sandėrį dėl „Nord Stream 2“" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919670/AR/0/AR-200919670.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus">
+</img></a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/berlynas-siulo-vasingtonui-sanderi-del-nord-stream-2" title="Berlynas siūlo Vašingtonui sandėrį dėl „Nord Stream 2“">
+				Berlynas siūlo Vašingtonui sandėrį dėl „Nord Stream 2“
+			</a>
+<p class="visible-lg">Vokietijos vyriausybė pasiūlė Vašingtonui milijardinį sandėrį, jeigu Jungtinės Valstijos atsisakytų sankcijų...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">14:29</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/rinkos/2020/09/16/blackstone-ispeja-del-prarastojo-desimtmecio-akciju-grazoms" title="„Blackstone“ įspėja dėl „prarastojo dešimtmečio“ akcijų grąžoms">
+<img alt="„Blackstone“ įspėja dėl „prarastojo dešimtmečio“ akcijų grąžoms" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919671/AR/0/AR-200919671.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/rinkos/2020/09/16/blackstone-ispeja-del-prarastojo-desimtmecio-akciju-grazoms" title="„Blackstone“ įspėja dėl „prarastojo dešimtmečio“ akcijų grąžoms">
+				„Blackstone“ įspėja dėl „prarastojo dešimtmečio“ akcijų grąžoms
+			</a>
+<p class="visible-lg">JAV investicijų valdytoja „Blackstone“ įspėja, kad investuotojų į akcijas ateityje laukia „praprastasis...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/rinkos">Rinkos</a>
+<div class="clearfix"></div>
+<span class="time">14:24</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/ek-vadove-ispejo-brexit-susitarimo-negalima-pakeisti-istatymu" title="EK vadovė įspėjo: „Brexit“ susitarimo „negalima pakeisti“ įstatymu">
+<img alt="EK vadovė įspėjo: „Brexit“ susitarimo „negalima pakeisti“ įstatymu" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919672/AR/0/AR-200919672.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/ek-vadove-ispejo-brexit-susitarimo-negalima-pakeisti-istatymu" title="EK vadovė įspėjo: „Brexit“ susitarimo „negalima pakeisti“ įstatymu">
+				EK vadovė įspėjo: „Brexit“ susitarimo „negalima pakeisti“ įstatymu
+			</a>
+<p class="visible-lg">Europos Komisijos pirmininkė Ursula von der Leyen trečiadienį skundėsi, kad blėsta viltys pasiekti prekybos...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">14:10</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/n-maciulisnebera-spaudimo-igyvendinti-strukturines-reformas" title="N. Mačiulis: nebėra spaudimo įgyvendinti struktūrines reformas">
+<img alt="N. Mačiulis: nebėra spaudimo įgyvendinti struktūrines reformas" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919674/AR/0/AR-200919674.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/n-maciulisnebera-spaudimo-igyvendinti-strukturines-reformas" title="N. Mačiulis: nebėra spaudimo įgyvendinti struktūrines reformas">
+				N. Mačiulis: nebėra spaudimo įgyvendinti struktūrines reformas
+			</a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/n-maciulisnebera-spaudimo-igyvendinti-strukturines-reformas&amp;template=comments">2</a></span>
+<p class="visible-lg">Su koronaviruso pandemijos pasekmėmis kovojančioms valstybėms skolinantis beprecedentes sumas, o centriniams...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">13:45</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/prekyba/2020/09/16/prekybos-sektorius-pandemijos-streso-testa-islaike" title="Prekybos sektorius pandemijos streso testą išlaikė">
+<img alt="Prekybos sektorius pandemijos streso testą išlaikė" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/PREMIUM/200919673/AR/0/AR-200919673.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/prekyba/2020/09/16/prekybos-sektorius-pandemijos-streso-testa-islaike" title="Prekybos sektorius pandemijos streso testą išlaikė">
+				Prekybos sektorius pandemijos streso testą išlaikė
+				 <span class="premium">Premium</span>
+</a>
+<i class="fa fa-camera" title="Nuotraukų galerija"></i>
+<p class="visible-lg">Žvelgiant į apibendrintus Statistikos departamento prekybos sektoriaus finansinius rezultatus, galima daryti...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/prekyba">Prekyba</a>
+<div class="clearfix"></div>
+<span class="time">13:25</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/pramone/2020/09/16/lietuvos-prioritetu-turi-islikti-tarptautinio-konkurencingumo-didinimas--pramonininkai" title="Lietuvos prioritetu turi išlikti tarptautinio konkurencingumo didinimas – pramonininkai ">
+<img alt="Lietuvos prioritetu turi išlikti tarptautinio konkurencingumo didinimas – pramonininkai " src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919675/AR/0/AR-200919675.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/pramone/2020/09/16/lietuvos-prioritetu-turi-islikti-tarptautinio-konkurencingumo-didinimas--pramonininkai" title="Lietuvos prioritetu turi išlikti tarptautinio konkurencingumo didinimas – pramonininkai ">
+				Lietuvos prioritetu turi išlikti tarptautinio konkurencingumo didinimas – pramonininkai 
+			</a>
+<p class="visible-lg">Siekiant sumažinti neigiamą koronaviruso pandemijos poveikį Lietuvos ekonomikai, šalies prioritetu turėtų...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/pramone">Pramonė</a>
+<div class="clearfix"></div>
+<span class="time">13:12</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/ek-vadove-a-navalno-apnuodijimas-rodo-kaip-rusija-elgiasi-tarptautineje-arenoje" title="EK vadovė: A. Navalno apnuodijimas rodo, kaip Rusija elgiasi tarptautinėje arenoje">
+<img alt="EK vadovė: A. Navalno apnuodijimas rodo, kaip Rusija elgiasi tarptautinėje arenoje" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919676/AR/0/AR-200919676.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/ek-vadove-a-navalno-apnuodijimas-rodo-kaip-rusija-elgiasi-tarptautineje-arenoje" title="EK vadovė: A. Navalno apnuodijimas rodo, kaip Rusija elgiasi tarptautinėje arenoje">
+				EK vadovė: A. Navalno apnuodijimas rodo, kaip Rusija elgiasi tarptautinėje arenoje
+			</a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/ek-vadove-a-navalno-apnuodijimas-rodo-kaip-rusija-elgiasi-tarptautineje-arenoje&amp;template=comments">2</a></span>
+<p class="visible-lg">Europos Komisijos (EK)  pirmininkė Ursula von der Leyen trečiadienį sakė, kad rusų opozicionieriaus...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">13:07</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/smulkieji-vis-dazniau-skolinasi-is-kredito-uniju" title="Smulkieji vis dažniau skolinasi iš kredito unijų">
+<img alt="Smulkieji vis dažniau skolinasi iš kredito unijų" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919677/AR/0/AR-200919677.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/smulkieji-vis-dazniau-skolinasi-is-kredito-uniju" title="Smulkieji vis dažniau skolinasi iš kredito unijų">
+				Smulkieji vis dažniau skolinasi iš kredito unijų
+			</a>
+<span class="comments"><a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/smulkieji-vis-dazniau-skolinasi-is-kredito-uniju&amp;template=comments">1</a></span>
+<p class="visible-lg">„Kreda“ grupės pajamos per šių metų 8 mėnesius išaugo 22% iki 6,56 mln. Eur – tai rodo, kad smulkusis verslas...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/smulkusis-verslas">Gazelė</a>
+<div class="clearfix"></div>
+<span class="time">13:00</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais" title="„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais">
+<img alt="„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919678/AR/0/AR-200919678.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais" title="„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais">
+				„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais
+			</a>
+<span class="comments"><a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais&amp;template=comments">16</a></span>
+<p class="visible-lg">Po socialiniuose tinkluose kilusios diskusijos, „Telia Lietuva“ priėmė sprendimą sustabdyti „Ežio“ reklaminę...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/rinkodara">Rinkodara</a>
+<div class="clearfix"></div>
+<span class="time">12:42</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/metine-u-von-der-leyen-kalba-naujas-tarsos-tikslas-ir-raginimas-strukturinems-reformoms" title="Metinė U. von der Leyen kalba: naujas taršos tikslas ir raginimas struktūrinėms reformoms">
+<img alt="Metinė U. von der Leyen kalba: naujas taršos tikslas ir raginimas struktūrinėms reformoms" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919681/AR/0/AR-200919681.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/metine-u-von-der-leyen-kalba-naujas-tarsos-tikslas-ir-raginimas-strukturinems-reformoms" title="Metinė U. von der Leyen kalba: naujas taršos tikslas ir raginimas struktūrinėms reformoms">
+				Metinė U. von der Leyen kalba: naujas taršos tikslas ir raginimas struktūrinėms reformoms
+			</a>
+<p class="visible-lg">Ursula von der Leyen, Europos Komisijos pirmininkė, trečiadienį savo pirmojo metinio pranešimo metu paskelbė,...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">11:52</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/a-veryga-spaudzia-susaukti-valstybes-gynimo-tarybos-del-covid-19-vakcinos-isigijimo" title="A. Veryga spaudžia sušaukti Valstybės gynimo tarybą dėl COVID-19 vakcinos įsigijimo">
+<img alt="A. Veryga spaudžia sušaukti Valstybės gynimo tarybą dėl COVID-19 vakcinos įsigijimo" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919696/AR/0/AR-200919696.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/a-veryga-spaudzia-susaukti-valstybes-gynimo-tarybos-del-covid-19-vakcinos-isigijimo" title="A. Veryga spaudžia sušaukti Valstybės gynimo tarybą dėl COVID-19 vakcinos įsigijimo">
+				A. Veryga spaudžia sušaukti Valstybės gynimo tarybą dėl COVID-19 vakcinos įsigijimo
+			</a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/a-veryga-spaudzia-susaukti-valstybes-gynimo-tarybos-del-covid-19-vakcinos-isigijimo&amp;template=comments">9</a></span>
+<p class="visible-lg">Sveikatos apsaugos ministras Aurelijus Veryga tvirtina, kad Lietuva turi kuo greičiau apsispręsti dėl vakcinų...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">06:20</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/technologijos-mokslas/2020/09/16/d-trumpas-oracle-yra-labai-arti-susitarimo-su-tiktok" title=" D. Trumpas: „Oracle“ yra labai arti susitarimo su „TikTok“">
+<img alt=" D. Trumpas: „Oracle“ yra labai arti susitarimo su „TikTok“" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919679/AR/0/AR-200919679.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/technologijos-mokslas/2020/09/16/d-trumpas-oracle-yra-labai-arti-susitarimo-su-tiktok" title=" D. Trumpas: „Oracle“ yra labai arti susitarimo su „TikTok“">
+				 D. Trumpas: „Oracle“ yra labai arti susitarimo su „TikTok“
+			</a>
+<p class="visible-lg">„Oracle“ yra labai arti susitarimo tapti Kinijos valdomos vaizdo įrašų platformos „TikTok“ partnere...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/technologijos-mokslas">Technologijos</a>
+<div class="clearfix"></div>
+<span class="time">12:17</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/imoniu-kurimo-tempas-vejasi-ikikarantininius-greicius-rizikos-reitinga-pagerino-ketvirtadalis" title="Įmonių kūrimo tempas vejasi ikikarantininius greičius, rizikos reitingą pagerino ketvirtadalis">
+<img alt="Įmonių kūrimo tempas vejasi ikikarantininius greičius, rizikos reitingą pagerino ketvirtadalis" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919680/AR/0/AR-200919680.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/imoniu-kurimo-tempas-vejasi-ikikarantininius-greicius-rizikos-reitinga-pagerino-ketvirtadalis" title="Įmonių kūrimo tempas vejasi ikikarantininius greičius, rizikos reitingą pagerino ketvirtadalis">
+				Įmonių kūrimo tempas vejasi ikikarantininius greičius, rizikos reitingą pagerino ketvirtadalis
+			</a>
+<p class="visible-lg">Vasarą per savaitę įkurta po 280 bendrovių – penktadaliu daugiau nei praėjusių metų sezoną, bet verslo...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/smulkusis-verslas">Gazelė</a>
+<div class="clearfix"></div>
+<span class="time">12:00</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/konteineriu-vezimo-ikainiu-prognozeje--vis-daugiau-nezinomuju" title="Konteinerių vežimo įkainių prognozėje – vis daugiau nežinomųjų">
+<img alt="Konteinerių vežimo įkainių prognozėje – vis daugiau nežinomųjų" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/PREMIUM/200919682/AR/0/AR-200919682.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/konteineriu-vezimo-ikainiu-prognozeje--vis-daugiau-nezinomuju" title="Konteinerių vežimo įkainių prognozėje – vis daugiau nežinomųjų">
+				Konteinerių vežimo įkainių prognozėje – vis daugiau nežinomųjų
+				 <span class="premium">Premium</span>
+</a>
+<p class="visible-lg">Sumažintas laivyno pajėgumas ir didėjanti užsakymų gausa verčia prognozuoti tolimesnį konteinerių gabenimo...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/transportas-logistika">Logistika ir transportas</a>
+<div class="clearfix"></div>
+<span class="time">11:26</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/rinkodara/komunikacija/2020/09/16/ltg-grupes-komunikacijos-partnere-tapo-idea-prima" title="LTG grupės komunikacijos partnere tapo „Idea prima“">
+<img alt="LTG grupės komunikacijos partnere tapo „Idea prima“" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919683/AR/0/AR-200919683.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/rinkodara/komunikacija/2020/09/16/ltg-grupes-komunikacijos-partnere-tapo-idea-prima" title="LTG grupės komunikacijos partnere tapo „Idea prima“">
+				LTG grupės komunikacijos partnere tapo „Idea prima“
+			</a>
+<p class="visible-lg">„Lietuvos geležinkeliai“ (LTG) grupės skelbtą integruotos komunikacijos paslaugų viešąjį pirkimą laimėjo...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/rinkodara/komunikacija">Rinkodara</a>
+<div class="clearfix"></div>
+<span class="time">11:16</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/valstybe-ruosiasi-nuotraukti-panaudos-sutarti-del-vilniaus-lukiskiu-aikstes" title="Valstybė ruošiasi nuotraukti panaudos sutartį dėl Vilniaus Lukiškių aikštės">
+<img alt="Valstybė ruošiasi nuotraukti panaudos sutartį dėl Vilniaus Lukiškių aikštės" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919690/AR/0/AR-200919690.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/valstybe-ruosiasi-nuotraukti-panaudos-sutarti-del-vilniaus-lukiskiu-aikstes" title="Valstybė ruošiasi nuotraukti panaudos sutartį dėl Vilniaus Lukiškių aikštės">
+				Valstybė ruošiasi nuotraukti panaudos sutartį dėl Vilniaus Lukiškių aikštės
+			</a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/valstybe-ruosiasi-nuotraukti-panaudos-sutarti-del-vilniaus-lukiskiu-aikstes&amp;template=comments">8</a></span>
+<p class="visible-lg">Vyriausybės sudaryta darbo grupė siūlys nutraukti panaudos sutartį su Vilniaus miesto savivaldybe dėl...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">09:22</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/rinkodara/2020/09/16/sam-atrinkti-projektai-kurie-stiprins-zinias-apie-sveikata" title="SAM: atrinkti projektai, kurie stiprins žinias apie sveikatą">
+<img alt="SAM: atrinkti projektai, kurie stiprins žinias apie sveikatą" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919684/AR/0/AR-200919684.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/rinkodara/2020/09/16/sam-atrinkti-projektai-kurie-stiprins-zinias-apie-sveikata" title="SAM: atrinkti projektai, kurie stiprins žinias apie sveikatą">
+				SAM: atrinkti projektai, kurie stiprins žinias apie sveikatą
+			</a>
+<p class="visible-lg">Valstybinis visuomenės sveikatos stiprinimo fondas (VVSSF) atrinko šviečiamuosius ir informacinius projektus,...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/rinkodara">Rinkodara</a>
+<div class="clearfix"></div>
+<span class="time">10:55</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/siuntu-rinkos-naujienos-dpd-sameday-paslauga-uz-tiek-pat-kiek-kainuoja-sekancios-dienos-pristatymas" title="Siuntų rinkos naujienos: DPD „SameDay“ paslauga už tiek pat, kiek kainuoja kitos dienos pristatymas">
+<img alt="Siuntų rinkos naujienos: DPD „SameDay“ paslauga už tiek pat, kiek kainuoja kitos dienos pristatymas" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/MARKETING/200919686/AR/0/AR-200919686.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/siuntu-rinkos-naujienos-dpd-sameday-paslauga-uz-tiek-pat-kiek-kainuoja-sekancios-dienos-pristatymas" title="Siuntų rinkos naujienos: DPD „SameDay“ paslauga už tiek pat, kiek kainuoja kitos dienos pristatymas">
+				Siuntų rinkos naujienos: DPD „SameDay“ paslauga už tiek pat, kiek kainuoja kitos dienos pristatymas
+				 <span class="marketing">Verslo tribūna</span>
+</a>
+<p class="visible-lg">Netikėtai pasaulį užklupusi koronaviruso (COVID-19) pandemija lėmė ne tik ryškų e. komercijos šuolį, bet ir...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/transportas-logistika">Logistika ir transportas</a>
+<div class="clearfix"></div>
+<span class="time">10:38</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/2020/09/16/supaprastinama-vizu-isdavimo-baltarusiams-tvarka" title="Supaprastinama vizų išdavimo baltarusiams tvarka">
+<img alt="Supaprastinama vizų išdavimo baltarusiams tvarka" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919685/AR/0/AR-200919685.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/2020/09/16/supaprastinama-vizu-isdavimo-baltarusiams-tvarka" title="Supaprastinama vizų išdavimo baltarusiams tvarka">
+				Supaprastinama vizų išdavimo baltarusiams tvarka
+			</a>
+<p class="visible-lg">Lietuva laikinai supaprastins vizų išdavimo tvarką Baltarusijos piliečiams. Nuo rugsėjo 21 d. Baltarusijos...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/verslo-aplinka">Verslo aplinka</a>
+<div class="clearfix"></div>
+<span class="time">10:42</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/pramone/2020/09/16/zalioji-imones-strategija-itraukia-ir-darbuotojus" title="Žalioji įmonės strategija įtraukia ir darbuotojus">
+<img alt="Žalioji įmonės strategija įtraukia ir darbuotojus" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/MARKETING/200919709/AR/0/AR-200919709.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/pramone/2020/09/16/zalioji-imones-strategija-itraukia-ir-darbuotojus" title="Žalioji įmonės strategija įtraukia ir darbuotojus">
+				Žalioji įmonės strategija įtraukia ir darbuotojus
+				 <span class="marketing">Verslo tribūna</span>
+</a>
+<span class="comments"><a href="https://www.vz.lt/pramone/2020/09/16/zalioji-imones-strategija-itraukia-ir-darbuotojus&amp;template=comments">1</a></span>
+<i class="fa fa-camera" title="Nuotraukų galerija"></i>
+<i class="fa fa-youtube-play"></i>
+<p class="visible-lg">Technologijų grupės „BOD GROUP“ inžinierių įgyvendintas kompleksinis energijos taupymo sprendimas tapo...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/pramone">Pramonė</a>
+<div class="clearfix"></div>
+<span class="time">06:00</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/2020/09/16/patvirtinti-45-nauji-koronaviruso-atvejai" title="Patvirtinti 45 nauji koronaviruso atvejai">
+<img alt="Patvirtinti 45 nauji koronaviruso atvejai" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919689/AR/0/AR-200919689.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/2020/09/16/patvirtinti-45-nauji-koronaviruso-atvejai" title="Patvirtinti 45 nauji koronaviruso atvejai">
+				Patvirtinti 45 nauji koronaviruso atvejai
+			</a>
+<p class="visible-lg">Antradienį patvirtinti 45 nauji koronaviruso atvejai, bendras susirgimų skaičius Lietuvoje siekia...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href=""></a>
+<div class="clearfix"></div>
+<span class="time">09:51</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/rinkos/2020/09/16/vyksta-kur-kas-didesnis-bumas-uz-technologiju-akciju" title="Vyksta kur kas didesnis bumas už technologijų akcijų">
+<img alt="Vyksta kur kas didesnis bumas už technologijų akcijų" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919687/AR/0/AR-200919687.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/rinkos/2020/09/16/vyksta-kur-kas-didesnis-bumas-uz-technologiju-akciju" title="Vyksta kur kas didesnis bumas už technologijų akcijų">
+				Vyksta kur kas didesnis bumas už technologijų akcijų
+			</a>
+<p class="visible-lg">Technologijų sektoriaus kompanijų akcijų popandeminis ralis ir rekordai sutraukė daugumą dėmesio, bet kainų...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/rinkos">Rinkos</a>
+<div class="clearfix"></div>
+<span class="time">10:12</span>
+</div>
+</div>
+</div>
+<div class="one-article">
+<div class="columns-wr clearfix">
+<div class="img-wr col-xs-4 col-sm-3 col-md-3 col-lg-3">
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/vmi-susidomejo-prabangaus-busto-pardavejais" title="VMI susidomėjo prabangaus būsto pardavėjais ">
+<img alt="VMI susidomėjo prabangaus būsto pardavėjais " src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919688/AR/0/AR-200919688.jpg&amp;exactW=200&amp;AlignV=top&amp;imageversion=Horizontalus"/>
+</a>
+</div>
+<div class="txt-wr no-padding col-xs-8 col-sm-9 col-md-6 col-lg-6">
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/vmi-susidomejo-prabangaus-busto-pardavejais" title="VMI susidomėjo prabangaus būsto pardavėjais ">
+				VMI susidomėjo prabangaus būsto pardavėjais 
+			</a>
+<span class="comments"><a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/vmi-susidomejo-prabangaus-busto-pardavejais&amp;template=comments">3</a></span>
+<p class="visible-lg">Kelias naujo prabangaus būsto plėtros įmones patikrinusi Valstybinė mokesčių inspekcija (VMI) pastebi,...</p>
+</div>
+<div class="cat-wr col-xs-12 col-sm-12 col-md-3 col-lg-3">
+<a class="cat" href="https://www.vz.lt/nekilnojamasis-turtas-statyba">Statyba ir NT</a>
+<div class="clearfix"></div>
+<span class="time">09:52</span>
+</div>
+</div>
+</div>
+</div>
+<div class="paging paging-right">
+<nav>
+<ul class="pagination">
+<li class="disabled">
+<a aria-label="Previous">
+<span aria-hidden="true">&lt;</span>
+</a>
+</li>
+<li class="active"><a href="/apps/pbcs.dll/section?profile=1010&amp;template=latestnews&amp;livecurrentdomain=www.vz.lt&amp;pageno=0">1</a></li>
+<li><a href="/apps/pbcs.dll/section?profile=1010&amp;template=latestnews&amp;livecurrentdomain=www.vz.lt&amp;pageno=1">2</a></li>
+<li><a href="/apps/pbcs.dll/section?profile=1010&amp;template=latestnews&amp;livecurrentdomain=www.vz.lt&amp;pageno=2">3</a></li>
+<li><a href="/apps/pbcs.dll/section?profile=1010&amp;template=latestnews&amp;livecurrentdomain=www.vz.lt&amp;pageno=3">4</a></li>
+<li><a href="/apps/pbcs.dll/section?profile=1010&amp;template=latestnews&amp;livecurrentdomain=www.vz.lt&amp;pageno=4">5</a></li>
+<li>
+<a aria-label="Next" href="/apps/pbcs.dll/section?profile=1010&amp;template=latestnews&amp;livecurrentdomain=www.vz.lt&amp;pageno=1">
+<span aria-hidden="true">&gt;</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="search-form-holder">
+<div class="search-page search-wr">
+<form action="/section/" class="elastic-search" method="get" role="search">
+<div class="input-wr clearfix">
+<input name="template" type="hidden" value="search"/>
+<input class="reset" name="search" placeholder="Įveskite paieškos frazę" type="text" value=""/>
+<button type="submit">Ieškoti</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4" id="sidebar">
+<div class="sidebar">
+<div class="sidebar-block hidden-xs hidden-sm">
+<div class="banner">
+<!-- Skydelis 3 -->
+<div id="sas_52785"></div>
+</div>
+</div>
+<div class="sidebar-block popular-list hidden-xxs">
+<div class="popular-title">
+<h3><a href="/koronavirusas/ekonomikos-barometras">Lietuvos ekonomikos barometras</a></h3>
+</div>
+<div class="nasdaqWr clearfix">
+<div class="covid19-eco-item clearfix" onclick="location.href='/koronavirusas/ekonomikos-barometras';return false;">
+<div class="covid19-eco-item-text col-md-5" id="covid19-empl-text"></div>
+<div class="covid19-eco-item-data col-md-4" id="covid19-empl-data"></div>
+<div class="covid19-eco-item-chart col-md-3">
+<canvas id="covid19-empl-chart"></canvas>
+</div>
+<div class="covid19-eco-item-foot col-md-12" id="covid19-empl-foot"></div>
+</div>
+<div class="covid19-eco-item clearfix" onclick="location.href='/koronavirusas/ekonomikos-barometras#covid19-ee';return false;">
+<div class="covid19-eco-item-text col-md-5" id="covid19-ee-text"></div>
+<div class="covid19-eco-item-data col-md-4" id="covid19-ee-data"></div>
+<div class="covid19-eco-item-chart col-md-3">
+<canvas id="covid19-ee-chart"></canvas>
+</div>
+<div class="covid19-eco-item-foot col-md-12" id="covid19-ee-foot"></div>
+</div>
+<div class="covid19-eco-item clearfix" onclick="location.href='/koronavirusas/ekonomikos-barometras#covid19-invega';return false;">
+<div class="covid19-eco-item-text col-md-5" id="covid19-invega-text"></div>
+<div class="covid19-eco-item-data col-md-4" id="covid19-invega-data"></div>
+<div class="covid19-eco-item-chart col-md-3">
+<canvas id="covid19-invega-chart"></canvas>
+</div>
+<div class="covid19-eco-item-foot col-md-12" id="covid19-invega-foot"></div>
+</div>
+</div>
+<div class="more">
+<a href="/koronavirusas/ekonomikos-barometras">Daugiau<span class="arrow"></span></a>
+</div>
+</div>
+<script src="https://mano.vz.lt/skins/dashboard/vendor/chartjs/Chart.bundle.min.js" type="text/javascript"></script>
+<script>
+    $(function(){
+        var formatter = new Intl.NumberFormat('lt-LT', {});
+        var d = new Date();
+        d.setDate(d.getDate()-30);
+        var dred = "rgba(239, 83, 80, 1)";
+        var dgreen = "rgba(38, 166, 154, 1)";
+        if(getWidth() > 470) {
+            // Apdraustieji
+            $.getJSON('https://local.app.vz.lt/data/covid/data?row=62&from='+d.toISOString().substring(0,10), function(response) {
+                var ditem = response.rows.slice(-1)[0];
+                var ddata = response.rows.map(function(e) {
+                   return parseInt(e.value);
+                });
+                var dlabels = response.rows.map(function(e) {
+                   return e.date.substring(5);
+                });
+                var dcolor = "#2c2d2e";
+                if(ditem.change > 0) dcolor = dgreen;
+                if(ditem.change < 0) dcolor = dred;
+                var dsign = '';
+                if(ditem.change > 0) dsign = '+';
+                var basis = 1392454;
+                var dcolorb = "#2c2d2e";
+                if(parseInt(ditem.value) > basis) dcolorb = dgreen;
+                if(parseInt(ditem.value) < basis) dcolorb = dred;
+                var dsignb = '';
+                if(parseInt(ditem.value) > basis > 0) dsignb = '+';
+                $('#covid19-empl-text').append(response.title);
+                $('#covid19-empl-data').append('<span>'+formatter.format(parseInt(ditem.value))+'</span>');
+                $('#covid19-empl-data').append('<span style="color:'+dcolor+'">'+dsign+formatter.format(Math.round(ditem.change))+'</span>');
+                $('#covid19-empl-data').append('<span style="color:'+dcolorb+'">'+dsignb+formatter.format(Math.round(parseInt(ditem.value)-basis))+'<label class="covid19-eco-label">*</label></span>');            
+                $('#covid19-empl-foot').append('<span>7 d. vidurkis, lyginama <b>'+ditem.date+'</b> su <b>'+ditem.prev_date+'</b></span>');
+                $('#covid19-empl-foot').append('<span><b>*</b> nuo 2020-03-17</span>');
+                covidChart("covid19-empl-chart", dcolor, ddata, dlabels);
+            });
+            // INVEGA
+            $.getJSON('https://local.app.vz.lt/data/covid/data?row=69', function(response) {
+                var ditem = response.rows.slice(-1)[0];
+                var ddata = response.rows.map(function(e) {
+                   return Math.round(e.value/1000000);
+                });
+                ddata = ddata[0];
+                var ddata1 = response.rows.map(function(e) {
+                   return Math.round(e.value2/1000000);
+                });
+                ddata1 = ddata1[0];
+                var dlabels = response.rows.map(function(e) {
+                   return e.date.substring(5);
+                });
+                dlabels = "2020-"+dlabels[0];
+                $('#covid19-invega-text').append(response.title);
+                $('#covid19-invega-data').append('<span>'+formatter.format(parseInt(ddata))+' mln. EUR</span>');
+                $('#covid19-invega-data').append('<span><label class="covid19-eco-label">iš '+formatter.format(parseInt(ddata1))+' mln.</label></span>');
+                $('#covid19-invega-foot').append('<span><b>'+dlabels+'</b> dienos duomenys</span>');
+                covidChartPie("covid19-invega-chart", dgreen, [ddata,ddata1-ddata], ['Panaudotos lėšos, mln. EUR','Nepanaudotos lėšos, mln. EUR']);
+            });
+            // Elektros energija
+            $.getJSON('https://local.app.vz.lt/data/covid/data?row=72&from='+d.toISOString().substring(0,10), function(response) {
+                var ditem = response.rows.slice(-1)[0];
+                var formatter = new Intl.NumberFormat('lt-LT', {});
+                var ddata = response.rows.map(function(e) {
+                   return parseInt(e.value);
+                });
+                var dlabels = response.rows.map(function(e) {
+                   return e.date.substring(5);
+                });
+                var dcolor = "#2c2d2e";
+                if(ditem.change > 0) dcolor = dgreen;
+                if(ditem.change < 0) dcolor = dred;
+                var dsign = '';
+                if(ditem.change > 0) dsign = '+';
+                $('#covid19-ee-text').append(response.title);
+                $('#covid19-ee-data').append('<span>'+formatter.format(parseInt(ditem.value))+'</span>');
+                $('#covid19-ee-data').append('<span style="color:'+dcolor+'">'+dsign+formatter.format(Math.round(ditem.change_perc))+'%</span>');
+                $('#covid19-ee-foot').append('<span>7 d. vidurkis, lyginama <b>'+ditem.date+'</b> su <b>'+ditem.prev_date+'</b></span>');
+                covidChart("covid19-ee-chart", dcolor, ddata, dlabels);
+            });   
+        }     
+    });
+    function covidChart(did, dcolor, ddata, dlabels){
+        var dcolorf = dcolor.replace(", 1)", ", 0.2)");
+        var ctx = document.getElementById(did);
+        var config = {
+                type: 'line',
+                data: {
+                    type: 'line',
+                    labels: dlabels,
+                    datasets: [
+                      {
+                        data: ddata,
+                        fill: true,
+                        backgroundColor: dcolorf,
+                        borderColor: dcolor,
+                        borderWidth: 1
+                      }
+                    ]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    legend: {
+                      display: false
+                    },
+                    layout: {
+                      padding: {
+                        left: 0, right: 0, top: 0, bottom: 0
+                      }
+                    },
+                    responsive: true,
+                    tooltips: {
+                      enabled: false
+                    },
+                    scales: {
+                      xAxes: [{
+                        display: true,
+                        ticks: {
+                          display: false
+                        },
+                        gridLines: {
+                          display: false
+                        }
+                      }],
+                      yAxes: [{
+                        display: false,
+                        ticks: {
+                          display: false,
+                          min: Math.min.apply(Math, ddata)-Math.min.apply(Math, ddata)*0.01,
+                          max: Math.max.apply(Math, ddata)+Math.max.apply(Math, ddata)*0.005
+                        }
+                      }]
+                    },
+                    title: {
+                      display: false
+                    },
+                    elements: {
+                      line: {
+                        borderWidth: 0
+                      },
+                      point: {
+                        radius: 0
+                      }
+                    }  
+                }
+            };
+        if (ctx) { 
+            ctx.height = 35; 
+            covidempl = new Chart(ctx, config);            
+        }        
+    }
+    function covidChartPie(did, dcolor, ddata, dlabels){
+        var dcolorf = dcolor.replace(", 1)", ", 0.2)");
+        var ctx = document.getElementById(did);
+        var config = {
+                type: 'doughnut',
+                data: {
+                    type: 'doughnut',
+                    labels: dlabels,
+                    datasets: [{
+                      data: ddata,
+                      backgroundColor: [dcolor, 'rgba(221,221,221,1)'], 
+                      borderWidth: 0
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    legend: {
+                      display: false
+                    },
+                    layout: {
+                      padding: {
+                        left: 0, right: 0, top: 0, bottom: 0
+                      }
+                    },
+                    responsive: true,
+                    tooltips: {
+                      enabled: true
+                    },
+                    title: {
+                      display: false
+                    }
+                }
+            };
+        if (ctx) { 
+            ctx.height = 55; 
+            covidempl = new Chart(ctx, config);            
+        }        
+    }
+</script>
+<div class="sidebar-block mostRead">
+<div class="popular">
+<div class="popular-title">
+<h3>Portalo skaitomiausi</h3>
+</div>
+<div class="popular-list">
+<div class="article">
+<div class="article-nr">
+		1 
+	</div>
+<h2>
+<a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais" onclick="ga('send','event','InternalLinks','MostRead','');">
+			„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais
+		</a>
+<span class="comments"><a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais&amp;template=comments">16</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		2 
+	</div>
+<h2>
+<a href="https://www.vz.lt/finansai-apskaita/2020/09/15/z-mauricas-krize-mums-pasibaige-dar-neprasidejusi-laikas-stabdyti-islaidavimo-arklius" onclick="ga('send','event','InternalLinks','MostRead','');">
+			Ž. Mauricas: krizė mums pasibaigė dar neprasidėjusi, laikas stabdyti išlaidavimo arklius
+		</a>
+<span class="comments"><a href="https://www.vz.lt/finansai-apskaita/2020/09/15/z-mauricas-krize-mums-pasibaige-dar-neprasidejusi-laikas-stabdyti-islaidavimo-arklius&amp;template=comments">47</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		3 
+	</div>
+<h2>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/vmi-susidomejo-prabangaus-busto-pardavejais" onclick="ga('send','event','InternalLinks','MostRead','');">
+			VMI susidomėjo prabangaus būsto pardavėjais 
+		</a>
+<span class="comments"><a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/vmi-susidomejo-prabangaus-busto-pardavejais&amp;template=comments">3</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		4 
+	</div>
+<h2>
+<a href="https://www.vz.lt/rinkodara/2020/09/15/vilkyskiu-pienines-imoniu-grupe-keicia-pavadinima" onclick="ga('send','event','InternalLinks','MostRead','');">
+			„Vilkyškių pieninės“ įmonių grupė keičia pavadinimą
+		</a>
+<span class="comments"><a href="https://www.vz.lt/rinkodara/2020/09/15/vilkyskiu-pienines-imoniu-grupe-keicia-pavadinima&amp;template=comments">3</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		5 
+	</div>
+<h2>
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/blestanti-draugyste-v-putinui-a-lukasenka-nebe-vienintelis-pasirinkimas" onclick="ga('send','event','InternalLinks','MostRead','');">
+			Blėstanti draugystė: V. Putinui – A. Lukašenka nebe vienintelis pasirinkimas
+			<span class="premium">Premium</span>
+</a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/blestanti-draugyste-v-putinui-a-lukasenka-nebe-vienintelis-pasirinkimas&amp;template=comments">2</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		6 
+	</div>
+<h2>
+<a href="https://www.vz.lt/rinkos/2020/09/16/vyksta-kur-kas-didesnis-bumas-uz-technologiju-akciju" onclick="ga('send','event','InternalLinks','MostRead','');">
+			Vyksta kur kas didesnis bumas už technologijų akcijų
+		</a>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		7 
+	</div>
+<h2>
+<a href="https://www.vz.lt/gfbankas/2020/09/15/gyvenimas-nuo-algos-iki-algos-ka-vertetu-daryti-kitaip" onclick="ga('send','event','InternalLinks','MostRead','');">
+			Gyvenimas „nuo algos iki algos“: ką vertėtų daryti kitaip?
+				<span class="marketing">Verslo tribūna</span>
+</a>
+<span class="comments"><a href="https://www.vz.lt/gfbankas/2020/09/15/gyvenimas-nuo-algos-iki-algos-ka-vertetu-daryti-kitaip&amp;template=comments">3</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		8 
+	</div>
+<h2>
+<a href="https://www.vz.lt/rinkos/2020/09/15/brangiausias-europos-fintech-pernakt-kone-padvigubejo" onclick="ga('send','event','InternalLinks','MostRead','');">
+			Brangiausias Europos „fintech“ pernakt kone padvigubėjo
+		</a>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article">
+<div class="article-nr">
+		9 
+	</div>
+<h2>
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/a-veryga-spaudzia-susaukti-valstybes-gynimo-tarybos-del-covid-19-vakcinos-isigijimo" onclick="ga('send','event','InternalLinks','MostRead','');">
+			A. Veryga spaudžia sušaukti Valstybės gynimo tarybą dėl COVID-19 vakcinos įsigijimo
+		</a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/a-veryga-spaudzia-susaukti-valstybes-gynimo-tarybos-del-covid-19-vakcinos-isigijimo&amp;template=comments">9</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="article noborder">
+<div class="article-nr">
+		10 
+	</div>
+<h2>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/kaunas-uz-336-mlneur-ruosiasi-rekonstruoti-vilniaus-gatve" onclick="ga('send','event','InternalLinks','MostRead','');">
+			Kaunas už 3,36 mln. Eur ruošiasi rekonstruoti Vilniaus gatvę
+		</a>
+<span class="comments"><a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/16/kaunas-uz-336-mlneur-ruosiasi-rekonstruoti-vilniaus-gatve&amp;template=comments">3</a></span>
+</h2>
+<div class="clearfix visible"></div>
+</div>
+<div class="more">
+<a href="/skaitomiausi-straipsniai">Daugiau<span class="arrow"></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix visible"></div>
+<div class="sidebar-block hidden-xs hidden-sm">
+<div class="banner">
+<!-- Skydelis 5 -->
+<div id="sas_52787"></div>
+</div>
+</div>
+<div class="sidebar-block hidden-xs">
+<div class="cvWrSidebar clearfix"><div class="topBlock"><a class="logo" href="https://www.cv.lt" target="_blank"><svg class="svg-image" fill="none" height="18" viewbox="0 0 52 18" width="52" xmlns="http://www.w3.org/2000/svg"><path d="M6.80376 17.9573C5.50348 17.9573 4.33173 17.6899 3.28848 17.1549C2.26036 16.6046 1.45147 15.848 0.861809 14.885C0.28727 13.922 -1.1182e-09 12.8291 -1.00489e-09 11.6063C-8.91583e-10 10.3835 0.28727 9.2906 0.861809 8.32762C1.45147 7.36465 2.26036 6.61567 3.28848 6.08069C4.33173 5.53042 5.50348 5.25528 6.80376 5.25528C8.08891 5.25528 9.20775 5.53042 10.1603 6.08069C11.1279 6.61567 11.831 7.38758 12.2694 8.39641L9.52526 9.88672C8.89024 8.75561 7.97552 8.19006 6.78108 8.19006C5.85879 8.19006 5.09526 8.49576 4.49048 9.10717C3.8857 9.71858 3.58331 10.5516 3.58331 11.6063C3.58331 12.661 3.8857 13.494 4.49048 14.1055C5.09526 14.7169 5.85879 15.0226 6.78108 15.0226C7.99064 15.0226 8.90536 14.457 9.52526 13.3259L12.2694 14.8391C11.831 15.8174 11.1279 16.5817 10.1603 17.1319C9.20775 17.6822 8.08891 17.9573 6.80376 17.9573Z" fill="white"></path><path d="M26.9204 5.43871L21.7722 17.7739L18.1209 17.7739L12.9954 5.43871L16.6467 5.43871L20.0259 13.8303L23.5185 5.43871L26.9204 5.43871Z" fill="white"></path><path d="M29.6516 17.9573C29.0317 17.9573 28.5101 17.7434 28.0868 17.3154C27.6634 16.8874 27.4517 16.3524 27.4517 15.7104C27.4517 15.0531 27.6634 14.5258 28.0868 14.1284C28.5101 13.7157 29.0317 13.5093 29.6516 13.5093C30.2715 13.5093 30.7931 13.7157 31.2165 14.1284C31.6398 14.5258 31.8515 15.0531 31.8515 15.7104C31.8515 16.3524 31.6398 16.8874 31.2165 17.3154C30.7931 17.7434 30.2715 17.9573 29.6516 17.9573Z" fill="white"></path><path d="M34.9295 0.761414L38.4675 0.761414L38.4675 17.7739L34.9295 17.7739L34.9295 0.761414Z" fill="white"></path><path d="M51.1869 17.1778C50.8392 17.4376 50.4083 17.6364 49.8942 17.7739C49.3953 17.8962 48.8661 17.9573 48.3067 17.9573C46.8552 17.9573 45.7288 17.5829 44.9275 16.8339C44.1413 16.0849 43.7482 14.9844 43.7482 13.5323L43.7482 8.46519L41.8658 8.46519L41.8658 5.71384L43.7482 5.71384L43.7482 2.71029L47.2861 2.71029L47.2861 5.71384L50.3251 5.71384L50.3251 8.46519L47.2861 8.46519L47.2861 13.4864C47.2861 14.0061 47.4146 14.4112 47.6717 14.7016C47.9438 14.9767 48.3218 15.1143 48.8056 15.1143C49.365 15.1143 49.8413 14.9614 50.2344 14.6557L51.1869 17.1778Z" fill="white"></path></svg></a><div class="separator"></div><a class="cube" href="https://www.vz.lt" target="_blank"><svg class="svg-image" fill="none" height="26" viewbox="0 0 26 26" width="26" xmlns="http://www.w3.org/2000/svg"><path d="M0.387207 0.186646L25.9999 0.186646L25.9999 25.9999L0.387207 25.9999L0.387207 0.186646Z" fill="#BB012A"></path><path d="M6.96505 19.4833L3.70117 9.59735L7.57703 9.59735L9.61695 16.5277L11.4529 9.59735L22.7745 9.59735L22.7745 11.5338L17.8786 17.343L22.7745 17.343L22.7745 19.4833L13.6968 19.4833L13.6968 17.5469L18.4906 11.8395L14.3088 11.8395L11.6569 19.4833L6.96505 19.4833Z" fill="white"></path><path d="M16.7269 8.49939L15.1448 5.7533L17.1488 5.7533L18.4145 7.1772L19.5747 5.7533L21.6842 5.7533L19.9966 8.49939L16.7269 8.49939Z" fill="white"></path></svg></a></div><div class="bottomBlock"><ul class="cvlt group0"><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/personalo-atranka-primum-esse-client-ambercell-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/9419885/thumbnails/Terumo_logo-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/rinkodaros-reklamos-darbai/terumo-marketing-specialist-healthcare-location-–-kaunas-vilnius-or-vilniuje-kaune-klaipedoje-1-354668790/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">TERUMO Marketing Specialist (Healthcare). Location – Ka...
+			<br/><span>Personalo atranka - PRIMUM ESSE  client AmberCell</span><span class="salary">nuo 3.000 € iki 5.000 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/personalo-atranka-primum-esse-klientas-versli-lietuva-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/9419885/thumbnails/Versli-Lietuva_spalvotas_002-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/pardavimu-eksporto-vadybos-darbai/eksporto-projektu-vadovas-versli-lietuva-programa-sparnai-vilniuje-kaune-klaipedoje-1-354467627/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">Eksporto projektų vadovas. ("Versli Lietuva" programa "...
+			<br/><span>Personalo atranka - PRIMUM ESSE  klientas Versli Lietuva</span><span class="salary">nuo 1.000 € iki 1.800 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/manpower-lit-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/186457185/thumbnails/manpower_logo-thumb0.jpg"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/administravimo-darbai/apskaitininkas-e-vilniuje-1-354548958/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">Apskaitininkas,-ė<br/><span>Manpower Lit</span><span class="salary">iki 1.400 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/verslo-zinios-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/2102031/thumbnails/vz-thumb0.gif"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/ziniasklaidos-komunikacijos-darbai/rinku-skyriaus-korespondentas-e-vilniuje-1-354546064/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">Rinkų skyriaus korespondentas (-ė)<br/><span>UAB "Verslo žinios"</span><span class="salary">nuo 2.000 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li></ul><ul class="cvlt group1"><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/lietuvos-bankas-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/164410945/thumbnails/Lietuvos-bankas-logo-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/finansu-apskaitos-audito-darbai/vyresnysis-analitikas-investiciju-valdymo-departamento-investiciju-vilniuje-1-354508197/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">Vyresnysis analitikas Investicijų valdymo departamento ...
+			<br/><span>Lietuvos bankas</span><span class="salary">nuo 1.649 € iki 2.473 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/maxima-lt-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/2100875/thumbnails/2100875-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/finansu-apskaitos-audito-darbai/gamybos-cecho-apyskaitininkas-e-klaipedoje-1-354429983/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">GAMYBOS CECHO APYSKAITININKAS (-Ė) KLAIPĖDOJE<br/><span>MAXIMA LT, UAB</span><span class="salary">nuo 640 € iki 705 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/vilpra-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/9512498/thumbnails/Logo_siluma-thumb0.JPG"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/pirkimu-tiekimo-vadybos-darbai/produkto-vadovas-e-vedinimo-kondicionavimo-alternatyvios-energijos-vilniuje-1-353779753/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">PRODUKTO VADOVAS (-Ė) (vėdinimo, kondicionavimo, altern...
+			<br/><span>UAB "Vilpra"</span><span class="salary">nuo 2.200 € iki 2.400 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/manpower-lit-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/186457185/thumbnails/Manpower-logo-0CB0FAF9A5-seeklogo.com-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/pardavimu-eksporto-vadybos-darbai/business-development-director-klaipedoje-1-354431523/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">Business Development Director<br/><span>Manpower Lit</span><span class="salary">nuo 3.000 € iki 3.500 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li></ul><ul class="cvlt group2"><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/maxima-lt-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/2100875/thumbnails/2100875-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/klientu-aptarnavimo-paslaugu-darbai/maxima-x-tinklo-parduotuves-direktorius-e-prienuose-1-354344421/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">MAXIMA X TINKLO PARDUOTUVĖS DIREKTORIUS (-Ė) PRIENUOSE<br/><span>MAXIMA LT, UAB</span><span class="salary">nuo 1.000 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/manpower-lit-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/186457185/thumbnails/gs-thumb0.jpg"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/vadovavimo-verslo-vystymo-darbai/imones-vadovas-e-kaune-1-354346368/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">Įmonės vadovas, -ė<br/><span>Manpower Lit</span><span class="salary">5.000 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/maxima-lt-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/2100875/thumbnails/2100875-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/klientu-aptarnavimo-paslaugu-darbai/maxima-x-tinklo-parduotuves-direktorius-e-prienuose-alytuje-1-354344460/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">MAXIMA X TINKLO PARDUOTUVĖS DIREKTORIUS (-Ė) PRIENUOSE<br/><span>MAXIMA LT, UAB</span><span class="salary">nuo 1.000 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li><li><div class="img col-xs-4 col-sm-3 col-md-3 col-lg-4"><a href="https://www.cv.lt/maxima-lt-darbo-skelbimai?utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank"><img alt="logo" src="https://www.cv.lt/logos/2100875/thumbnails/2100875-thumb0.png"/></a></div><div class="info col-xs-8 col-sm-9 col-md-9 col-lg-8"><a href="https://www.cv.lt/klientu-aptarnavimo-paslaugu-darbai/maxima-parduotuves-direktorius-e-vilniuje-1-354272989/?cid=xml-announcements&amp;utm_source=vz&amp;utm_medium=banner&amp;utm_campaign=darbo-skelbimai-vip&amp;utm_content=cvlt-vip" target="_blank">MAXIMA PARDUOTUVĖS DIREKTORIUS (-Ė) VILNIUJE<br/><span>MAXIMA LT, UAB</span><span class="salary">nuo 1.300 €</span><span class="more">Žiūrėti pasiūlymą &gt;</span></a></div><div class="clearfix"></div></li></ul></div></div>
+</div>
+<div class="sidebar-block content">
+<div class="popular-profile">
+<div class="popular-title">
+<h3>Verslo tribūna 
+				<a class="no-bg" href="javascript:void(0)" rel="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">
+<i aria-hidden="true" class="fa fa-question-circle"></i>
+</a>
+</h3>
+</div>
+<div class="popular-list-5">
+<div class="small-list-item">
+<div class="row">
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="article">
+<div class="article-img">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/spc-legal-auga-ir-plecia-paslaugu-spektra--prie-advokatu-kontoros-jungiasi-marius-rindinas-su-komanda">
+<img alt="„SPC legal“ auga ir plečia paslaugų spektrą – prie advokatų kontoros jungiasi Marius Rindinas su komanda" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/MARKETING/200919724/AR/0/AR-200919724.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=153"/>
+<div class="gradientShadow"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadleft">
+<div class="article">
+<span class="sponsor">
+<span class="sponsor-what">
+<a href="javascript:void(0)" rel="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</a>
+</span>
+<span class="sponsor-text">Verslo tribūna</span>
+<span class="clear"></span>
+</span>
+<h2>
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/spc-legal-auga-ir-plecia-paslaugu-spektra--prie-advokatu-kontoros-jungiasi-marius-rindinas-su-komanda">„SPC legal“ auga ir plečia paslaugų spektrą – prie advokatų kontoros jungiasi Marius Rindinas su komanda </a>
+<span class="comments"><a href="https://www.vz.lt/verslo-aplinka/2020/09/16/spc-legal-auga-ir-plecia-paslaugu-spektra--prie-advokatu-kontoros-jungiasi-marius-rindinas-su-komanda&amp;template=comments">1</a></span>
+</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="small-list-item">
+<div class="row">
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="article">
+<div class="article-img">
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/15/elektros-irengimas-reikalauja-profesionaliu-ziniu">
+<img alt="Elektros įrengimas reikalauja profesionalių žinių" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/MARKETING/200919978/AR/0/AR-200919978.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1045"/>
+<div class="gradientShadow"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadleft">
+<div class="article">
+<span class="sponsor">
+<span class="sponsor-what">
+<a href="javascript:void(0)" rel="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</a>
+</span>
+<span class="sponsor-text">Verslo tribūna</span>
+<span class="clear"></span>
+</span>
+<h2>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/15/elektros-irengimas-reikalauja-profesionaliu-ziniu">Elektros įrengimas reikalauja profesionalių žinių </a>
+<span class="comments"><a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/15/elektros-irengimas-reikalauja-profesionaliu-ziniu&amp;template=comments">1</a></span>
+</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="small-list-item">
+<div class="row">
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="article">
+<div class="article-img">
+<a href="https://www.vz.lt/paslaugos/2020/09/14/koronavirusas-kuria-sienas-o-es-tiesia-pagalbos-tiltus">
+<img alt="Koronavirusas kuria sienas, o ES tiesia pagalbos tiltus" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200914/MARKETING/200919761/AR/0/AR-200919761.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=124"/>
+<div class="gradientShadow"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadleft">
+<div class="article">
+<span class="sponsor">
+<span class="sponsor-what">
+<a href="javascript:void(0)" rel="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</a>
+</span>
+<span class="sponsor-text">Verslo tribūna</span>
+<span class="clear"></span>
+</span>
+<h2>
+<a href="https://www.vz.lt/paslaugos/2020/09/14/koronavirusas-kuria-sienas-o-es-tiesia-pagalbos-tiltus">Koronavirusas kuria sienas, o ES tiesia pagalbos tiltus </a>
+</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="small-list-item">
+<div class="row">
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="article">
+<div class="article-img">
+<a href="https://www.vz.lt/ismani-lietuva/2020/09/14/kauno-grudai-energetinio-efektyvumo-sprendimus-pirmiausia-vertiname-per-tvarumo-prizme">
+<img alt="„Kauno grūdai“: energetinio efektyvumo sprendimus pirmiausia vertiname per tvarumo prizmę" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200914/MARKETING/200919813/AR/0/AR-200919813.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=820"/>
+<div class="gradientShadow"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadleft">
+<div class="article">
+<span class="sponsor">
+<span class="sponsor-what">
+<a href="javascript:void(0)" rel="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</a>
+</span>
+<span class="sponsor-text">Verslo tribūna</span>
+<span class="clear"></span>
+</span>
+<h2>
+<a href="https://www.vz.lt/ismani-lietuva/2020/09/14/kauno-grudai-energetinio-efektyvumo-sprendimus-pirmiausia-vertiname-per-tvarumo-prizme">„Kauno grūdai“: energetinio efektyvumo sprendimus pirmiausia vertiname per tvarumo prizmę </a>
+</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="small-list-item noborder">
+<div class="row">
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="article">
+<div class="article-img">
+<a href="https://www.vz.lt/bite/2020/09/14/kaip-motyvuoti-geriausius-pardavimu-profesionalus">
+<img alt="Kaip motyvuoti geriausius pardavimų profesionalus? " src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200914/MARKETING/200919818/AR/0/AR-200919818.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=2251"/>
+<div class="gradientShadow"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadleft">
+<div class="article">
+<span class="sponsor">
+<span class="sponsor-what">
+<a href="javascript:void(0)" rel="tooltip" title="Turinys sukurtas reklamos užsakovo. „Verslo žinių“ žurnalistai nedalyvavo kuriant šį turinį.">Kas tai?</a>
+</span>
+<span class="sponsor-text">Verslo tribūna</span>
+<span class="clear"></span>
+</span>
+<h2>
+<a href="https://www.vz.lt/bite/2020/09/14/kaip-motyvuoti-geriausius-pardavimu-profesionalus">Kaip motyvuoti geriausius pardavimų profesionalus?  </a>
+</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar-block hidden-xxs">
+<div class="popular-title mbot15">
+<h3>Rinkų barometras</h3>
+</div>
+<div id="tv-miniwidget-a8b16"></div>
+<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Market Data</span></a> by TradingView</div>
+<script>
+	var twdata=
+		'{"showChart": true,"locale": "en","largeChartUrl": "","width": "360","height": "920","plotLineColorGrowing": "#27ac66","plotLineColorFalling": "#da563e","gridLineColor": "#999","scaleFontColor": "#999","belowLineFillColorGrowing": "rgba(5, 122, 205, 0.12)","belowLineFillColorFalling": "rgba(5, 122, 205, 0.12)","symbolActiveColor": "#cecece","tabs": [{"title": "Akcijos", "symbols": [{"s": "OANDA:SPX500USD", "d": "S&P 500"},{"s": "FOREXCOM:DJI", "d": "Dow 30"},{"s": "INDEX:NKY", "d": "Nikkei 225"},{"s": "INDEX:DAX", "d": "DAX Index"},{"s": "INDEX:CAC", "d": "CAC40"},{"s": "NASDAQ:AAPL", "d": "Apple Inc."},{"s": "NASDAQ:GOOG", "d": "Google"},{"s": "NYSE:C", "d": "Citigroup"},{"s": "NYSE:GM", "d": "General Motors"},{"s": "NYSE:BP", "d": "BP"},{"s": "FWB:BMW", "d": "BMW"}], "originalTitle": "Akcijos"},{"title": "Žaliavos","symbols": [{"d": "Nafta WTI","s": "ICEEUR:WI1!"},{"d": "Nafta Brent","s": "ICEEUR:CB1!"},{"d": "Dujos","s": "ICEEUR:NF1!"},{"d": "Auksas","s": "COMEX:GC1!"},{"d": "Sidabras","s": "COMEX:SI1!"},{"d": "Varis","s": "COMEX:HG1!"},{"d": "Kviečiai","s": "CBOT:ZW1!"},{"d": "Kukurūzai","s": "CBOT:ZC1!"},{"d": "Cukrus","s": "NYMEX:KA1!"},{"d": "Kava","s": "NYMEX:KT1!"},{"d": "Apelsinų sultys","s": "ICEUS:JO1!"},{"d": "Galvijai","s": "EUREX:QK1!"}], "originalTitle": "Žaliavos"},{"title": "Valiutos", "symbols": [{"d": "EUR/USD","s": "FX:EURUSD"},{"d": "EUR/GBP","s": "FX_IDC:EURGBP"},{"d": "EUR/CHF","s": "FX_IDC:EURCHF"},{"d": "EUR/RUB","s": "FX_IDC:EURRUB"},{"d": "EUR/PLN","s": "FX_IDC:EURPLN"},{"d": "EUR/BYN","s": "EURBYN"},{"d": "EUR/SEK","s": "FX:EURSEK"},{"d": "EUR/DKK","s": "FX_IDC:EURDKK"},{"d": "EUR/NOK","s": "FX:EURNOK"},{"d": "EUR/TRY","s": "FX_IDC:EURTRY"},{"d": "EUR/JPY","s": "FX_IDC:EURJPY"},{"d": "EUR/CNY","s": "FX_IDC:EURCNY"},{"d": "Bitcoin/EUR","s": "THEROCKTRADING:BTCEUR"}], "originalTitle": "Valiutos"}]}';
+	if(getWidth()>470){
+		var s = document.createElement('script');
+		s.type = 'text/javascript';
+		s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js';
+		s.async = 'async';
+		s.innerHTML = twdata;
+		$('#tv-miniwidget-a8b16').height(920);
+		document.getElementById('tv-miniwidget-a8b16').appendChild(s);
+	}
+</script>
+</div>
+<div class="sidebar-block hidden-xs">
+<div class="popular-title">
+<h3>Palūkanos</h3>
+</div>
+<div class="nasdaqWr">
+<ul class="nav nav-tabs nasdaq-tabs" role="tablist">
+<li class="active" role="presentation"><a aria-controls="euribor" data-toggle="tab" href="#euribor" role="tab">Euribor</a></li>
+<li class="" role="presentation"><a aria-controls="liboreur" data-toggle="tab" href="#liboreur" role="tab">Libor EUR</a></li>
+<li class="" role="presentation"><a aria-controls="liborusd" data-toggle="tab" href="#liborusd" role="tab">Libor USD</a></li>
+</ul>
+<div class="tab-content"><div class="tab-pane active" id="euribor">
+<table>
+<thead><tr><td>Palūkanų norma</td><td>Pask. vertė</td><td>Dienos pok.</td></tr></thead>
+<tbody><tr><td><a href="http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html" rel="nofollow" target="_blank">Euribor 1 mėn.</a></td><td class="up">-0,5230%</td><td class="up">0,5736%</td></tr><tr><td><a href="http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html" rel="nofollow" target="_blank">Euribor 3 mėn.</a></td><td class="down">-0,4850%</td><td class="down">-0,2062%</td></tr><tr><td><a href="http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html" rel="nofollow" target="_blank">Euribor 6 mėn.</a></td><td class="up">-0,4580%</td><td class="up">0,4367%</td></tr> <tr><td class="text-right smaller" colspan="3">Šaltinis: <a href="http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html" rel="nofollow" target="_blank">EMMI</a></td></tr>
+</tbody>
+</table>
+</div><div class="tab-pane" id="liboreur">
+<table>
+<thead><tr><td>Palūkanų norma</td><td>Pask. vertė</td><td>Dienos pok.</td></tr></thead>
+<tbody><tr><td><a href="http://www.finanzen.net/zinsen/libor/USD" rel="nofollow" target="_blank">Libor EUR 1</a></td><td class="down">-0,5626%</td><td class="down">-0,38%</td></tr><tr><td><a href="http://www.finanzen.net/zinsen/libor/USD" rel="nofollow" target="_blank">Libor EUR 3</a></td><td class="down">-0,5104%</td><td class="down">-0,59%</td></tr><tr><td><a href="http://www.finanzen.net/zinsen/libor/USD" rel="nofollow" target="_blank">Libor EUR 6</a></td><td class="down">-0,4933%</td><td class="down">-0,09%</td></tr> <tr><td class="text-right smaller" colspan="3">Šaltinis: <a href="http://www.finanzen.net/zinsen/libor/" rel="nofollow" target="_blank">Finanzen.net</a></td></tr>
+</tbody>
+</table>
+</div>
+<div class="tab-pane" id="liborusd">
+<table>
+<thead><tr><td>Palūkanų norma</td><td>Pask. vertė</td><td>Dienos pok.</td></tr></thead>
+<tbody><tr><td><a href="http://www.finanzen.net/zinsen/libor/USD" rel="nofollow" target="_blank">Libor USD 1</a></td><td class="down">0,1521%</td><td class="down">-0,16%</td></tr><tr><td><a href="http://www.finanzen.net/zinsen/libor/USD" rel="nofollow" target="_blank">Libor USD 3</a></td><td class="down">0,2373%</td><td class="down">-5,24%</td></tr><tr><td><a href="http://www.finanzen.net/zinsen/libor/USD" rel="nofollow" target="_blank">Libor USD 6</a></td><td class="down">0,2745%</td><td class="down">-2,62%</td></tr> <tr><td class="text-right smaller" colspan="3">Šaltinis: <a href="http://www.finanzen.net/zinsen/libor/" rel="nofollow" target="_blank">Finanzen.net</a></td></tr>
+</tbody>
+</table>
+</div></div></div>
+</div>
+<iframe frameborder="0" height="620px" marginheight="0px" marginwidth="0px" name="gazele2019_360" scrolling="no" src="https://local.app.vz.lt/banner/gazele2019/360" style="border:0px #ffffff none;" width="360px"></iframe>
+<div class="sidebar-block hidden-xs hidden-sm">
+<div class="banner">
+<!-- Skydelis 7 -->
+<div id="sas_52789"></div>
+</div>
+</div>
+<div class="sidebar-block banner7">
+<div id="sas_52792"></div>
+</div>
+<div class="sidebar-block banner7">
+<div id="sas_52793"></div>
+</div>
+<div class="sidebar-block banner7">
+<div id="sas_52794"></div>
+</div>
+<div class="sidebar-block banner7">
+<div id="sas_52808"></div>
+</div>
+<script type="text/javascript">if(getWidth()<=600){ $('.banner7').hide(); }</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container content">
+<div class="row">
+<div class="news-list">
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/verslo-aplinka">
+    Verslo aplinka
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/10/premjeras-prognozuoja-kad-prasidedanti-sesija-nebus-labai-produktyvi">
+<img alt="Premjeras prognozuoja, kad prasidedanti sesija „nebus labai produktyvi“" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200910/ARTICLE/200919976/AR/0/AR-200919976.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1056"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/10/premjeras-prognozuoja-kad-prasidedanti-sesija-nebus-labai-produktyvi">
+				Premjeras prognozuoja, kad prasidedanti sesija „nebus labai produktyvi“
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/berlynas-siulo-vasingtonui-sanderi-del-nord-stream-2">
+				Berlynas siūlo Vašingtonui sandėrį dėl „Nord Stream 2“
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/verslo-aplinka/2020/09/16/ek-vadove-ispejo-brexit-susitarimo-negalima-pakeisti-istatymu">
+				EK vadovė įspėjo: „Brexit“ susitarimo „negalima pakeisti“ įstatymu
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/rinkos">
+    Rinkos
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/10/kai-bankai-uzveria-duris-nt-pletotojai-dairosi-alternatyvu">
+<img alt="Kai bankai užveria duris, NT plėtotojai dairosi alternatyvų" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200910/PREMIUM/200919986/AR/0/AR-200919986.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=849"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/10/kai-bankai-uzveria-duris-nt-pletotojai-dairosi-alternatyvu">
+				Kai bankai užveria duris, NT plėtotojai dairosi alternatyvų
+				 <span class="premium">Premium</span>
+</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/rinkos/2020/09/16/blackstone-ispeja-del-prarastojo-desimtmecio-akciju-grazoms">
+				„Blackstone“ įspėja dėl „prarastojo dešimtmečio“ akcijų grąžoms
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/rinkos/2020/09/16/vyksta-kur-kas-didesnis-bumas-uz-technologiju-akciju">
+				Vyksta kur kas didesnis bumas už technologijų akcijų
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-xs"></div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/finansai-apskaita">
+    Finansai
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/finansai-apskaita/2020/09/16/nuo-pandemines-recesijos-duobes-iki-perkaitimo--tik-vienas-zingsnis">
+<img alt="Nuo pandeminės recesijos duobės iki perkaitimo – tik vienas žingsnis " src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/PREMIUM/200919699/AR/0/AR-200919699.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=229"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/finansai-apskaita/2020/09/16/nuo-pandemines-recesijos-duobes-iki-perkaitimo--tik-vienas-zingsnis">
+				Nuo pandeminės recesijos duobės iki perkaitimo – tik vienas žingsnis 
+				 <span class="premium">Premium</span>
+</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/finansai-apskaita/2020/09/15/brokere-greco-sagauta-dairosi-i-kitas-draudimo-nisas">
+				Brokerė „GrECo Sagauta“ dairosi į kitas draudimo nišas
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/finansai-apskaita/2020/09/15/z-mauricas-krize-mums-pasibaige-dar-neprasidejusi-laikas-stabdyti-islaidavimo-arklius">
+				Ž. Mauricas: krizė mums pasibaigė dar neprasidėjusi, laikas stabdyti išlaidavimo arklius
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-sm"></div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/verslo-valdymas">
+    Vadyba
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/imoniu-kurimo-tempas-vejasi-ikikarantininius-greicius-rizikos-reitinga-pagerino-ketvirtadalis">
+<img alt="Įmonių kūrimo tempas vejasi ikikarantininius greičius, rizikos reitingą pagerino ketvirtadalis" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919680/AR/0/AR-200919680.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=120"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/imoniu-kurimo-tempas-vejasi-ikikarantininius-greicius-rizikos-reitinga-pagerino-ketvirtadalis">
+				Įmonių kūrimo tempas vejasi ikikarantininius greičius, rizikos reitingą pagerino ketvirtadalis
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/verslo-valdymas/2020/09/14/geidziamiausias-darbdavys-girdedami-darbuotojus-augame-kaip-vadovai">
+				Geidžiamiausias darbdavys: girdėdami darbuotojus, augame kaip vadovai
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/verslo-valdymas/2020/09/14/europos-metu-vadovu-tapo-airijos-uzsienio-reikalu-ministras">
+				Europos metų vadovu tapo Airijos užsienio reikalų ministras
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-xs"></div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/rinkodara">
+    Rinkodara
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais">
+<img alt="„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919678/AR/0/AR-200919678.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1242"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/rinkodara/2020/09/16/telia-stabdo-ezio-reklama-su-dvyniais-krepsininkais">
+				„Telia“ stabdo „Ežio“ reklamą su dvyniais krepšininkais
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/rinkodara/komunikacija/2020/09/16/ltg-grupes-komunikacijos-partnere-tapo-idea-prima">
+				LTG grupės komunikacijos partnere tapo „Idea prima“
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/rinkodara/2020/09/16/sam-atrinkti-projektai-kurie-stiprins-zinias-apie-sveikata">
+				SAM: atrinkti projektai, kurie stiprins žinias apie sveikatą
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/smulkusis-verslas">
+    Gazelė
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/15/pigesnes-paskolos-dar-nesibaigia-toks-pasiulymas-kaip-telefonas-uz-1-eur-bet-gauna-nedidele-dalis">
+<img alt="Pigesnės paskolos dar nesibaigia: daliai toks pasiūlymas – kaip telefonas už 1 Eur, bet gauna nedidelė dalis" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/PREMIUM/200919754/AR/0/AR-200919754.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=2126"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/15/pigesnes-paskolos-dar-nesibaigia-toks-pasiulymas-kaip-telefonas-uz-1-eur-bet-gauna-nedidele-dalis">
+				Pigesnės paskolos dar nesibaigia: daliai toks pasiūlymas – kaip telefonas už 1 Eur, bet gauna nedidelė dalis
+				 <span class="premium">Premium</span>
+</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/smulkieji-vis-dazniau-skolinasi-is-kredito-uniju">
+				Smulkieji vis dažniau skolinasi iš kredito unijų
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/smulkusis-verslas/2020/09/16/verslo-pletrai-pasirinko-netinkamiausia-laika--blogesnio-negalejo-buti">
+				Verslo plėtrai pasirinko netinkamiausią laiką – blogesnio negalėjo būti
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-sm visible-xs"></div>
+</div>
+</div>
+</div>
+<div class="container content">
+<div class="row">
+<div class="news-list">
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/pramone">
+    Pramonė
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/pramone/2020/09/16/lietuvos-prioritetu-turi-islikti-tarptautinio-konkurencingumo-didinimas--pramonininkai">
+<img alt="Lietuvos prioritetu turi išlikti tarptautinio konkurencingumo didinimas – pramonininkai " src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919675/AR/0/AR-200919675.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1312"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/pramone/2020/09/16/lietuvos-prioritetu-turi-islikti-tarptautinio-konkurencingumo-didinimas--pramonininkai">
+				Lietuvos prioritetu turi išlikti tarptautinio konkurencingumo didinimas – pramonininkai 
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/rinkodara/2020/09/16/vilniaus-paukstynas-atnaujino-prekes-zenkla">
+				„Vilniaus paukštynas“ atnaujino prekės ženklą
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/pramone/2020/09/16/kinija-politikai-nesuvokia-kad-galime-ne-priesintis-o-pasinaudoti">
+				Kinija: politikai nesuvokia, kad galime ne priešintis, o pasinaudoti 
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/prekyba">
+    Prekyba
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/prekyba/2020/09/16/prekybos-sektorius-pandemijos-streso-testa-islaike">
+<img alt="Prekybos sektorius pandemijos streso testą išlaikė" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/PREMIUM/200919673/AR/0/AR-200919673.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1325"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/prekyba/2020/09/16/prekybos-sektorius-pandemijos-streso-testa-islaike">
+				Prekybos sektorius pandemijos streso testą išlaikė
+				 <span class="premium">Premium</span>
+</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/prekyba/2020/09/16/tiketini-tesco-pletros-ir-atsitraukimo-europoje-scenarijai">
+				Tikėtini „Tesco“ plėtros ir atsitraukimo Europoje scenarijai 
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/prekyba/2020/09/14/naujas-baltikos-vadovas-f-perinipirmiausia-pelnas-tada-tarptautine-pletra">
+				Naujas „Baltikos“ vadovas F. Perini: „Pirmiausia pelnas, tada – tarptautinė plėtra“
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-xs"></div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/paslaugos">
+    Paslaugos
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/technologijos-mokslas/2020/09/16/d-trumpas-oracle-yra-labai-arti-susitarimo-su-tiktok">
+<img alt=" D. Trumpas: „Oracle“ yra labai arti susitarimo su „TikTok“" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919679/AR/0/AR-200919679.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1217"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/technologijos-mokslas/2020/09/16/d-trumpas-oracle-yra-labai-arti-susitarimo-su-tiktok">
+				 D. Trumpas: „Oracle“ yra labai arti susitarimo su „TikTok“
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/rinkodara/2020/09/16/i-ukio-atsigavimo-traukini-soka-ir-reklamos-rinka">
+				Į ūkio atsigavimo traukinį šoka ir reklamos rinka
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/paslaugos/2020/09/15/infobalt-kuriamas-valstybinis-operatorius--gresme-rinkai-ir-vartotojams">
+				„Infobalt“: kuriamas valstybinis operatorius – grėsmė rinkai ir vartotojams
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-sm"></div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/transportas-logistika">
+    Logistika ir transportas
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/keiciasicitybee-vadovas">
+<img alt="Keičiasi „CityBee“ vadovas" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200916/ARTICLE/200919668/AR/0/AR-200919668.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1441"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/keiciasicitybee-vadovas">
+				Keičiasi „CityBee“ vadovas
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/ateities-ekonomikos-dnr-plano-lesos--ir-gelezinkelio-pervazoms-modernizuoti">
+				Ateities ekonomikos DNR plano lėšos – ir geležinkelio pervažoms modernizuoti
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/transportas-logistika/2020/09/16/konteineriu-vezimo-ikainiu-prognozeje--vis-daugiau-nezinomuju">
+				Konteinerių vežimo įkainių prognozėje – vis daugiau nežinomųjų
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-xs"></div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/nekilnojamasis-turtas-statyba">
+    Statyba ir NT
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/13/bus-remontuojami-vilniaus-universiteto-observatorijos-pastatai">
+<img alt="Bus remontuojami Vilniaus universiteto Observatorijos pastatai" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200913/ARTICLE/200919830/AR/0/AR-200919830.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=141"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/13/bus-remontuojami-vilniaus-universiteto-observatorijos-pastatai">
+				Bus remontuojami Vilniaus universiteto Observatorijos pastatai
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/10/isrinkti-geriausi-nt-projektai-baltijos-salyse">
+				Išrinkti geriausi NT projektai Baltijos šalyse
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/nekilnojamasis-turtas-statyba/2020/09/11/ekspertas-studentu-butas--viruso-beveik-nepaveikta-nt-klase">
+				Ekspertas: studentų būstas – viruso beveik nepaveikta NT klasė
+				 <span class="premium">Premium</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class="col col-xs-6 col-sm-4 col-md-2 col-lg-2">
+<div class="article-holder">
+<div class="cat-title">
+<h3> <a href="https://www.vz.lt/technologijos-mokslas">
+    Technologijos
+  </a>
+</h3>
+</div>
+<div class="article">
+<a href="https://www.vz.lt/2020/09/15/l-linkevicius-ir-m-pompeo-pasirasys-susitarima-del-5g">
+<img alt="L. Linkevičius ir M. Pompeo pasirašys susitarimą dėl 5G" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/ARTICLE/200919727/AR/0/AR-200919727.jpg&amp;exactW=300&amp;exactH=180&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1419"/>
+<span class="gradientShadow"></span>
+</a>
+<h2>
+<a href="https://www.vz.lt/2020/09/15/l-linkevicius-ir-m-pompeo-pasirasys-susitarima-del-5g">
+				L. Linkevičius ir M. Pompeo pasirašys susitarimą dėl 5G
+			</a>
+</h2>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/paslaugos/2020/09/15/jav-medicinos-technologiju-bendrove-dexcom-vilniuje-steigia-paslaugu-centra">
+				JAV medicinos technologijų bendrovė „Dexcom“ Vilniuje steigia paslaugų centrą
+			</a>
+</p>
+</div>
+<div class="article">
+<p>
+<a href="https://www.vz.lt/technologijos-mokslas/mokslas/2020/09/15/mokslininku-veneroje-aptiktos-dujos-galetu-buti-nezemiskos-gyvybes-pozymis">
+				Mokslininkų Veneroje aptiktos dujos galėtų būti nežemiškos gyvybės požymis
+			</a>
+</p>
+</div>
+</div>
+</div>
+<div class="clearfix visible-xs visible-sm"></div>
+</div>
+</div>
+</div>
+<div class="container content">
+<div class="gallery">
+<div class="news-category-title">
+<h3><a href="https://www.vz.lt/laisvalaikis">Laisvalaikis</a></h3>
+</div>
+<div class="gallery-col">
+<div class="gallery-item gallery-item-big">
+<img alt="Lietuvos someljė čempionas M. Pravilonis: turėjau laimėti, ne kitaip" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/PREMIUM/200919705/AR/0/AR-200919705.jpg&amp;exactW=720&amp;exactH=432&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1838"/>
+<div class="gallery-item-over">
+<a href="https://www.vz.lt/laisvalaikis/maistas-ir-gerimai/2020/09/15/lietuvos-somelje-cempionas-m-pravilonis-turejau-laimeti-ne-kitaip"><span class="title">Lietuvos someljė čempionas M. Pravilonis: turėjau laimėti, ne kitaip</span></a>
+</div>
+</div>
+</div>
+<div class="gallery-col">
+<div class="gallery-row">
+<div class="gallery-col">
+<div class="gallery-item gallery-item-small">
+<img alt="Švediškas COVID-19 eksperimentas: nevėlu juo pasinaudoti" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/PREMIUM/200919706/AR/0/AR-200919706.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1831"/>
+<div class="gallery-item-over">
+<a href="https://www.vz.lt/laisvalaikis/akiraciai/2020/09/15/svediskas-covid-19-eksperimentas-nevelu-juo-pasinaudoti"><span class="title">Švediškas COVID-19 eksperimentas: nevėlu juo pasinaudoti</span></a>
+</div>
+</div>
+</div>
+<div class="gallery-col">
+<div class="gallery-item gallery-item-small">
+<img alt="Vytauto Didžiojo universitetui toliau vadovaus prof. J. Augutis " src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/ARTICLE/200919715/AR/0/AR-200919715.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=165"/>
+<div class="gallery-item-over">
+<a href="https://www.vz.lt/laisvalaikis/akiraciai/2020/09/15/vytauto-didziojo-universitetui-toliau-vadovaus-prof-j-augutis"><span class="title">Vytauto Didžiojo universitetui toliau vadovaus prof. J. Augutis </span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix visible"></div>
+<div class="gallery-row">
+<div class="gallery-col">
+<div class="gallery-item gallery-item-small">
+<img alt="Auditas: didesnis švietimo finansavimas moksleivių pažymių nepagerino" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/ARTICLE/200919726/AR/0/AR-200919726.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=1421"/>
+<div class="gallery-item-over">
+<a href="https://www.vz.lt/laisvalaikis/akiraciai/2020/09/15/auditas-didesnis-svietimo-finansavimas-moksleiviu-pazymiu-nepagerino"><span class="title">Auditas: didesnis švietimo finansavimas moksleivių pažymių nepagerino</span></a>
+</div>
+</div>
+</div>
+<div class="gallery-col">
+<div class="gallery-item gallery-item-small">
+<img alt="Paskelbė brangiausių šį sezoną futbolininkų sąrašą" src="https://www.vz.lt/apps/pbcsi.dll/storyimage/VZ/20200915/ARTICLE/200919731/AR/0/AR-200919731.jpg&amp;exactW=350&amp;exactH=210&amp;AlignV=middle&amp;imageversion=Horizontalus&amp;lastupdate=138"/>
+<div class="gallery-item-over">
+<a href="https://www.vz.lt/laisvalaikis/pomegiai/2020/09/15/paskelbebrangiausiu-si-sezonafutbolininku-sarasa"><span class="title">Paskelbė brangiausių šį sezoną futbolininkų sąrašą</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix visible"></div>
+</div>
+</div>
+<div class="container content hide4print">
+<div class="row">
+<div class="col">
+<div class="title">
+<span class="black-separator"></span>
+<h3>Verslo žinių pasiūlymai</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="container content">
+<div class="offers">
+<div class="row" id="offers"></div>
+</div>
+</div>
+<script async="" src="https://local.app.vz.lt/banner/vz-offer?v1.js?v=3"></script>
+<div id="menu-add-ons"></div>
+<div>
+<!-- Full screen -->
+<div id="sas_52795"></div>
+<!-- Wallpaper -->
+<div id="sas_52791"></div>
+<!-- Full screen Mobile -->
+<div id="sas_54553"></div>
+</div>
+<div id="footer">
+<div class="footer-row-1">
+<div class="container footer">
+<div class="row">
+<div class="col col-md-9 col-lg-10">
+<div class="links">
+<ul>
+<li><a href="https://parduotuve.vz.lt/vz-prenumerata/prenumerata.3.php" target="_blank">Prenumerata</a></li><li><a href="https://konferencijos.vz.lt" target="_blank">Konferencijos</a></li><li><a href="https://akademija.vz.lt" target="_blank">Akademija</a></li><li><a href="https://www.vz.lt/komunikacijos-paslaugos" target="_blank">Komunikacijos paslaugos</a></li><li><a href="https://www.vz.lt/pages/savaitrasciai.html" target="_blank">Savaitraščiai</a></li><li><a href="https://www.vz.lt/tema" target="_blank">Temos</a></li>
+</ul>
+</div>
+</div>
+<div class="col col-md-3 col-lg-2 icons">
+<div class="icons">
+<ul>
+<li><a href="https://www.facebook.com/verslozinios" target="_blank"><img alt="Facebook" src="https://www.vzinios.lt/img/icon_facebook.png"/></a></li><li><a href="https://www.linkedin.com/company/verslozinios/" target="_blank"><img alt="LinkedIn" src="https://www.vzinios.lt/img/icon_linkedin.png"/></a></li><li><a href="https://twitter.com/vzinios" target="_blank"><img alt="Twitter" src="https://www.vzinios.lt/img/icon_twitter.png"/></a></li><li><a href="https://www.vz.lt/section/?template=rss" target="_blank"><img alt="RSS" src="https://www.vzinios.lt/img/icon_rss.png"/></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-row-2">
+<div class="container footer">
+<div class="row">
+<div class="col col-md-3 col-lg-3">
+<div class="col-item">
+<h3><a href="">Apie UAB „Verslo žinios“</a></h3>
+<ul>
+<li><a href="https://www.vz.lt/apie#akcininkai" target="_blank">Akcininkai</a></li><li><a href="https://www.vz.lt/apie" target="_blank">Misija ir vertybės</a></li><li><a href="https://www.cv.lt/verslo-žinios-darbo-skelbimai" target="_blank">Darbo pasiūlymai</a></li><li><a href="https://www.vz.lt/privatumo-politika" target="_blank">Privatumo politika</a></li>
+<li><a href="/citavimo-taisykles">Citavimo taisyklės</a></li>
+<li><a class="show-popup" data-popup="article-marking" href="#">Turinio žymėjimo taisyklės</a></li>
+</ul>
+</div>
+</div>
+<div class="col col-md-3 col-lg-3">
+<div class="col-item">
+<h3><a href="">Leidiniai</a></h3>
+<ul>
+<li><a href="https://parduotuve.vz.lt/vz-prenumerata/prenumerata.3.php" target="_blank">Laikraštis „Verslo žinios“</a></li><li><a href="https://www.vz.lt/pages/savaitrasciai.html" target="_blank">Nemokami e. savaitraščiai</a></li><li><a href="https://www.vz.lt/premium/verslo-klase" target="_blank">Žurnalas „Verslo klasė“</a></li><li><a href="http://www.teisesvadovas.lt/" target="_blank">Darbo teisės vadovas</a></li>
+</ul>
+</div>
+</div>
+<div class="col col-md-2 col-lg-2">
+<div class="col-item">
+<h3><a href="">Portalai</a></h3>
+<ul>
+<li><a href="https://www.vz.lt" target="_blank">vz.lt</a></li><li><a href="https://www.cv.lt" target="_blank">Darbo skelbimai cv.lt</a></li><li><a href="http://www.teisesvadovas.lt/" target="_blank">teisesvadovas.lt</a></li><li><a href="http://rekvizitai.vz.lt" target="_blank">Įmonių duomenys</a></li>
+</ul>
+</div>
+</div>
+<div class="col col-md-2 col-lg-2">
+<div class="col-item">
+<h3><a href="">Kontaktai</a></h3>
+<ul>
+<li><a href="https://www.vz.lt/kontaktai#vzlt" target="_blank">Redakcija</a></li><li><a href="https://www.vz.lt/kontaktai#rpardavimai" target="_blank">Komunikacijos paslaugos</a></li><li><a href="https://www.vz.lt/kontaktai#prenumerata" target="_blank">Prenumerata</a></li><li><a href="https://www.vz.lt/kontaktai#rinkodara" target="_blank">Rinkodara</a></li><li><a href="https://www.vz.lt/kontaktai#konferencijos" target="_blank">Konferencijos</a></li><li><a href="https://www.vz.lt/kontaktai#administracija" target="_blank">Administracija</a></li>
+</ul>
+</div>
+</div>
+<div class="col col-md-2 col-lg-2">
+<div class="col-item">
+<h3><a href="">Rekvizitai</a></h3>
+<ul>
+<li>UAB „Verslo žinios“</li>
+<li>J. Jasinskio g. 16A</li>
+<li>03163 Vilnius</li>
+<li>Įm. kodas: 110682810</li>
+<li>PVM kodas: LT106828113</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-row-3">
+<div class="container footer">
+<div class="row">
+<div class="col col-md-7 col-lg-7">
+<div class="logos">
+<ul>
+<li><a href="https://www.vz.lt"><img alt="Verslo žinios" src="https://www.vz.lt/img/logo_footer_vz.png"/></a></li>
+<li><a href="https://www.cv.lt" target="_blank"><img alt="cv.lt" src="https://www.vz.lt/img/logo_footer_cv.png"/></a></li>
+<li><a href="https://www.vz.lt/premium/verslo-klase" target="_blank"><img alt="Verslo klasė" src="https://www.vz.lt/img/logo_footer_vk.png"/></a></li>
+</ul>
+</div>
+</div>
+<div class="col col-md-5 col-lg-5">
+<div class="copyright">
+						UAB „Verslo žinios“, visos teisės saugomos.
+					</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="popup-holder" id="popup-article-comment-rules" style="display: none;">
+<div class="content">
+<a class="close-popup" href="#"><!-- --></a>
+<div class="row">
+<div class="co col-xs-12">
+<p class="mbot15">
+<strong>Primename, kad Lietuvos Respublikos įstatymai draudžia:</strong>
+</p>
+<ol>
+<li> raginti prievarta keisti Lietuvos Respublikos konstitucinę santvarką;</li>
+<li> skatinti kėsintis į Lietuvos Respublikos suverenitetą, jos teritorijos vientisumą, politinę nepriklausomybę;</li>
+<li> kurstyti karą ar neapykantą, tyčiotis, niekinti, kurstyti diskriminuoti, smurtauti, fiziškai susidoroti su žmonių grupe ar jai priklausančiu asmeniu dėl amžiaus, lyties, lytinės orientacijos, etninės priklausomybės, rasės, tautybės, pilietybės, kalbos, kilmės, socialinės padėties, tikėjimo, įsitikinimų, pažiūrų ar religijos pagrindu;</li>
+<li> platinti, propaguoti ar reklamuoti pornografiją, taip pat propaguoti ir (ar) reklamuoti seksualines paslaugas, lytinius iškrypimus;</li>
+<li> propaguoti ir (ar) reklamuoti žalingus įpročius ir narkotines ar psichotropines medžiagas. Draudžiama platinti dezinformaciją ir informaciją, šmeižiančią, įžeidžiančią žmogų, žeminančią jo garbę ir orumą. Draudžiama skleisti informaciją, pažeidžiančią nekaltumo prezumpciją ir kliudančią teisminės valdžios nešališkumui.</li>
+</ol>
+<p>
+					Už paskelbtą komentarą atsako jį paskelbęs skaitytojas, kuris dėl jo turinio gali būti patrauktas baudžiamojon, administracinėn ar civilinėn atsakomybėn. Komentare mes tiesiogiai nerodome komentaro autoriaus IP adreso, tačiau jis gali būti perduotas teisėsaugos institucijoms LR įstatymuose nustatyta tvarka.
+				</p>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="loginModalLabel" class="modal fade" id="userInfo" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-label="Uždaryti" class="close" data-dismiss="modal" type="button">
+<img class="svg-image" src="https://www.vz.lt/img/svg/close.svg"/>
+</button>
+<h4 class="modal-title" id="loginModalLabel"> </h4></div></div></div></div></body></html>
+
+<div class="modal-body">
+<div class="row">
+<div class="mlc col col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+<div class="user-pic-wr">
+<div class="user-pic">
+<img alt="svg" class="svg-image" src="/img/svg/user.svg"/>
+</div>
+</div>
+</div>
+<div class="mrc col col-lg-8 col-md-8 col-sm-8 col-xs-8">
+<br/>
+						Registracijos data: <strong></strong><br/>
+						Paskutinis apsilankymas: <strong></strong><br/>
+						Statusas: <strong></strong><br/>
+						Komentarų: <strong></strong><br/>
+</div>
+</div>
+</div>
+
+
+
+<div class="popup-holder" id="popup-article-citation" style="display: none;">
+<div class="content">
+<a class="close-popup" href="#"><!-- --></a>
+<div class="row">
+<div class="col col-xs-12">
+<p>Visas tinklalapyje vz.lt skelbiamas turinys yra UAB "Verslo žinios" nuosavybė, jei nenurodyta kitaip. Atgaminti, viešai skelbti ar archyvuoti kitų šalių serveriuose šį turinį be bendrovės raštiško sutikimo draudžiama. </p>
+<p>Cituojant būtina nuoroda į šaltinį. Cituojamo teksto apimtis negali viršyti 500 (penkių šimtų) spaudos ženklų. </p>
+<p>Savo ar įmonės tinklalapyje be atskiro susitarimo galite naudoti:</p>
+<ul>
+<li>* straipsnio antraštę, </li>
+<li>* pirmąją straipsnio pastraipą (vz.lt straipsniuose ji būna išskirta pariebintu šriftu), </li>
+<li>* toliau turi sekti nuoroda į pilną straipsnį vz.lt tinklalapyje.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="popup-holder" id="popup-article-marking" style="display: none;">
+<div class="content">
+<a class="close-popup" href="#"><!-- --></a>
+<div class="row">
+<div class="col col-xs-12">
+<p><b class="vzred">Projekto ar rubrikos rėmėjo/partnerio logotipas prie rubrikos straipsnių</b> - įprastai „Verslo žinių“ žurnalistų kuriamas turinys. Projekto ar rubrikos rėmėjas/partneris prie šio turinio kūrimo neprisideda.</p>
+<p><b class="vzred">Rėmėjo turinys, Verslo tribūna, Verslo dirbtuvės</b> – reklamos užsakovo sukurtas turinys. „Verslo žinių“ žurnalistai prie šio turinio kūrimo neprisideda.</p>
+<p><b class="vzred">Veiklos sukaktis</b> - reklamos užsakovo sukurtas turinys, skirtas bendrovės sukakčiai paminėti. „Verslo žinių“ žurnalistai prie šio turinio kūrimo neprisideda.</p>
+<p><b class="vzred">Eksperto įžvalgos</b> - reklamos užsakovo sukurtas turinys. „Verslo žinių“ žurnalistai prie šio turinio kūrimo neprisideda.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="popup-holder" id="fake-banner" style="display: none;">
+<div class="content" style="padding:30px 45px;">
+<a class="close-popup" href="#"><!-- --></a>
+<div class="row">
+<img alt="img" src="/img/fake/1.jpg">
+</img></div>
+</div>
+</div>
+<div class="popup-holder" id="popup-autojoin" style="display: none;">
+<div class="content">
+<a class="close-popup" href="#"><!-- --></a>
+<div class="row">
+<div class="co col-xs-12 text-center">
+<div class="autojoin-text">
+<h3>Mes automatiškai prijungėme Jus<br/>prie VŽ Premium</h3>
+<hr class="short"/>
+<p class="small">Jei turėsite klausimų, susiekime:<br/>
+<a href="mailto:prenumerata@verslozinios.lt">prenumerata@verslozinios.lt</a><br/>
+<a href="tel:852526330" rel="tel">(8 5) 252 6330</a>, <a href="tel:852526408" rel="tel">(8 5) 252 6408</a>
+</p>
+<hr>
+<div class="buttons-wr">
+<div class="social-wr">
+							Susieti <span class="hidden-xs">Jūsų vartotoją</span> su  
+							<img alt="Facebook" src="/images/social/32/sb_fb.jpg"/>
+<img alt="Linkedin" src="/images/social/32/sb_in.jpg"/>
+<img alt="G+" src="/images/social/32/sb_gplus.jpg"/>
+</div>
+<div class="button-wr">
+<a href="https://login.vz.lt" target="_blank">Valdyti paskyrą</a>
+</div>
+</div>
+</hr></div>
+</div>
+</div>
+</div>
+</div>
+<div class="popup-bg" id="popup-bg" style="display:none"></div>
+<div class="cookiesWr">
+<div class="container content">
+<div class="display-table col-lg-12 col-md-12 col-sm-12 col-xs-11">
+<div class="display-table-cell valign_middle text">
+						Šioje svetainėje naudojame slapukus (angl. „cookies“). Jie padeda atpažinti prisijungusius vartotojus, matuoti auditorijos dydį ir naršymo įpročius; taip mes galime keisti svetainę, kad ji būtų jums patogesnė.
+						<a class="hidden-xs" href="https://www.vz.lt/slapukai" target="_blank">Valdyti slapukus</a>
+<br class="visible-xs"/>
+<a class="cookieAgree visible-xs-inline-block" href="#">Sutinku</a>
+<a class="visible-xs-inline-block" href="https://www.vz.lt/slapukai" target="_blank">Valdyti slapukus</a>
+<a class="visible-xs-inline-block closeCookiesWr" href="#"></a>
+</div>
+<div class="display-table-cell valign_middle text-right relative hidden-xs">
+<a class="cookieAgree" href="#">Sutinku</a>
+</div>
+</div>
+</div>
+</div>
+<script src="https://www.vz.lt/js/ads.js" type="text/javascript"></script>
+<script type="text/javascript">
+			$(document).ready(function() {
+		        if(
+		        	SessionSingleSale.indexOf('premium') < 1 && $(window).outerWidth() > 767 && window.adsrunning === undefined && 
+		        	document.querySelector('meta[itemprop=section]') && document.querySelector('meta[itemprop=section]').content) {
+		         	var adblockScreen = $.parseHTML('<div class="adblock-message-wr hidden-xs"><div class="clearfix"> <div class="col col-lg-6 col-md-9 col-sm-9"> <div class="frame"> <div class="top-border"></div><div class="right-border"></div><div class="bottom-border"></div><div class="left-border"></div><div class="shield-icon"></div><h2>Gerbiamasis skaitytojau,</h2> <p>Kokybiško ir nepriklausomo turinio kūrimas reikalauja investicijų. Mums labai svarbus jūsų palaikymas. <br/>Pastebėjome, kad jūsų naršyklėje įjungta reklamos blokavimo sistema. <br/>Išjungę ją paremsite mūsų siekį kurti išskirtinį ir kokybišką turinį jums.</p><p><strong>Dėkojame už supratimą ir bendradarbiavimą.</strong><br/> „Verslo žinių“ komanda</p><div class="button-link"> <div class="corner"></div><a href="http://vz.lt/kaip-isjungti-reklamos-blokavima" target="_blank">Kaip išjungti reklamos blokavimą? <i class="fa fa-chevron-right" aria-hidden="true"></i></a> </div></div></div></div></div>');
+					$('#mainmenu').after(adblockScreen);
+					$('#header .banners, .content-holder').remove();
+					$("html, body").animate({ scrollTop: 0 },300);
+		        }
+		    });
+		</script>
+<script src="//ced.sascdn.com/tag/2497/smart.js" type="text/javascript"></script>
+<script type="text/javascript">
+			ga('provide', 'adblockTracker', function(tracker, opts) {
+				var ad = document.createElement('ins');
+				ad.className = 'AdSense';
+				ad.style.display = 'block';
+				ad.style.position = 'absolute';
+				ad.style.top = '-1px';
+				ad.style.height = '1px';
+				document.body.appendChild(ad);
+				tracker.set('dimension' + opts.dimensionIndex, !ad.clientHeight);
+				document.body.removeChild(ad);
+			});
+			ga('require', 'adblockTracker', {dimensionIndex: 2});
+			ga('send', 'pageview');
+			function SasRender(id){ if($('#sas_'+id).length>0) sas.render(id); }
+			function loadSmartAds(){
+				if(typeof sas === 'undefined') return;
+				if(typeof vzCountersTarget === 'undefined') vzCountersTarget='';
+				sas.setup({ networkid: 2497, domain: "//www14.smartadserver.com", async: true, renderMode: 0 });
+			    if(getWidth()>991) {
+					if(vzCountersMaster == '') vzCountersMaster = 774146;
+					sas.call("onecall", {	
+							siteId: 147913,
+							pageId: vzCountersMaster,
+							formatId: '52802,52795,52650,52649,52785,52786,52787,52788,52789,52792,52793,52794,52808,52791,57071,52802,69876,92056',
+							target: vzCountersTarget 
+						}, { 
+							onLoad: function(data){ if(data.formatId == 52791 && data.hasAd){$('body').addClass('gates');setTimeout(function(){menuoffset=$('#mainmenu').offset().top;},500);} 
+							} 
+					}); 
+					SasRender('52802'); SasRender('52795'); SasRender('52650'); SasRender('52649');
+					SasRender('52785'); SasRender('52786'); SasRender('52787'); SasRender('52788');
+					SasRender('52789'); SasRender('52792'); SasRender('52793'); SasRender('52794');
+					SasRender('52808'); SasRender('57071'); SasRender('52802'); SasRender('69876');
+					SasRender('92056');
+					if(typeof(vzCountersNoWallpaper)=='undefined'){SasRender('52791');}
+				} else {
+					vzCountersMaster = 774977;
+					sas.call("onecall", {
+						siteId:		147913,	 
+						pageId:		vzCountersMaster,
+						formatId:	'52796,52797,52798,52799,54553,60390',
+						target:		vzCountersTarget
+					});
+					SasRender('52796'); SasRender('52797'); SasRender('52798');
+					SasRender('52799'); SasRender('54553'); SasRender('60390');
+				}
+			}
+			$(function() {
+				// Recommendations
+				if($('.io-article-body').length>0){
+				if (location.href.indexOf('mire-zurnalistas-verslo-klases-redaktorius-vertejas-aurelijus-katkevicius')<0){
+					$('#sas_52786').attr('id','rec_52786');
+					$('#sas_52798').attr('id','rec_52798');
+				}
+				}
+				// Registered user
+				if($.cookie('VzLtLoginInfo')) vzCountersTarget += ';register=yes';
+				if (location.href.indexOf('mire-zurnalistas-verslo-klases-redaktorius-vertejas-aurelijus-katkevicius')<0)
+					loadSmartAds();
+			});
+		</script>
+<div id="fb-root"></div>
+<script src="https://apis.google.com/js/api:client.js" type="text/javascript"></script>
+<script src="https://platform.linkedin.com/in.js" type="text/javascript">
+			api_key:   86idgue3zcotzo
+			onLoad:    onLinkedInLoad
+			authorize: true
+			lang:      lt_LT
+			scope:	   r_basicprofile r_emailaddress
+		</script>
+<script async="async" src="https://connect.facebook.net/lt_LT/all.js" type="text/javascript"></script>
+<script src="https://www.vz.lt/js/jquery.ui.combined.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="https://www.vz.lt/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://www.vz.lt/js/scripts.min.js?v22" type="text/javascript"></script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54cb291d35ea43dc" type="text/javascript"></script>
+<script async="async" src="//freep.bite.lt/vz.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" type="text/javascript"></script>
+<script src="https://www.vz.lt/js/fingerprint.min.js?v22" type="text/javascript"></script>
+<script src="https://www.vz.lt/js/fingerprint.c.min.js?v22" type="text/javascript"></script>
+<script type="text/javascript">
+				if(!$.cookie('VzLtLoginHash')) {
+					var evc = new evercookie();			
+					evc.get("VzLtLoginHash", function(value){
+						if (!value||value.length > 25) evc.set("VzLtLoginHash", makeid()+$.now());
+					});
+				}
+			if(typeof(_io_config)!='undefined'){
+				var st = '';
+				if(!$.cookie("VzLtLoginInfo")) st='free_unreg';
+				else if(SessionSingleSale!='') st='paid'; 
+				else st='free_reg';
+				window._io_config['0.2.0'][0].user_status=st;
+			};
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id; js.async = true;
+				js.src = 'https://cdn.onthe.io/io.js/mRn3VaOi9xCq';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'io-cdnjs'));
+		</script>
+<script type="text/javascript">
+			$(document).ready(function () { 
+				var url = new URL(window.location.href);
+				var autologin = url.searchParams.get("autologin");
+				if(autologin) {
+					$(".popup-bg").css('display','block');
+					$("body #popup-autojoin").css('display','block');
+					$('#header .banners').hide();
+					$('#header .top-image-wr').hide();
+				}
+				$('#popup-autojoin .social-wr img').click(function(){
+					$('#popup-autojoin .close-popup').trigger('click');
+					$('#header li[data-open="login-wr"]').trigger('click');
+				});
+			});
+		</script>
+<script async="" src="https://analytics.vz.lt/ws.min.js?v22"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/lt.js"></script>
+<script src="/js/es6/all.min.js?v22" type="module"></script>
+<script type="text/javascript">
+			if (window.localStorage && window.localStorage.removeItem)
+			{
+				window.localStorage.removeItem('__splayer__session');
+			}
+		</script>
+<script async="" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=1254293100" type="text/javascript"></script>
+
+
+<!--Updated: 2020/09/16 14:43:17-->

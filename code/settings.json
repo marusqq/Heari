@@ -1,15 +1,15 @@
 {
     "webpages": {
-        "delfi"         : false,
-        "15min"         : false,
+        "delfi"         : true,
+        "15min"         : true,
         "lrytas"        : true,
-        "verslozinios"  : false
+        "verslozinios"  : true
     },
 
     "url": {
         "delfi"         : "https://www.delfi.lt/",
         "15min"         : "https://www.15min.lt/",
         "lrytas"        : "https://www.lrytas.lt/",
-        "verslozinios"  : "https://www.vz.lt/"
+        "verslozinios"  : "https://www.vz.lt/visos-naujienos"
     }
 }
