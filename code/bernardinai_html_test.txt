@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+
+<html lang="lt">
+<head>
+<!-- START Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-338242-1"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-338242-1');
+    </script>
+<!-- END Global site tag (gtag.js) - Google Analytics -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+<meta content="no" name="msapplication-tap-highlight">
+<meta content="index, follow" name="robots"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/manifest.json" rel="manifest"/>
+<meta content="#ffffff" name="msapplication-TileColor"/>
+<meta content="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/favicons/ms-icon-144x144.png" name="msapplication-TileImage"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="3864432896930736" property="fb:app_id">
+<script>
+      var iconsUrl = 'https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/images/pin.svg';
+    </script>
+<!-- big script -->
+<script>(function(){/*
+
+Copyright The Closure Library Authors.
+SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var g=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},l=this||self,m=/^[\w+/_-]+[=]{0,2}$/,p=null,q=function(){},r=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";
+if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},u=function(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var v=function(a,b){Object.defineProperty(l,a,{configurable:!1,get:function(){return b},set:q})};var y=function(a,b){this.b=a===w&&b||"";this.a=x},x={},w={};var aa=function(a,b){a.src=b instanceof y&&b.constructor===y&&b.a===x?b.b:"type_error:TrustedResourceUrl";if(null===p)b:{b=l.document;if((b=b.querySelector&&b.querySelector("script[nonce]"))&&(b=b.nonce||b.getAttribute("nonce"))&&m.test(b)){p=b;break b}p=""}b=p;b&&a.setAttribute("nonce",b)};var z=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^+new Date).toString(36)};var A=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},B=function(a){this.a=a||l.document||document};B.prototype.appendChild=function(a,b){a.appendChild(b)};var C=function(a,b,c,d,e,f){try{var k=a.a,h=A(a.a,"SCRIPT");h.async=!0;aa(h,b);k.head.appendChild(h);h.addEventListener("load",function(){e();d&&k.head.removeChild(h)});h.addEventListener("error",function(){0<c?C(a,b,c-1,d,e,f):(d&&k.head.removeChild(h),f())})}catch(n){f()}};var ba=l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ca=l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),da=l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),ea=function(a,b,c){this.b=a;this.f=new B(this.b);this.a=null;this.c=[];this.g=!1;this.i=b;this.h=c},F=function(a){if(a.b.body&&!a.g){var b=
+function(){D(a);l.setTimeout(function(){return E(a,3)},50)};C(a.f,a.i,2,!0,function(){l[a.h]||b()},b);a.g=!0}},D=function(a){for(var b=G(1,5),c=0;c<b;c++){var d=H(a);a.b.body.appendChild(d);a.c.push(d)}b=H(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=G(100,110).toString()+"%";b.style.zIndex=G(2147483544,2147483644).toString();b.style["background-color"]=I(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=I(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=H(a);c.style.width=G(80,85).toString()+"%";c.style.maxWidth=G(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=A(a.f.a,"IMG");d.className=z();d.src=ba;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=H(a),f=H(a);f.style["font-weight"]="bold";f.textContent=ca;var k=H(a);k.textContent=da;J(a,
+e,f);J(a,e,k);J(a,c,d);J(a,c,e);J(a,b,c);a.a=b;a.b.body.appendChild(a.a);b=G(1,5);for(c=0;c<b;c++)d=H(a),a.b.body.appendChild(d),a.c.push(d)},J=function(a,b,c){for(var d=G(1,5),e=0;e<d;e++){var f=H(a);b.appendChild(f)}b.appendChild(c);c=G(1,5);for(d=0;d<c;d++)e=H(a),b.appendChild(e)},G=function(a,b){return Math.floor(a+Math.random()*(b-a))},I=function(a,b,c,d,e,f){return"rgb("+G(Math.max(a,0),Math.min(b,255)).toString()+","+G(Math.max(c,0),Math.min(d,255)).toString()+","+G(Math.max(e,0),Math.min(f,
+255)).toString()+")"},H=function(a){a=A(a.f.a,"DIV");a.className=z();return a},E=function(a,b){0>=b||null!=a.a&&0!=a.a.offsetHeight&&0!=a.a.offsetWidth||(fa(a),D(a),l.setTimeout(function(){return E(a,b-1)},50))},fa=function(a){var b=a.c;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:g(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.c=[];(b=a.a)&&b.parentNode&&b.parentNode.removeChild(b);a.a=null};var ia=function(a,b,c,d,e){var f=ha(c),k=function(n){n.appendChild(f);l.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},h=function(n){document.body?k(document.body):0<n?l.setTimeout(function(){h(n-1)},e):b()};h(3)},ha=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var K={},L=null;var M=function(){},N="function"==typeof Uint8Array,O=function(a,b){a.b=null;b||(b=[]);a.j=void 0;a.f=-1;a.a=b;a:{if(b=a.a.length){--b;var c=a.a[b];if(!(null===c||"object"!=typeof c||Array.isArray(c)||N&&c instanceof Uint8Array)){a.g=b-a.f;a.c=c;break a}}a.g=Number.MAX_VALUE}a.i={}},P=[],Q=function(a,b){if(b<a.g){b+=a.f;var c=a.a[b];return c===P?a.a[b]=[]:c}if(a.c)return c=a.c[b],c===P?a.c[b]=[]:c},R=function(a,b,c){a.b||(a.b={});if(!a.b[c]){var d=Q(a,c);d&&(a.b[c]=new b(d))}return a.b[c]};
+M.prototype.h=N?function(){var a=Uint8Array.prototype.toJSON;Uint8Array.prototype.toJSON=function(){var b;void 0===b&&(b=0);if(!L){L={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));K[e]=f;for(var k=0;k<f.length;k++){var h=f[k];void 0===L[h]&&(L[h]=k)}}}b=K[b];c=[];for(d=0;d<this.length;d+=3){var n=this[d],t=(e=d+1<this.length)?this[d+1]:0;h=(f=d+2<this.length)?this[d+2]:0;k=n>>2;n=(n&
+3)<<4|t>>4;t=(t&15)<<2|h>>6;h&=63;f||(h=64,e||(t=64));c.push(b[k],b[n],b[t]||"",b[h]||"")}return c.join("")};try{return JSON.stringify(this.a&&this.a,S)}finally{Uint8Array.prototype.toJSON=a}}:function(){return JSON.stringify(this.a&&this.a,S)};var S=function(a,b){return"number"!==typeof b||!isNaN(b)&&Infinity!==b&&-Infinity!==b?b:String(b)};M.prototype.toString=function(){return this.a.toString()};var T=function(a){O(this,a)};u(T,M);var U=function(a){O(this,a)};u(U,M);var ja=function(a,b){this.c=new B(a);var c=R(b,T,5);c=new y(w,Q(c,4)||"");this.b=new ea(a,c,Q(b,4));this.a=b},ka=function(a,b,c,d){b=new T(b?JSON.parse(b):null);b=new y(w,Q(b,4)||"");C(a.c,b,3,!1,c,function(){ia(function(){F(a.b);d(!1)},function(){d(!0)},Q(a.a,2),Q(a.a,3),Q(a.a,1))})};var la=function(a,b){V(a,"internal_api_load_with_sb",function(c,d,e){ka(b,c,d,e)});V(a,"internal_api_sb",function(){F(b.b)})},V=function(a,b,c){a=l.btoa(a+b);v(a,c)},W=function(a,b,c){for(var d=[],e=2;e<arguments.length;++e)d[e-2]=arguments[e];e=l.btoa(a+b);e=l[e];if("function"==r(e))e.apply(null,d);else throw Error("API not exported.");};var X=function(a){O(this,a)};u(X,M);var Y=function(a){this.h=window;this.a=a;this.b=Q(this.a,1);this.f=R(this.a,T,2);this.g=R(this.a,U,3);this.c=!1};Y.prototype.start=function(){ma();var a=new ja(this.h.document,this.g);la(this.b,a);na(this)};
+var ma=function(){var a=function(){if(!l.frames.googlefcPresent)if(document.body){var b=document.createElement("iframe");b.style.display="none";b.style.width="0px";b.style.height="0px";b.style.border="none";b.style.zIndex="-1000";b.style.left="-1000px";b.style.top="-1000px";b.name="googlefcPresent";document.body.appendChild(b)}else l.setTimeout(a,5)};a()},na=function(a){var b=Date.now();W(a.b,"internal_api_load_with_sb",a.f.h(),function(){var c;var d=a.b,e=l[l.btoa(d+"loader_js")];if(e){e=l.atob(e);
+e=parseInt(e,10);d=l.btoa(d+"loader_js").split(".");var f=l;d[0]in f||"undefined"==typeof f.execScript||f.execScript("var "+d[0]);for(;d.length&&(c=d.shift());)d.length?f[c]&&f[c]!==Object.prototype[c]?f=f[c]:f=f[c]={}:f[c]=null;c=Math.abs(b-e);c=1728E5>c?0:c}else c=-1;0!=c&&(W(a.b,"internal_api_sb"),Z(a,Q(a.a,6)))},function(c){Z(a,c?Q(a.a,4):Q(a.a,5))})},Z=function(a,b){a.c||(a.c=!0,a=new l.XMLHttpRequest,a.open("GET",b,!0),a.send())};(function(a,b){l[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];l[a]=q;b.apply(null,d)}})("__d3lUW8vwsKlB__",function(a){"function"==typeof window.atob&&(a=window.atob(a),a=new X(a?JSON.parse(a):null),(new Y(a)).start())});}).call(this);
+
+window.__d3lUW8vwsKlB__("WyI3MmU0YzJhZGE4Nzc4ZjBiIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4V09oR1N0X1lZeWx2ckI2X3laWW1sZUFrRXk5NHVoWTVJcWwwWkFZVlZZbzZ6STc5c2VhQ0tiMERHTm94Y1ZXRzMtSWVXWktFWGhQZlRnRndmQnRzZ1x1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiTnpKbE5HTXlZV1JoT0RjM09HWXdZZ1x1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC83MmU0YzJhZGE4Nzc4ZjBiLmpzP3VzcXBcdTAwM2RDQTQiXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hVdXlyMk0xNjd4WDZ1eDRkVXMxdUhSYWs1M093UUREUWlld0JhN3ZuMkk5SGhlWHJGUXZGdDdkZm80Wk5QOFhubHBRUS1tUmVOdjhrNzIwSm83P2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4VkVRQVRUaVRDdFh1ZTczeER3dlFZSENMdzQ1Z0Z1cmxXZFVCZlcyTzU2Vk5fVHVyWHZsZ2lmS05zbnRMTUFOOWRNTFFYTWs5YjM5VTQ0eDhjMj9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hXd0RMdEgzOUVTdlVEd3RueklVai1nX01adXVmaUNWZ0N1WjRSX3NuaFlmY1pvU3U1SEFuVTY5MnIyMmJJdndkWVZWaTJNUHhYVUJxem5SVkRvP3NiZlx1MDAzZDIiXQo=");</script>
+<!-- big script end -->
+<!-- This site is optimized with the Yoast SEO plugin v14.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Bernardinai.lt - Interneto dienraštis</title>
+<meta content="Interneto dienraštis „Bernardinai.lt“. Mūsų misija – kurti krikščionišką pasaulėžiūrą atskleidžiantį, aktualų, viltingą ir išliekantį turinį." name="description">
+<meta content="index, follow" name="robots">
+<meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="googlebot">
+<meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="bingbot">
+<meta content="lt_LT" property="og:locale">
+<meta content="website" property="og:type"/>
+<meta content="Bernardinai.lt - Interneto dienraštis" property="og:title"/>
+<meta content="Interneto dienraštis „Bernardinai.lt“. Mūsų misija – kurti krikščionišką pasaulėžiūrą atskleidžiantį, aktualų, viltingą ir išliekantį turinį." property="og:description"/>
+<meta content="https://www.bernardinai.lt/" property="og:url"/>
+<meta content="Bernardinai.lt" property="og:site_name"/>
+<meta content="2020-09-22T07:28:23+00:00" property="article:modified_time"/>
+<meta content="https://www.bernardinai.lt/wp-content/uploads/bernardinai-lt.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<script class="yoast-schema-graph" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.bernardinai.lt/#website","url":"https://www.bernardinai.lt/","name":"Bernardinai.lt","description":"Interneto dienra\u0161tis","potentialAction":[{"@type":"SearchAction","target":"https://www.bernardinai.lt/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"lt-LT"},{"@type":"ImageObject","@id":"https://www.bernardinai.lt/#primaryimage","inLanguage":"lt-LT","url":"https://www.bernardinai.lt/wp-content/uploads/bernardinai-lt.png","width":1200,"height":630},{"@type":"WebPage","@id":"https://www.bernardinai.lt/#webpage","url":"https://www.bernardinai.lt/","name":"Bernardinai.lt - Interneto dienra\u0161tis","isPartOf":{"@id":"https://www.bernardinai.lt/#website"},"primaryImageOfPage":{"@id":"https://www.bernardinai.lt/#primaryimage"},"datePublished":"2020-05-30T05:12:43+00:00","dateModified":"2020-09-22T07:28:23+00:00","description":"Interneto dienra\u0161tis \u201eBernardinai.lt\u201c. M\u016bs\u0173 misija \u2013 kurti krik\u0161\u010dioni\u0161k\u0105 pasaul\u0117\u017ei\u016br\u0105 atskleid\u017eiant\u012f, aktual\u0173, vilting\u0105 ir i\u0161liekant\u012f turin\u012f.","inLanguage":"lt-LT","potentialAction":[{"@type":"ReadAction","target":["https://www.bernardinai.lt/"]}]}]}</script>
+<!-- / Yoast SEO plugin. -->
+<link href="//www.bernardinai.lt" rel="dns-prefetch">
+<link href="//s.w.org" rel="dns-prefetch">
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.bernardinai.lt\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://www.bernardinai.lt/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css">
+<link href="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/style.css?ver=5.4.2" id="frontend-css" media="all" rel="stylesheet" type="text/css">
+<link href="https://www.bernardinai.lt/wp-json/" rel="https://api.w.org/">
+<link href="https://www.bernardinai.lt/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml">
+<link href="https://www.bernardinai.lt/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml">
+<meta content="WordPress 5.4.2" name="generator"/>
+<link href="https://www.bernardinai.lt/" rel="shortlink">
+<link href="https://www.bernardinai.lt/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bernardinai.lt%2F" rel="alternate" type="application/json+oembed">
+<link href="https://www.bernardinai.lt/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bernardinai.lt%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
+</link></link></link></link></link></link></link></link></link></link></meta></meta></meta></meta></meta></meta></meta></head>
+<body>
+<!-- (C)2000-2020 Gemius SA - gemiusPrism  / http://www.bernardinai.lt/Visa aplinka -->
+<script type="text/javascript">
+      		<!--//--><![CDATA[//><!--
+      		var pp_gemius_identifier = 'olfqJnLn2zuST0_PEtyVKMVHfSW1_W78QuM7DUdUNuv.Z7';
+      		// lines below shouldn't be edited
+      		function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');gt.setAttribute('defer','defer'); gt.src=l+'://galt.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+      		//--><!]]>
+		</script>
+<header class="header">
+<div class="container">
+<div class="header-top has-border-bt">
+<a class="header-logo" href="https://www.bernardinai.lt">
+<svg viewbox="0 0 209.683 54.958" xmlns="http://www.w3.org/2000/svg">
+<g stroke="rgba(0,0,0,0)" stroke-miterlimit="10">
+<path class="logo-font" d="M199.432 49.114V31.54H196.9v-1.06h2.528l.218-6h4.49v6h4.489v1.021h-4.485v17.4c0 2.252.871 3.4 2.571 3.4a2.719 2.719 0 002.18-1.016l.218.221a4.593 4.593 0 01-4.664 2.958c-3.312-.007-5.013-1.994-5.013-5.35zm-44.162 3.8a6.318 6.318 0 01-1.433-4.326c0-2.883 1.264-4.776 4.1-6.138 1.192-.583 3.087-1.332 6.146-2.428v-6.23c0-1.924-.686-2.782-2.223-2.782-1.6.088-2.521.788-7.018 5.343l-.218-.088.218-4.151a18.935 18.935 0 018.021-2.12 6.835 6.835 0 014.38 1.225 4.319 4.319 0 011.5 3.544v19.208h-4.621l-.041-2.47a5.582 5.582 0 01-5.056 2.957 4.9 4.9 0 01-3.755-1.547zm4.332-9.427c-.835.985-1.04 2.292-1.1 4.084a7.126 7.126 0 00.626 3.45 2.157 2.157 0 002.033 1.1h.147a3.535 3.535 0 002.73-1.283V40.99c-2.184.842-3.611 1.521-4.438 2.494zm-84.561 9.424a6.329 6.329 0 01-1.427-4.326c0-2.883 1.258-4.776 4.081-6.138 1.189-.583 3.076-1.332 6.121-2.428v-6.227c0-1.924-.683-2.782-2.214-2.782-1.6.088-2.51.788-6.989 5.343l-.218-.088.218-4.151a18.8 18.8 0 017.987-2.119 6.793 6.793 0 014.363 1.225 4.328 4.328 0 011.5 3.544v19.207h-4.6l-.047-2.47a5.554 5.554 0 01-5.035 2.957 4.868 4.868 0 01-3.74-1.547zm4.314-9.427c-.832.985-1.036 2.293-1.1 4.084a7.142 7.142 0 00.624 3.45 2.144 2.144 0 002.024 1.1h.147a3.479 3.479 0 002.719-1.283V40.99c-2.169.842-3.592 1.521-4.415 2.494zm-55.8 7.71c-1.477-2.063-2.258-5.1-2.258-8.793a15.736 15.736 0 012.303-8.946 7.624 7.624 0 016.51-3.417 6.989 6.989 0 015.742 2.727 11.168 11.168 0 012.029 6.9c0 .5-.039 1.087-.08 1.707l-.007.1H26.2v.31c0 3.229.462 5.562 1.411 7.131a4.753 4.753 0 004.406 2.363 5.915 5.915 0 003.24-.905 6.534 6.534 0 002.231-2.495l.3.176c-.96 4.129-3.643 6.4-7.554 6.4a7.757 7.757 0 01-6.68-3.257zm3.489-18.11a16.909 16.909 0 00-.844 6.317v1.015h6.947V38.56a16.6 16.6 0 00-.662-5.713 2.531 2.531 0 00-2.551-1.838 2.972 2.972 0 00-2.89 2.076zM106.5 51.327a16.061 16.061 0 01-1.976-8.483c0-3.955.825-7.235 2.388-9.488a7.4 7.4 0 016.3-3.361 7 7 0 013.988 1.236v-5.917c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v33.426h-4.646l-.086-2.826a6.06 6.06 0 01-10.657.182zm4.152-17.657c-.715 1.683-1.048 4.289-1.048 8.2 0 3.673.3 6.134.955 7.749a3.344 3.344 0 003.3 2.451 4.314 4.314 0 003.343-1.633V32.158h-.043a5.805 5.805 0 00-3.083-.927 3.467 3.467 0 00-3.423 2.439zM2.28 53.265V25.27c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v12.275a6.817 6.817 0 015.47-2.826c4.54.046 7.25 4.272 7.25 11.3 0 4.252-.9 7.541-2.687 9.775s-4.437 3.384-7.863 3.384a22.513 22.513 0 01-6.859-1.144zm4.689-19.826v19.737a11.229 11.229 0 002.128.176c2.122-.048 3.379-.741 4.2-2.318.856-1.643 1.248-4.32 1.27-8.677 0-3.723-.293-6.2-.922-7.788a3.344 3.344 0 00-3.333-2.456 4.943 4.943 0 00-3.343 1.326zm174.068 17.838a2.964 2.964 0 112.964 3h-.08a2.907 2.907 0 01-2.884-3zm7.977 2.694v-.31a8.8 8.8 0 001.308-1.854 5.092 5.092 0 00.305-1.855V25.314c-.043-1.987-.174-2.253-1.831-4.46v-.309h6.5v29.408a4.313 4.313 0 00.305 1.855 7.407 7.407 0 001.299 1.853v.31zm-17.872 0v-.31a9.489 9.489 0 001.352-1.854 5.093 5.093 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-26.153 0v-.309a10.166 10.166 0 001.264-1.855 5.1 5.1 0 00.305-1.854V36.265c0-2.34-1-3.8-3.313-3.8a4.96 4.96 0 00-3.488 1.457v16.032a4.306 4.306 0 00.305 1.854 7.733 7.733 0 001.22 1.855v.309h-7.846v-.309a9.5 9.5 0 001.352-1.855 5.1 5.1 0 00.305-1.854V34.985c0-1.811-.175-2.165-1.7-4.195v-.31h6.233l.13 2.826a6.65 6.65 0 015.8-3.311c3.618 0 5.71 2.34 5.71 6.137v13.822h-.043a4.306 4.306 0 00.305 1.854 7.416 7.416 0 001.308 1.855v.309zm-20.75 0v-.31a9.49 9.49 0 001.352-1.854 5.092 5.092 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-59.44 0v-.309a10.117 10.117 0 001.259-1.855 5.105 5.105 0 00.3-1.854V36.265c0-2.34-1-3.8-3.3-3.8a4.931 4.931 0 00-3.473 1.457v16.032a4.321 4.321 0 00.3 1.854 7.727 7.727 0 001.215 1.855v.309h-7.806v-.309a9.5 9.5 0 001.346-1.855 5.108 5.108 0 00.3-1.854V34.985c0-1.811-.174-2.165-1.693-4.195v-.31h6.208l.131 2.826a6.618 6.618 0 015.774-3.311c3.6 0 5.687 2.34 5.687 6.137v13.822h-.043a4.321 4.321 0 00.3 1.854 7.407 7.407 0 001.3 1.855v.309zm26.05-.044v-.31a9.523 9.523 0 001.351-1.854 5.117 5.117 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.693-4.195v-.309h6.208l.174 3.621c1.346-2.87 3.039-4.107 4.732-4.107a3.371 3.371 0 012.128.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.82-1.413a2.479 2.479 0 00-1.867.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm-51.8 0v-.31a9.484 9.484 0 001.351-1.854 5.114 5.114 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.694-4.195v-.309h6.209l.174 3.621c1.345-2.87 3.038-4.107 4.732-4.107a3.369 3.369 0 012.127.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.819-1.413a2.48 2.48 0 00-1.868.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm132.965-29.626a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.008-2.914zm-46.9 0a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.011-2.914z"></path>
+<path class="logo-fish" d="M59.583 5.757c-6.043 2.844-16.726 4.744-28.974 4.744-12.611 0-23.609-2.017-29.5-5 5.891-2.983 16.889-5 29.5-5 12.276 0 23.023 1.911 29.019 4.764C65.548 2.436 76.073.541 88.109.501v10c-12.067 0-22.615-1.9-28.526-4.744z" fill="#ee4d30"></path>
+</g>
+</svg>
+</a>
+<div class="header-top__wrap">
+<nav class="header-nav">
+<ul class="header-nav__list">
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/kategorija/religija/">Religija</a>
+</li>
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/kategorija/visuomene/">Visuomenė</a>
+</li>
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/kategorija/kultura/">Kultūra</a>
+</li>
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/kategorija/seima/">Šeima</a>
+</li>
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/diena-su-dievu/">Diena su Dievu</a>
+</li>
+</ul>
+</nav>
+<nav class="header-nav">
+<ul class="header-nav__list">
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/multimedija/">Mediateka</a>
+</li>
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/ciklai/">Ciklai</a>
+</li>
+<li class="header-nav__item">
+<a href="https://www.bernardinai.lt/autoriai/">Autoriai</a>
+</li>
+</ul>
+</nav>
+<div class="search-toggle" data-modal="search">
+<svg viewbox="0 0 20.414 20.414" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2">
+<path d="M9 1a8 8 0 11-8 8 8 8 0 018-8zM19 19l-4.35-4.35"></path>
+</g>
+</svg>
+</div>
+<div class="burger" data-modal="mega-menu">
+<svg viewbox="0 0 20 14" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2">
+<path d="M1 7h18M1 1h18M1 13h18"></path>
+</g>
+</svg>
+</div>
+</div>
+</div>
+<div class="header-bottom">
+<div class="header-bottom__item first">
+<time>
+<a href="https://www.bernardinai.lt/diena-su-dievu/">Rugsėjo 23 d.</a>
+</time>
+</div>
+<div class="header-bottom__item">
+<p class="header-quote">
+<span class="header-quote--highlight">Evangelijos komentaras </span>
+<a class="link" href="https://www.bernardinai.lt/lk-9-1-6-juos-issiunte-dievo-karalystes-skelbti-sveikatos-ligoniams-teikti/" target="_blank">Lk 9, 1–6 „Juos išsiuntė Dievo karalystės skelbti, sveikatos ligoniams teikti“</a>
+</p>
+</div>
+<div class="header-bottom__item last">
+<p class="header-quote">
+<span class="header-quote--highlight">Dienos šventasis </span>
+<a class="link" href="https://www.bernardinai.lt/sv-pijus-pietrelcinietis-atrakines-dievo-lobyna/" target="_blank">Šv. Pijus Pietrelčinietis - atrakinęs Dievo lobyną</a>
+</p>
+</div>
+</div>
+</div>
+</header>
+<main>
+<section class="section headline-articles">
+<div class="container">
+<article class="article article-main has-badge">
+<div class="content">
+<div class="details-block">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/jurgita-jacenaite/">Jurgita Jačėnaitė</a></p>
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/kostas-kajenas/">Kostas Kajėnas</a></p>
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/gediminas-sulcas/">Gediminas Šulcas</a></p>
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/vytautas-kirlys/">Vytautas Kirlys</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+              20 min
+            </div>
+</div>
+<a href="https://www.bernardinai.lt/mausa-bairakas-apie-nenuorama-hipi-muzikanta-laikrodininka-sinagogos-seniuna/">
+<h3 class="h1">Mauša Bairakas. Apie nenuoramą hipį, muzikantą, laikrodininką, sinagogos seniūną </h3>
+</a>
+<p class="exerp exerp--lg">Ir augo jis be senelių ir močiučių, be tų žmonių, kaip pats sako, kurie duoda vaikams dvasinį išsilavinimą.</p>
+</div>
+<a class="img-wrap" href="https://www.bernardinai.lt/mausa-bairakas-apie-nenuorama-hipi-muzikanta-laikrodininka-sinagogos-seniuna/">
+<div class="badge badge--video"></div>
+<img alt="Rodo savo vaikystės nuotrauką." class="fit" src="https://www.bernardinai.lt/wp-content/uploads/3-21-1024x576.jpg"/>
+</a>
+</article>
+<div class="headline-articles__list">
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/trumpas-ar-bidenas-ka-rinksis-jav-katalikai/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/BidenTrump-768x432.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/rosita-garskaite/">Rosita Garškaitė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 7</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/trumpas-ar-bidenas-ka-rinksis-jav-katalikai/">
+<h3 class="h3">Trumpas ar Bidenas – ką rinksis JAV katalikai? </h3>
+</a>
+<p class="exerp">Jei rinkimus laimėtų demokratas Joe Bidenas, jis būtų antrasis katalikas prezidentas po Johno F. Kennedy.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/kai-begalinis-noras-gyventi-buvo-stipresnis-uz-mirti/">
+<img alt="Cipora Zimanaitė – „Stasė“. Kitoje nuotraukos pusėje užrašyta „Stasė – Aldonai. 1945 02 18.“" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Aldonos-Bagdonavičiūtės-Jankūnienės-archyvas-768x603.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/romualdas-beniusis/">Romualdas Beniušis</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 5</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/kai-begalinis-noras-gyventi-buvo-stipresnis-uz-mirti/">
+<h3 class="h3">Kai begalinis noras gyventi buvo stipresnis už mirtį </h3>
+</a>
+<p class="exerp">Feigė Zimanaitė – viena iš nedaugelio Darbėnų žydų bendruomenės narių, kuriai noras gyventi padėjo išlikti nacių okupacijos metais.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/s-maslauskaites-mazylienes-nutapytas-paveikslas-atsidurs-baznycioje-oksforde-tai-nuostabus-nors-ir-baisokas-ivykis/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Bl.-Mykolas-Giedraitis-1-e1600814484407-768x644.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/simonas-bendzius/">Simonas Bendžius</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 7</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/s-maslauskaites-mazylienes-nutapytas-paveikslas-atsidurs-baznycioje-oksforde-tai-nuostabus-nors-ir-baisokas-ivykis/">
+<h3 class="h3">S. Maslauskaitės-Mažylienės nutapytas paveikslas atsidurs bažnyčioje Oksforde: „Tai – nuostabus, nors ir baisokas, įvykis“ </h3>
+</a>
+<p class="exerp">Anglijos katalikai melsis prie pal. Mykolo Giedraičio atvaizdo. Labai reta atvejų, kai lietuvių kūryba puošia maldos namus užsienyje.</p>
+</article>
+</div>
+</div>
+</section>
+<section class="section ad-banner no-mob">
+<div class="container">
+<div class="ad-banner__wrap">
+<small class="">Reklama</small>
+<div class="banner">
+<div id="BND01_980x200"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section ad-banner only-mob">
+<div class="container">
+<div class="ad-banner__wrap">
+<small class="">Reklama</small>
+<div class="banner">
+<div id="bnd04_300x600_3"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section support only-mob">
+<div class="container">
+<div class="aside-support">
+<a class="aside-logo" href="https://www.bernardinai.lt">
+<svg viewbox="0 0 209.683 54.958" xmlns="http://www.w3.org/2000/svg">
+<g stroke="rgba(0,0,0,0)" stroke-miterlimit="10">
+<path class="logo-font" d="M199.432 49.114V31.54H196.9v-1.06h2.528l.218-6h4.49v6h4.489v1.021h-4.485v17.4c0 2.252.871 3.4 2.571 3.4a2.719 2.719 0 002.18-1.016l.218.221a4.593 4.593 0 01-4.664 2.958c-3.312-.007-5.013-1.994-5.013-5.35zm-44.162 3.8a6.318 6.318 0 01-1.433-4.326c0-2.883 1.264-4.776 4.1-6.138 1.192-.583 3.087-1.332 6.146-2.428v-6.23c0-1.924-.686-2.782-2.223-2.782-1.6.088-2.521.788-7.018 5.343l-.218-.088.218-4.151a18.935 18.935 0 018.021-2.12 6.835 6.835 0 014.38 1.225 4.319 4.319 0 011.5 3.544v19.208h-4.621l-.041-2.47a5.582 5.582 0 01-5.056 2.957 4.9 4.9 0 01-3.755-1.547zm4.332-9.427c-.835.985-1.04 2.292-1.1 4.084a7.126 7.126 0 00.626 3.45 2.157 2.157 0 002.033 1.1h.147a3.535 3.535 0 002.73-1.283V40.99c-2.184.842-3.611 1.521-4.438 2.494zm-84.561 9.424a6.329 6.329 0 01-1.427-4.326c0-2.883 1.258-4.776 4.081-6.138 1.189-.583 3.076-1.332 6.121-2.428v-6.227c0-1.924-.683-2.782-2.214-2.782-1.6.088-2.51.788-6.989 5.343l-.218-.088.218-4.151a18.8 18.8 0 017.987-2.119 6.793 6.793 0 014.363 1.225 4.328 4.328 0 011.5 3.544v19.207h-4.6l-.047-2.47a5.554 5.554 0 01-5.035 2.957 4.868 4.868 0 01-3.74-1.547zm4.314-9.427c-.832.985-1.036 2.293-1.1 4.084a7.142 7.142 0 00.624 3.45 2.144 2.144 0 002.024 1.1h.147a3.479 3.479 0 002.719-1.283V40.99c-2.169.842-3.592 1.521-4.415 2.494zm-55.8 7.71c-1.477-2.063-2.258-5.1-2.258-8.793a15.736 15.736 0 012.303-8.946 7.624 7.624 0 016.51-3.417 6.989 6.989 0 015.742 2.727 11.168 11.168 0 012.029 6.9c0 .5-.039 1.087-.08 1.707l-.007.1H26.2v.31c0 3.229.462 5.562 1.411 7.131a4.753 4.753 0 004.406 2.363 5.915 5.915 0 003.24-.905 6.534 6.534 0 002.231-2.495l.3.176c-.96 4.129-3.643 6.4-7.554 6.4a7.757 7.757 0 01-6.68-3.257zm3.489-18.11a16.909 16.909 0 00-.844 6.317v1.015h6.947V38.56a16.6 16.6 0 00-.662-5.713 2.531 2.531 0 00-2.551-1.838 2.972 2.972 0 00-2.89 2.076zM106.5 51.327a16.061 16.061 0 01-1.976-8.483c0-3.955.825-7.235 2.388-9.488a7.4 7.4 0 016.3-3.361 7 7 0 013.988 1.236v-5.917c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v33.426h-4.646l-.086-2.826a6.06 6.06 0 01-10.657.182zm4.152-17.657c-.715 1.683-1.048 4.289-1.048 8.2 0 3.673.3 6.134.955 7.749a3.344 3.344 0 003.3 2.451 4.314 4.314 0 003.343-1.633V32.158h-.043a5.805 5.805 0 00-3.083-.927 3.467 3.467 0 00-3.423 2.439zM2.28 53.265V25.27c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v12.275a6.817 6.817 0 015.47-2.826c4.54.046 7.25 4.272 7.25 11.3 0 4.252-.9 7.541-2.687 9.775s-4.437 3.384-7.863 3.384a22.513 22.513 0 01-6.859-1.144zm4.689-19.826v19.737a11.229 11.229 0 002.128.176c2.122-.048 3.379-.741 4.2-2.318.856-1.643 1.248-4.32 1.27-8.677 0-3.723-.293-6.2-.922-7.788a3.344 3.344 0 00-3.333-2.456 4.943 4.943 0 00-3.343 1.326zm174.068 17.838a2.964 2.964 0 112.964 3h-.08a2.907 2.907 0 01-2.884-3zm7.977 2.694v-.31a8.8 8.8 0 001.308-1.854 5.092 5.092 0 00.305-1.855V25.314c-.043-1.987-.174-2.253-1.831-4.46v-.309h6.5v29.408a4.313 4.313 0 00.305 1.855 7.407 7.407 0 001.299 1.853v.31zm-17.872 0v-.31a9.489 9.489 0 001.352-1.854 5.093 5.093 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-26.153 0v-.309a10.166 10.166 0 001.264-1.855 5.1 5.1 0 00.305-1.854V36.265c0-2.34-1-3.8-3.313-3.8a4.96 4.96 0 00-3.488 1.457v16.032a4.306 4.306 0 00.305 1.854 7.733 7.733 0 001.22 1.855v.309h-7.846v-.309a9.5 9.5 0 001.352-1.855 5.1 5.1 0 00.305-1.854V34.985c0-1.811-.175-2.165-1.7-4.195v-.31h6.233l.13 2.826a6.65 6.65 0 015.8-3.311c3.618 0 5.71 2.34 5.71 6.137v13.822h-.043a4.306 4.306 0 00.305 1.854 7.416 7.416 0 001.308 1.855v.309zm-20.75 0v-.31a9.49 9.49 0 001.352-1.854 5.092 5.092 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-59.44 0v-.309a10.117 10.117 0 001.259-1.855 5.105 5.105 0 00.3-1.854V36.265c0-2.34-1-3.8-3.3-3.8a4.931 4.931 0 00-3.473 1.457v16.032a4.321 4.321 0 00.3 1.854 7.727 7.727 0 001.215 1.855v.309h-7.806v-.309a9.5 9.5 0 001.346-1.855 5.108 5.108 0 00.3-1.854V34.985c0-1.811-.174-2.165-1.693-4.195v-.31h6.208l.131 2.826a6.618 6.618 0 015.774-3.311c3.6 0 5.687 2.34 5.687 6.137v13.822h-.043a4.321 4.321 0 00.3 1.854 7.407 7.407 0 001.3 1.855v.309zm26.05-.044v-.31a9.523 9.523 0 001.351-1.854 5.117 5.117 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.693-4.195v-.309h6.208l.174 3.621c1.346-2.87 3.039-4.107 4.732-4.107a3.371 3.371 0 012.128.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.82-1.413a2.479 2.479 0 00-1.867.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm-51.8 0v-.31a9.484 9.484 0 001.351-1.854 5.114 5.114 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.694-4.195v-.309h6.209l.174 3.621c1.345-2.87 3.038-4.107 4.732-4.107a3.369 3.369 0 012.127.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.819-1.413a2.48 2.48 0 00-1.868.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm132.965-29.626a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.008-2.914zm-46.9 0a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.011-2.914z"></path>
+<path class="logo-fish" d="M59.583 5.757c-6.043 2.844-16.726 4.744-28.974 4.744-12.611 0-23.609-2.017-29.5-5 5.891-2.983 16.889-5 29.5-5 12.276 0 23.023 1.911 29.019 4.764C65.548 2.436 76.073.541 88.109.501v10c-12.067 0-22.615-1.9-28.526-4.744z" fill="#ee4d30"></path>
+</g>
+</svg>
+</a>
+<h3 class="title">Tapk kokybiškos žiniasklaidos rėmėju!</h3>
+<div class="support-counter">
+<p class="month">Rugsėjis:</p>
+<p class="supported">Surinkta:: <span class="supported-value">4360.42 Eur (44%)</span></p>
+<div class="bar">
+<div class="bar__inner" style="width: 44%;"></div>
+</div>
+<div class="bar-values">
+<small>0 Eur</small>
+<small>10000 Eur</small>
+</div>
+</div>
+<a class="btn-pr" href="https://www.bernardinai.lt/parama/">Paremti</a>
+</div>
+</div>
+</section>
+<section class="section newest-articles">
+<div class="container">
+<div class="color-wrap color-wrap--light">
+<h4 class="title h1">Naujausi</h4>
+<div class="collumns-list four-collumns-list">
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/partizanai-profesionalaus-kario-zvilgsniu/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/8192952159-jonas-zemaitis-300x217.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/gediminas-kulikauskas/">Gediminas Kulikauskas</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 3</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/partizanai-profesionalaus-kario-zvilgsniu/">
+<h3 class="h3">Partizanai profesionalaus kario žvilgsniu </h3>
+</a>
+<p class="exerp">Ernesto Kuckailio knygos „Dešimt kautynių. Partizanų mūšiai profesionalaus kario akimis apžvalga“.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/mire-matematikas-algirdas-zabulionis/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/1195869756-zvakes-300x200.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/bernardinai-lt/">bernardinai.lt</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> &lt; 1</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/mire-matematikas-algirdas-zabulionis/">
+<h3 class="h3">Mirė matematikas Algirdas Zabulionis </h3>
+</a>
+<p class="exerp">Eidamas 66-uosius metus mirė buvęs Nacionalinio egzaminų centro vadovas, žinomas matematikas Algirdas Zabulionis.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/sesiems-kurejams-auksciausi-kulturos-ministerijos-apdovanojimai/">
+<img alt="Stovi dviese." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/20200922IGPhoto4567-300x200.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/bernardinai-lt/">bernardinai.lt</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> &lt; 1</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/sesiems-kurejams-auksciausi-kulturos-ministerijos-apdovanojimai/">
+<h3 class="h3">Šešiems kūrėjams – aukščiausi Kultūros ministerijos apdovanojimai </h3>
+</a>
+<p class="exerp">Lietuvos kultūrai ir menui nusipelniusiems kūrėjams įteikti garbės ženklai „Nešk savo šviesą ir tikėk“.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/kaip-sustabdyti-apkalbas-isikaskite-liezuvi-ir-pagalvokite-apie-mergele-marija/">
+<img alt="Dvi moterys apkalbinėja" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/ben-white-4Bs9kSDJsdc-unsplash-300x200.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/vatican-news/">„Vatican News“</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 3</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/kaip-sustabdyti-apkalbas-isikaskite-liezuvi-ir-pagalvokite-apie-mergele-marija/">
+<h3 class="h3">Kaip sustabdyti apkalbas? Įsikąskite liežuvį ir pagalvokite apie Mergelę Mariją </h3>
+</a>
+<p class="exerp">A.pkalbos yra maras, baisesnis už COVIDą.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/kartos-patirciu-remontas-pokalbis-su-j-tumasonyte/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/6971531840-jurga-tumasonyte-e1600345259333-300x249.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/jurate-cerskute/">Jūratė Čerškutė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 10</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/kartos-patirciu-remontas-pokalbis-su-j-tumasonyte/">
+<h3 class="h3">Kartos patirčių remontas. Pokalbis su J. Tumasonyte </h3>
+</a>
+<p class="exerp">Šiemet J. Tumasonytė debiutavo su pirmuoju romanu „Remontas“.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/rinkimams-ruosiuosi-kasdien/">
+<img alt="Portretas." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Dainiaus-Dirgėlos-nuotr.-1-300x200.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/giedre-kazlauskaite/">Giedrė Kazlauskaitė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 2</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/rinkimams-ruosiuosi-kasdien/">
+<h3 class="h3">Rinkimams ruošiuosi kasdien </h3>
+</a>
+<p class="exerp">Mėgstu atsiriboti nuo feisbuko draugų, net jei jie mieli ir sąžiningi žmonės, karštų agitacijų ir rekomendacijų.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/kun-w-buscho-paraginimas-ivairaus-amziaus-jaunimui-neplanuokite-gyvenimo-tik-iki-kapo/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/8759155970-vilma-sabutiene-300x169.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/vilma-sabutiene/">Vilma Sabutienė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/kun-w-buscho-paraginimas-ivairaus-amziaus-jaunimui-neplanuokite-gyvenimo-tik-iki-kapo/">
+<h3 class="h3">Kun. W. Buscho paraginimas įvairaus amžiaus jaunimui: „Neplanuokite gyvenimo tik iki kapo!“ </h3>
+</a>
+<p class="exerp">Vokiečių autoriaus knyga „Jėzus – mūsų dalia“ savo laiku padarė įtaką ne tik Lietuvos liuteronams, bet ir daugeliui evangelikų bei katalikų.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/ar-lietuvos-europarlamentarai-susiduria-su-interesu-atstovavimo-dilema/">
+<img alt="Europos Parlamentas" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/h_56348496-300x183.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/bernardinai-lt/">bernardinai.lt</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 3</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/ar-lietuvos-europarlamentarai-susiduria-su-interesu-atstovavimo-dilema/">
+<h3 class="h3">Ar Lietuvos europarlamentarai susiduria su interesų atstovavimo dilema? </h3>
+</a>
+<p class="exerp">Plenarinėje sesijoje balsavimo EP nariams tenka rinktis – europinį prioritetą arba nacionalinį interesą.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/mire-profesorius-romas-pakalnis/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/51044-300x190.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/bernardinai-lt/">bernardinai.lt</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> &lt; 1</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/mire-profesorius-romas-pakalnis/">
+<h3 class="h3">Mirė profesorius Romas Pakalnis </h3>
+</a>
+<p class="exerp">Rugsėjo 20 d. netekome aplinkosaugininko, visuomenės veikėjo prof. Romo Pakalnio. </p>
+</article>
+<article class="article has-badge">
+<a class="img-wrap" href="https://www.bernardinai.lt/ipolitas-uzkurnys-menininkas-pieses-dieva-sirdimi/">
+<div class="badge badge--photo"></div>
+<img alt="Sėdi prie skulptūros." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/LLMA-F.-326-ap.1-b.-277-l.-9-I.-Užkurnys-prie-savo-kūrinio-biusto-poetui-Pauliui-Širviui.-1989-m.-300x217.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/ruta-zemaityte/">Rūta Žemaitytė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 3</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/ipolitas-uzkurnys-menininkas-pieses-dieva-sirdimi/">
+<h3 class="h3">Ipolitas Užkurnys – menininkas, piešęs Dievą širdimi </h3>
+</a>
+<p class="exerp">Menotyrininkas V. Rimkus I. Užkurnį pavadino liaudies dailės gigantu.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/ar-prasminga-apie-apranga-kalbeti-is-krikscioniskos-perspektyvos/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/artificial-photography-vB5qtt8X4NA-unsplash-300x200.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/filomena/">Filomena</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/ar-prasminga-apie-apranga-kalbeti-is-krikscioniskos-perspektyvos/">
+<h3 class="h3">Ar prasminga apie aprangą kalbėti iš krikščioniškos perspektyvos? </h3>
+</a>
+<p class="exerp">Jau krikščionybės pradžioje apaštalai atkreipė dėmesį į aprangą rašydami pirmosioms bendruomenėms.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/puciamuju-orkestru-muzikos-tradicija-palangoje/">
+<img alt="Lietuvos policijos orkestras šiaurinėje Tiškevičių rūmų pusėje 1937-1939 m." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Lietuvos-policijos-orkestras-šiaurinėje-Tiškevičių-rūmų-pusėje-.-1937-1939-Skirmanto-Andriušio-archyvas-300x148.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/romualdas-beniusis/">Romualdas Beniušis</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 3</span> <span class="rt-label rt-postfix"></span></span> min
+              </div>
+</div>
+<a href="https://www.bernardinai.lt/puciamuju-orkestru-muzikos-tradicija-palangoje/">
+<h3 class="h3">Pučiamųjų orkestrų muzikos tradicija Palangoje </h3>
+</a>
+<p class="exerp">Jau antrą šimtmetį Palangoje, grafų Tiškevičių rūmų ir parko aplinkoje, vyksta pučiamųjų orkestrų muzikos koncertai.</p>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section class="section ad-banner no-mob">
+<div class="container">
+<div class="ad-banner__wrap">
+<small class="">Reklama</small>
+<div class="banner">
+<div id="bnd20_980x200_2"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section ad-banner only-mob">
+<div class="container">
+<div class="ad-banner__wrap">
+<small class="">Reklama</small>
+<div class="banner">
+<div id="bnd05_300x600_4"></div>
+</div>
+</div>
+</div>
+</section>
+<div class="section section-has-aside">
+<div class="container">
+<div class="wrapper">
+<section class="article-list multimedia-list">
+<div class="color-wrap color-wrap--light">
+<a class="read-more" href="https://www.bernardinai.lt/multimedija/">Daugiau</a>
+<h4 class="title h1">Mediateka</h4>
+<div class="multimedia-list__wrapper">
+<article class="article article-multimedia article-multimedia--main article-multimedia--single">
+<a href="https://www.bernardinai.lt/mazoji-vilniaus-istorija-l-coheno-skulptura/">
+<img alt="Skulptūra kiemelyje." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/9989557150-leonardas-cohenas-romualdas-kvintas-768x513.jpg"/>
+<div class="content">
+<h3 class="title h3">Mažoji Vilniaus istorija. L. Coheno skulptūra </h3>
+<div class="details-block details-block--sm">
+<p class="details-block__author">Kostas Kajėnas</p>
+<p class="details-block__author">Gediminas Šulcas</p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+                        16 min
+                      </div>
+</div>
+</div>
+<div class="badge badge--video"></div>
+</a>
+</article>
+<article class="article article-multimedia">
+<a href="https://www.bernardinai.lt/sekmadienio-meditacija-kaip-i-pasauli-zvelgia-dievas/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/9925139958-benas-ulevicius-768x432.jpg"/>
+<div class="content">
+<h3 class="title h3">Sekmadienio meditacija. Kaip į pasaulį žvelgia Dievas? </h3>
+<div class="details-block details-block--sm">
+<p class="details-block__author">Diak. Benas Ulevičius</p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+                        4 min
+                      </div>
+</div>
+</div>
+<div class="badge badge--video"></div>
+</a>
+</article>
+<article class="article article-multimedia">
+<a href="https://www.bernardinai.lt/viskas-prasidejo-nuo-senelio-vielutes-ir-viskas-joje-sutilpo-egidijaus-lateno-kalvyste/">
+<img alt="Portretas su pasaga." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/24-2-768x326.jpg"/>
+<div class="content">
+<h3 class="title h3">Viskas prasidėjo nuo senelio vielutės ir viskas joje sutilpo. Egidijaus Latėno kalvystė </h3>
+<div class="details-block details-block--sm">
+<p class="details-block__author">Jurgita Jačėnaitė</p>
+<p class="details-block__author">Kostas Kajėnas</p>
+<p class="details-block__author">Vytautas Kirlys</p>
+<p class="details-block__author">Gediminas Šulcas</p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+                        19 min
+                      </div>
+</div>
+</div>
+<div class="badge badge--video"></div>
+</a>
+</article>
+<article class="article article-multimedia">
+<a href="https://www.bernardinai.lt/vilna-lietuvos-jeruzale-iv-vilniaus-geto-biblioteka/">
+<img alt="Susėdę daug žmonių." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Sporto-aikštelės-Vilniaus-gete-atidarymo-šventė.-©-Vilniaus-Gaono-žydų-istorijos-muziejus-768x548.jpg"/>
+<div class="content">
+<h3 class="title h3">Vilna – Lietuvos Jeruzalė (IV). Vilniaus geto biblioteka </h3>
+<div class="details-block details-block--sm">
+<p class="details-block__author">Kostas Kajėnas</p>
+<p class="details-block__author">Gediminas Šulcas</p>
+<p class="details-block__author">Vytautas Kirlys</p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+                        15 min
+                      </div>
+</div>
+</div>
+<div class="badge badge--video"></div>
+</a>
+</article>
+<article class="article article-multimedia">
+<a href="https://www.bernardinai.lt/pirmosios-memelio-baznycios/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/8159159497-sv-jono-baznycia-klaipedoje-768x597.jpg"/>
+<div class="content">
+<h3 class="title h3">Pirmosios Mėmelio bažnyčios </h3>
+<div class="details-block details-block--sm">
+<p class="details-block__author">XFM Radijas</p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+                        40 min
+                      </div>
+</div>
+</div>
+<div class="badge badge--audio"></div>
+</a>
+</article>
+</div>
+</div>
+</section>
+<aside class="aside aside--lg top">
+<div class="aside-article-list">
+<h4 class="title h1">Iš redakcijos</h4>
+<article class="article">
+<div class="round-img">
+<img alt="" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/2020-31-150x150.jpg"/>
+</div>
+<div class="content">
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/rasa-baskiene/">Rasa Baškienė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 4</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/apie-veidmainiska-rupesti-ir-manipuliacijas-dievo-kurinija/">
+<h3 class="title h3">Apie veidmainišką rūpestį ir manipuliacijas Dievo kūrinija </h3>
+</a>
+</div>
+</article>
+<article class="article">
+<div class="round-img">
+<img alt="" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/DSC_0440-150x150.jpg"/>
+</div>
+<div class="content">
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/jurgita-jacenaite/">Jurgita Jačėnaitė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 8</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/dailininkas-v-zukas-menas-religija-ir-sazine-vienas-be-kito-neissilaiko/">
+<h3 class="title h3">Dailininkas V. Žukas: menas, religija ir sąžinė vienas be kito neišsilaiko </h3>
+</a>
+</div>
+</article>
+<article class="article">
+<div class="round-img">
+<img alt="" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/101464647_1102454753474649_967861383980908544_n-150x150.jpg"/>
+</div>
+<div class="content">
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/augminas-petronis/">Augminas Petronis</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 4</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/lietuvoje-geroves-valstybes-nebus/">
+<h3 class="title h3">Lietuvoje gerovės valstybės nebus </h3>
+</a>
+</div>
+</article>
+<a class="read-more" href="https://www.bernardinai.lt/is-redakcijos/">Daugiau</a>
+</div>
+<div class="aside-ad aside-native-ad js-native-default-container" data-delay="8000">
+<div class="aside-native-ad__container swiper-container js-native-default-slider">
+<div class="aside-native-ad__wrapper swiper-wrapper">
+<div class="aside-native-ad__slide swiper-slide">
+<a href="https://artuma.lt/" onclick="gtag('event','click', { 'event_category':'Native ad', 'event_label':'Pasikartojanti aside reklama' });" rel="noopener noreferrer" target="_blank">
+<img alt="" src="https://www.bernardinai.lt/wp-content/uploads/artuma202009-10_bernardinams.gif"/>
+</a>
+</div>
+<div class="aside-native-ad__slide swiper-slide">
+<a href="http://www.lenkukinas.lt/" onclick="gtag('event','click', { 'event_category':'Native ad', 'event_label':'Pasikartojanti aside reklama' });" rel="noopener noreferrer" target="_blank">
+<img alt="" src="https://www.bernardinai.lt/wp-content/uploads/LENKU-KINU-FESTIVALIS_Tęsinys_banner_300×250.jpg"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="aside-ad">
+<div class="banner">
+<div id="bnd11_300x250_1"></div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<section class="section ad-banner only-mob">
+<div class="container">
+<div class="ad-banner__wrap">
+<small class="">Reklama</small>
+<div class="banner">
+<div id="bnd06_300x600_5"></div>
+</div>
+</div>
+</div>
+</section>
+<div class="section section-has-aside">
+<div class="container">
+<div class="wrapper">
+<section class="article-list popular-list">
+<div class="color-wrap color-wrap--light-orange">
+<h4 class="title h1 h1--dark-r">Skaitomiausi</h4>
+<div class="popular-list__wrapper">
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/isiziurekim-dubingiai/">
+<img alt="Šv. Jurgio Kankinio bažnyčia Dubingiuose" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/IMG_0400-768x406.jpeg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/elvyra-kucinskaite/">Elvyra Kučinskaitė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 7</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/isiziurekim-dubingiai/">
+<h3 class="title h3">Įsižiūrėkim: Dubingiai </h3>
+</a>
+<p class="exerp">Primirštu užkampiu tapusiame 200 gyventojų miestelyje išaugo nauja, graži Šv. Jurgio Kankinio bažnyčia. Kodėl būtent ten?</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/872566-2/">
+<img alt="" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/1491589459-medziugorje-768x468.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/saulena-ziugzdaite/">Saulena Žiugždaitė</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 7</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/872566-2/">
+<h3 class="title h3">Medžiugorjės vaisiai – ne vien teigiami. Interviu su nuncijumi arkivysk. P. Rajičiumi </h3>
+</a>
+<p class="exerp">Sunku pasakyti, kaip ateityje vystysis Medžiugorjės fenomenas, nes yra daug neišspręstų klausimų.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/gastronominiai-mitai-apie-krikscionybe-ar-biblija-draudzia-valgyti-mesa/">
+<img alt="Gabrielius E. Klimenka" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/ZEN_2521-768x511.jpg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/gabrielius-e-klimenka-ops/">Gabrielius E. Klimenka, OPs</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 7</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/gastronominiai-mitai-apie-krikscionybe-ar-biblija-draudzia-valgyti-mesa/">
+<h3 class="title h3">Gastronominiai mitai apie krikščionybę. Ar Biblija draudžia valgyti mėsą? </h3>
+</a>
+<p class="exerp">Visada svarbu turėti omenyje viso Šventojo Rašto kontekstą – ne vien atskiras eilutes.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/telsiu-vyskupas-a-jurevicius-itampa-visada-islieka-ir-bus/">
+<img alt="Vysk. Algirdas Jurevičius" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Vysk.-Algirdas-Jurevičius.jpeg"/>
+</a>
+<div class="details-block details-block--sm">
+<p class="details-block__author"><a href="https://www.bernardinai.lt/autoriai/antanas-terleckas/">Antanas Terleckas</a></p>
+<div class="details-block__time">
+<span class="icon">
+<svg viewbox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" transform="translate(.5 .5)"><circle cx="7" cy="7" r="7"></circle><path d="M7 3v4.5L10 9"></path></g></svg>
+</span>
+<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 15</span> <span class="rt-label rt-postfix"></span></span> min
+                  </div>
+</div>
+<a href="https://www.bernardinai.lt/telsiu-vyskupas-a-jurevicius-itampa-visada-islieka-ir-bus/">
+<h3 class="title h3">Telšių vyskupas A. Jurevičius: „Įtampa visada išlieka ir bus…“ </h3>
+</a>
+<p class="exerp">Lietuvoje Bažnyčia ieško kelio, kaip bendrauti su šiuolaikiniu žmogumi.</p>
+</article>
+</div>
+</div>
+</section>
+<aside class="aside aside--lg no-mob">
+<div class="aside-support">
+<a class="aside-logo" href="https://www.bernardinai.lt">
+<svg viewbox="0 0 209.683 54.958" xmlns="http://www.w3.org/2000/svg">
+<g stroke="rgba(0,0,0,0)" stroke-miterlimit="10">
+<path class="logo-font" d="M199.432 49.114V31.54H196.9v-1.06h2.528l.218-6h4.49v6h4.489v1.021h-4.485v17.4c0 2.252.871 3.4 2.571 3.4a2.719 2.719 0 002.18-1.016l.218.221a4.593 4.593 0 01-4.664 2.958c-3.312-.007-5.013-1.994-5.013-5.35zm-44.162 3.8a6.318 6.318 0 01-1.433-4.326c0-2.883 1.264-4.776 4.1-6.138 1.192-.583 3.087-1.332 6.146-2.428v-6.23c0-1.924-.686-2.782-2.223-2.782-1.6.088-2.521.788-7.018 5.343l-.218-.088.218-4.151a18.935 18.935 0 018.021-2.12 6.835 6.835 0 014.38 1.225 4.319 4.319 0 011.5 3.544v19.208h-4.621l-.041-2.47a5.582 5.582 0 01-5.056 2.957 4.9 4.9 0 01-3.755-1.547zm4.332-9.427c-.835.985-1.04 2.292-1.1 4.084a7.126 7.126 0 00.626 3.45 2.157 2.157 0 002.033 1.1h.147a3.535 3.535 0 002.73-1.283V40.99c-2.184.842-3.611 1.521-4.438 2.494zm-84.561 9.424a6.329 6.329 0 01-1.427-4.326c0-2.883 1.258-4.776 4.081-6.138 1.189-.583 3.076-1.332 6.121-2.428v-6.227c0-1.924-.683-2.782-2.214-2.782-1.6.088-2.51.788-6.989 5.343l-.218-.088.218-4.151a18.8 18.8 0 017.987-2.119 6.793 6.793 0 014.363 1.225 4.328 4.328 0 011.5 3.544v19.207h-4.6l-.047-2.47a5.554 5.554 0 01-5.035 2.957 4.868 4.868 0 01-3.74-1.547zm4.314-9.427c-.832.985-1.036 2.293-1.1 4.084a7.142 7.142 0 00.624 3.45 2.144 2.144 0 002.024 1.1h.147a3.479 3.479 0 002.719-1.283V40.99c-2.169.842-3.592 1.521-4.415 2.494zm-55.8 7.71c-1.477-2.063-2.258-5.1-2.258-8.793a15.736 15.736 0 012.303-8.946 7.624 7.624 0 016.51-3.417 6.989 6.989 0 015.742 2.727 11.168 11.168 0 012.029 6.9c0 .5-.039 1.087-.08 1.707l-.007.1H26.2v.31c0 3.229.462 5.562 1.411 7.131a4.753 4.753 0 004.406 2.363 5.915 5.915 0 003.24-.905 6.534 6.534 0 002.231-2.495l.3.176c-.96 4.129-3.643 6.4-7.554 6.4a7.757 7.757 0 01-6.68-3.257zm3.489-18.11a16.909 16.909 0 00-.844 6.317v1.015h6.947V38.56a16.6 16.6 0 00-.662-5.713 2.531 2.531 0 00-2.551-1.838 2.972 2.972 0 00-2.89 2.076zM106.5 51.327a16.061 16.061 0 01-1.976-8.483c0-3.955.825-7.235 2.388-9.488a7.4 7.4 0 016.3-3.361 7 7 0 013.988 1.236v-5.917c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v33.426h-4.646l-.086-2.826a6.06 6.06 0 01-10.657.182zm4.152-17.657c-.715 1.683-1.048 4.289-1.048 8.2 0 3.673.3 6.134.955 7.749a3.344 3.344 0 003.3 2.451 4.314 4.314 0 003.343-1.633V32.158h-.043a5.805 5.805 0 00-3.083-.927 3.467 3.467 0 00-3.423 2.439zM2.28 53.265V25.27c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v12.275a6.817 6.817 0 015.47-2.826c4.54.046 7.25 4.272 7.25 11.3 0 4.252-.9 7.541-2.687 9.775s-4.437 3.384-7.863 3.384a22.513 22.513 0 01-6.859-1.144zm4.689-19.826v19.737a11.229 11.229 0 002.128.176c2.122-.048 3.379-.741 4.2-2.318.856-1.643 1.248-4.32 1.27-8.677 0-3.723-.293-6.2-.922-7.788a3.344 3.344 0 00-3.333-2.456 4.943 4.943 0 00-3.343 1.326zm174.068 17.838a2.964 2.964 0 112.964 3h-.08a2.907 2.907 0 01-2.884-3zm7.977 2.694v-.31a8.8 8.8 0 001.308-1.854 5.092 5.092 0 00.305-1.855V25.314c-.043-1.987-.174-2.253-1.831-4.46v-.309h6.5v29.408a4.313 4.313 0 00.305 1.855 7.407 7.407 0 001.299 1.853v.31zm-17.872 0v-.31a9.489 9.489 0 001.352-1.854 5.093 5.093 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-26.153 0v-.309a10.166 10.166 0 001.264-1.855 5.1 5.1 0 00.305-1.854V36.265c0-2.34-1-3.8-3.313-3.8a4.96 4.96 0 00-3.488 1.457v16.032a4.306 4.306 0 00.305 1.854 7.733 7.733 0 001.22 1.855v.309h-7.846v-.309a9.5 9.5 0 001.352-1.855 5.1 5.1 0 00.305-1.854V34.985c0-1.811-.175-2.165-1.7-4.195v-.31h6.233l.13 2.826a6.65 6.65 0 015.8-3.311c3.618 0 5.71 2.34 5.71 6.137v13.822h-.043a4.306 4.306 0 00.305 1.854 7.416 7.416 0 001.308 1.855v.309zm-20.75 0v-.31a9.49 9.49 0 001.352-1.854 5.092 5.092 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-59.44 0v-.309a10.117 10.117 0 001.259-1.855 5.105 5.105 0 00.3-1.854V36.265c0-2.34-1-3.8-3.3-3.8a4.931 4.931 0 00-3.473 1.457v16.032a4.321 4.321 0 00.3 1.854 7.727 7.727 0 001.215 1.855v.309h-7.806v-.309a9.5 9.5 0 001.346-1.855 5.108 5.108 0 00.3-1.854V34.985c0-1.811-.174-2.165-1.693-4.195v-.31h6.208l.131 2.826a6.618 6.618 0 015.774-3.311c3.6 0 5.687 2.34 5.687 6.137v13.822h-.043a4.321 4.321 0 00.3 1.854 7.407 7.407 0 001.3 1.855v.309zm26.05-.044v-.31a9.523 9.523 0 001.351-1.854 5.117 5.117 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.693-4.195v-.309h6.208l.174 3.621c1.346-2.87 3.039-4.107 4.732-4.107a3.371 3.371 0 012.128.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.82-1.413a2.479 2.479 0 00-1.867.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm-51.8 0v-.31a9.484 9.484 0 001.351-1.854 5.114 5.114 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.694-4.195v-.309h6.209l.174 3.621c1.345-2.87 3.038-4.107 4.732-4.107a3.369 3.369 0 012.127.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.819-1.413a2.48 2.48 0 00-1.868.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm132.965-29.626a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.008-2.914zm-46.9 0a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.011-2.914z"></path>
+<path class="logo-fish" d="M59.583 5.757c-6.043 2.844-16.726 4.744-28.974 4.744-12.611 0-23.609-2.017-29.5-5 5.891-2.983 16.889-5 29.5-5 12.276 0 23.023 1.911 29.019 4.764C65.548 2.436 76.073.541 88.109.501v10c-12.067 0-22.615-1.9-28.526-4.744z" fill="#ee4d30"></path>
+</g>
+</svg>
+</a>
+<h3 class="title">Tapk kokybiškos žiniasklaidos rėmėju!</h3>
+<div class="support-counter">
+<p class="month">Rugsėjis:</p>
+<p class="supported">Surinkta:: <span class="supported-value">4360.42 Eur (44%)</span></p>
+<div class="bar">
+<div class="bar__inner" style="width: 44%;"></div>
+</div>
+<div class="bar-values">
+<small>0 Eur</small>
+<small>10000 Eur</small>
+</div>
+</div>
+<a class="btn-pr" href="https://www.bernardinai.lt/parama/">Paremti</a>
+</div>
+<div class="aside-ad">
+<div id="BND03_300x600_2"></div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<section class="section ad-banner no-mob">
+<div class="container">
+<div class="ad-banner__wrap">
+<small class="">Reklama</small>
+<div class="banner">
+<div id="bnd21_980x200_3"></div>
+</div>
+</div>
+</div>
+</section>
+<div class="section notice section-has-aside">
+<div class="container">
+<div class="wrapper">
+<section class="notice-wrapper">
+<a class="read-more no-mob" href="https://www.bernardinai.lt/afisa/">Daugiau</a>
+<h4 class="title h1 h1--dark-o">Afiša</h4>
+<div class="notice-list">
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/k-lupos-austerlicas-akistata-su-neatsakomais-klausimais/">
+<img alt="Spektaklio scena." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Austerlicas_Vanseviciene_4-300x200.jpg"/>
+</a>
+<p class="tip">Žiūrėk</p>
+<a href="https://www.bernardinai.lt/k-lupos-austerlicas-akistata-su-neatsakomais-klausimais/">
+<h3 class="h3">K. Lupos „Austerlicas“ – akistata su neatsakomais klausimais </h3>
+</a>
+<p class="exerp">K. Lupos kvietimu spektaklio kūrybinėje komandoje dalyvauja režisierius Š. Bartas.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/liturgines-muzikos-dirbtuves-su-kompozitoriumi-pawelu-bebeneku/">
+<img alt="Pawełas Bębenekas" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/207-300x227.jpg"/>
+</a>
+<p class="tip">Dalyvauk</p>
+<a href="https://www.bernardinai.lt/liturgines-muzikos-dirbtuves-su-kompozitoriumi-pawelu-bebeneku/">
+<h3 class="h3">Liturginės muzikos dirbtuvės su kompozitoriumi Pawełu Bębeneku </h3>
+</a>
+<p class="exerp">Spalio 2-4 dienomis, Dominikonų vienuolyne, Vasario 16-osios 11, Vilniuje.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/kataliku-teologijos-studijos-islieka-aktualios/">
+<img alt="Knyga ant jūros kranto" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Atostogos-300x190.jpeg"/>
+</a>
+<p class="tip">Prisidėk</p>
+<a href="https://www.bernardinai.lt/kataliku-teologijos-studijos-islieka-aktualios/">
+<h3 class="h3">Katalikų teologijos studijos išlieka aktualios </h3>
+</a>
+<p class="exerp">VDU Katalikų teologijos fakultetas naujus mokslo metus sutiko su pakilia nuotaika.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/vilnius-kviecia-tapti-sporto-cempionais/">
+<img alt="Sportas" class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/Impuls-2-300x200.jpg"/>
+</a>
+<p class="tip">Dalyvauk</p>
+<a href="https://www.bernardinai.lt/vilnius-kviecia-tapti-sporto-cempionais/">
+<h3 class="h3">Vilnius kviečia tapti sporto čempionais </h3>
+</a>
+<p class="exerp">Artėjant šaltajam metų sezonui Vilniaus miesto savivaldybė skelbia kampaniją „Tapk pats sau čempionu“.</p>
+</article>
+<article class="article">
+<a class="img-wrap" href="https://www.bernardinai.lt/rudeniska-artuma-apie-baznycios-ir-valstybes-kataliku-ir-valdzios-santykius/">
+<img alt="Žurnalo viršelis." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/artuma202009-10_vir-e1600196213400-300x265.jpg"/>
+</a>
+<p class="tip">Skaityk</p>
+<a href="https://www.bernardinai.lt/rudeniska-artuma-apie-baznycios-ir-valstybes-kataliku-ir-valdzios-santykius/">
+<h3 class="h3">Rudeniška „Artuma“: apie Bažnyčios ir valstybės, katalikų ir valdžios santykius </h3>
+</a>
+<p class="exerp">Tad ar tik pyksime „ant valdžios“? O gal verčiau drąsiai ir atsakingai eisime pasirinkti?</p>
+</article>
+<article class="article has-badge">
+<a class="img-wrap" href="https://www.bernardinai.lt/paroda-apie-sventaji-jeronima-ir-jo-pasekejus/">
+<div class="badge badge--photo"></div>
+<img alt="XVIII a. rankraštinio evangelyno Evangelijos pagal Morkų pradžia." class="fit" loading="lazy" src="https://www.bernardinai.lt/wp-content/uploads/4-17-scaled-e1600144980977-300x261.jpg"/>
+</a>
+<p class="tip">Žiūrėk</p>
+<a href="https://www.bernardinai.lt/paroda-apie-sventaji-jeronima-ir-jo-pasekejus/">
+<h3 class="h3">Paroda „Apie šventąjį Jeronimą ir jo pasekėjus“ </h3>
+</a>
+<p class="exerp">Paroda iki spalio 23 d. veikia Lietuvos mokslų akademijos Vrublevskių bibliotekoje. </p>
+</article>
+</div>
+</section>
+<aside class="aside top">
+<article class="daily-quote">
+<a href="https://www.bernardinai.lt/2010-12-19-virgilijus-noreika-sekmes-paslapciu-beieskant/">
+<div class="daily-quote__icon">
+<svg viewbox="0 0 47 33" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.345 33a10.418 10.418 0 01-8.3-3.757 14.927 14.927 0 01-3.063-9.679 20.79 20.79 0 011.426-7.847 16.458 16.458 0 014.212-6.046 20.008 20.008 0 016.9-3.991A32.825 32.825 0 0147 0v4.243c-3.978.557-6.906 1.545-8.953 3.02a8.814 8.814 0 00-3.715 6.644h4.617a10.146 10.146 0 015.594 2.976 9.1 9.1 0 012.22 6.335 9.325 9.325 0 01-3.034 7.145A10.948 10.948 0 0136.345 33zm-24.98 0a10.418 10.418 0 01-8.3-3.757A14.927 14.927 0 010 19.564a20.791 20.791 0 011.426-7.847 16.457 16.457 0 014.212-6.045 20.007 20.007 0 016.9-3.991A32.826 32.826 0 0122.02 0v4.243c-3.973.556-6.906 1.544-8.968 3.02a9.055 9.055 0 00-3.818 6.644h4.736a10.146 10.146 0 015.594 2.976 9.1 9.1 0 012.22 6.335 9.325 9.325 0 01-3.034 7.145A10.948 10.948 0 0111.365 33z"></path>
+</svg>
+</div>
+<h3 class="daily-quote__title">Dienos citata</h3>
+<p class="daily-quote__quote-text">
+                  Aš baisiai noriu, kad manęs klausytų, kiekvieną mano žodį išgirstų. Niekada nesu prašęs publikos, kad plotų man dainuojant. Ne, aš jų nestabdau. Bet dažniausiai plojimai taip ir pasibaigia, vos prasidėję. Anksčiau žmonės labiau klausydavo. Ir laiškus rašydavo.                </p>
+<h4 class="daily-quote__author">
+                  Maestro Virgilijus Noreika (2010 m.)                </h4>
+<div class="daily-quote__icon daily-quote__icon--right">
+<svg viewbox="0 0 47 33" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.655 0a10.418 10.418 0 018.3 3.757 14.927 14.927 0 013.063 9.679 20.79 20.79 0 01-1.426 7.847 16.458 16.458 0 01-4.212 6.046 20.008 20.008 0 01-6.9 3.991A32.825 32.825 0 010 33v-4.243c3.978-.557 6.906-1.545 8.953-3.02a8.814 8.814 0 003.715-6.644H8.051a10.146 10.146 0 01-5.594-2.976 9.1 9.1 0 01-2.22-6.335 9.325 9.325 0 013.034-7.145A10.948 10.948 0 0110.655 0zm24.98 0a10.418 10.418 0 018.3 3.757A14.927 14.927 0 0147 13.436a20.791 20.791 0 01-1.426 7.847 16.457 16.457 0 01-4.212 6.045 20.007 20.007 0 01-6.9 3.991A32.826 32.826 0 0124.98 33v-4.243c3.973-.556 6.906-1.544 8.968-3.02a9.055 9.055 0 003.818-6.644H33.03a10.146 10.146 0 01-5.594-2.976 9.1 9.1 0 01-2.22-6.335 9.325 9.325 0 013.034-7.145A10.948 10.948 0 0135.635 0z"></path>
+</svg>
+</div>
+</a>
+</article>
+<div class="aside-ad aside-native-ad js-native-home-container" data-delay="5000">
+<div class="aside-native-ad__container swiper-container js-native-home-slider">
+<div class="aside-native-ad__wrapper swiper-wrapper">
+<div class="aside-native-ad__slide swiper-slide">
+<a href="http://www.bmfestival.lt/" onclick="gtag('event','click', { 'event_category':'Native home ad', 'event_label':'Home aside reklama' });" rel="noopener noreferrer" target="_blank">
+<img alt="" src="https://www.bernardinai.lt/wp-content/uploads/Banchetto-20_baneris-1000x834-1.jpg"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<section class="native-ads section ad-banner no-mob" data-delay="5000">
+<div class="container">
+<div class="banner banner--full">
+<div class="native-ads__container swiper-container">
+<div class="native-ads__wrapper swiper-wrapper">
+<div class="native-ads__slide swiper-slide">
+<a href="https://lyderiams.lt/?gclid=Cj0KCQjwnqH7BRDdARIsACTSAdvUyFiAuHt4efUKd4kCxk635VJVY5jitYn5-iNSDsz9NpzxxDk4z3waAhJ0EALw_wcB" onclick="gtag('event','click', { 'event_category':'Native home ad', 'event_label':'Home pagrindinė reklama' });" rel="noopener noreferrer" target="_blank">
+<img alt="" src="https://www.bernardinai.lt/wp-content/uploads/970X250-Amy.jpg"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="native-mob-ads section ad-banner only-mob full-width" data-delay="5000">
+<div class="container">
+<div class="banner banner--full">
+<div class="native-mob-ads__container swiper-container">
+<div class="native-mob-ads__wrapper swiper-wrapper">
+<div class="native-mob-ads__slide swiper-slide">
+<a href="https://lyderiams.lt/?gclid=Cj0KCQjwnqH7BRDdARIsACTSAdvUyFiAuHt4efUKd4kCxk635VJVY5jitYn5-iNSDsz9NpzxxDk4z3waAhJ0EALw_wcB" onclick="gtag('event','click', { 'event_category':'Native home ad', 'event_label':'Home pagrindinė mobile reklama' });" rel="noopener noreferrer" target="_blank">
+<img alt="" src="https://www.bernardinai.lt/wp-content/uploads/300X250.jpg"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-head">
+<div class="footer-head__block social-block">
+<p class="title">Sekite mus:</p>
+<div class="icon icon-fb first">
+<a href="https://www.facebook.com/bernardinai.lt" rel="noopener" target="_blank">
+<div class="icon__wrapper">
+<svg viewbox="0 0 10 21" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.77 6.3V4.47c0-.818.375-1.11.77-1.11h2.192V0h-3.1c-3.677 0-4.52 2.512-4.52 4.263V6.3H0v4.2h2.116V21h4.231V10.5h3.258l.14-1.645L10 6.3z"></path>
+</svg>
+</div>
+</a>
+</div>
+<div class="icon icon-ig">
+<a href="https://www.instagram.com/bernardinai.lt/" rel="noopener" target="_blank">
+<div class="icon__wrapper">
+<svg viewbox="0 0 24.627 24.627" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.831 24.627H6.8a6.8 6.8 0 01-6.8-6.8V6.8A6.8 6.8 0 016.8 0h11.031a6.8 6.8 0 016.8 6.8v11.031a6.8 6.8 0 01-6.8 6.796zM6.8 2.185A4.616 4.616 0 002.185 6.8v11.031A4.616 4.616 0 006.8 22.442h11.031a4.617 4.617 0 004.612-4.612V6.8a4.616 4.616 0 00-4.612-4.611z"></path>
+<path d="M11.902 18.247a6.345 6.345 0 116.346-6.345 6.353 6.353 0 01-6.346 6.345zm0-10.506a4.16 4.16 0 104.161 4.161 4.165 4.165 0 00-4.161-4.161zM19.193 3.704a1.6 1.6 0 00-1.129 2.736 1.6 1.6 0 002.265 0 1.6 1.6 0 00-1.136-2.736"></path>
+</svg>
+</div>
+</a>
+</div>
+<div class="icon icon-youtube">
+<a href="https://www.youtube.com/channel/UCLzYvEDCRkpuZBUk0or9fXA/videos" rel="noopener" target="_blank">
+<div class="icon__wrapper">
+<svg viewbox="0 0 23 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clippath id="a">
+<path d="M0 0h23v16H0z" fill="none"></path>
+</clippath>
+</defs>
+<path d="M0 0h23v16H0z" fill="none"></path>
+<g clip-path="url(#a)">
+<path d="M11.484 16c-.06 0-6.059-.061-7.9-.238-.09-.016-.195-.028-.317-.042a3.4 3.4 0 01-2.233-.93 4.8 4.8 0 01-.888-2.277C.148 12.5 0 10.666 0 8.837V7.095c0-1.813.148-3.652.149-3.67a4.484 4.484 0 01.842-2.26A3.22 3.22 0 013.155.222L3.325.2C6.051.015 9.943 0 11.071 0h.778c1.128 0 5.022.015 7.748.2.052.007.112.013.179.02a3.165 3.165 0 012.13.931 4.849 4.849 0 01.912 2.265c0 .019.183 1.873.183 3.676v1.745c0 1.831-.18 3.658-.182 3.677a4.785 4.785 0 01-.887 2.277 3.186 3.186 0 01-2.148.953l-.169.019c-3.228.211-8.082.237-8.131.237zM9.2 4.522v6.4l6.257-3.19-3.481-1.752z" fill="#4a4a4a"></path>
+</g>
+</svg>
+</div>
+</a>
+</div>
+</div>
+<div class="footer-head__block mail-block">
+<p class="title">Rašykite mums:</p>
+<div class="icon icon-mail first">
+<a href="/cdn-cgi/l/email-protection#107275627e716274797e7179507275627e716274797e71793e7c64">
+<div class="icon__wrapper">
+<svg viewbox="0 0 21.992 16.991" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M20.028 16.991a1.9 1.9 0 001.287-.477l-6.23-6.129-.431.3q-.7.507-1.135.79a7.04 7.04 0 01-1.16.579 3.585 3.585 0 01-1.35.3h-.024a3.584 3.584 0 01-1.35-.3 7.017 7.017 0 01-1.158-.569q-.439-.286-1.138-.793c-.13-.094-.274-.197-.43-.307L.677 16.514a1.9 1.9 0 001.287.477zM1.24 6.528A6.477 6.477 0 010 5.478V14.8l5.492-5.4Q3.844 8.268 1.24 6.528zM20.764 6.528q-2.507 1.669-4.262 2.874l5.489 5.4V5.478a6.741 6.741 0 01-1.227 1.05z"></path>
+<path d="M20.028 0H1.963A1.765 1.765 0 00.509.627 2.408 2.408 0 000 2.2a2.793 2.793 0 00.675 1.643 6.041 6.041 0 001.436 1.394q.417.29 2.516 1.72l1.977 1.35c.481.33.9.615 1.239.852l.183.128.338.24q.4.284.663.459t.638.392a3.752 3.752 0 00.706.326 1.982 1.982 0 00.614.109h.024a1.983 1.983 0 00.614-.109 3.744 3.744 0 00.706-.326q.374-.217.638-.392t.663-.459l.338-.24.184-.129 1.242-.849 4.5-3.073a5.788 5.788 0 001.5-1.484 3.156 3.156 0 00.6-1.822 1.836 1.836 0 00-.585-1.363A1.914 1.914 0 0020.028 0z"></path>
+</g>
+</svg>
+</div>
+</a>
+</div>
+</div>
+<div class="footer-head__block newsletter-block">
+<p class="title">Prenumeruokite mus:</p>
+<form data-action="/wp-json/endpoints/newsletter" data-async="" data-method="post" id="newsletter" novalidate="">
+<div class="form_input form_input--newsletter">
+<div class="icon">
+<svg viewbox="0 0 21.393 17" xmlns="http://www.w3.org/2000/svg">
+<g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+<path d="M2.696.5h16a2.006 2.006 0 012 2v12a2.006 2.006 0 01-2 2h-16a2.006 2.006 0 01-2-2v-12a2.006 2.006 0 012-2z"></path>
+<path d="M20.696 2.5l-10 7-10-7"></path>
+</g>
+</svg>
+</div>
+<input class="required" data-text="" id="newsletter-email" name="email" placeholder="Jūsų el. pašto adresas" type="email"/>
+</div>
+<div class="form_input form_input-checkbox">
+<input class="required" data-check="" id="newsletter-accept" name="accept" type="checkbox"/>
+<label for="newsletter-accept">
+<p>Susipažinau su <a href="https://www.bernardinai.lt/taisykles/kita/">taisyklėmis</a></p>
+</label>
+</div>
+<div class="form_submit">
+<div class="form_submit__btn">
+<input type="submit" value="Registruotis"/>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="footer-nav">
+<div class="wrapper">
+<div class="footer-nav__item">
+<h4 class="title">Apie mus</h4>
+<ul class="footer-nav__list">
+<li>
+<a href="https://www.bernardinai.lt/apie-mus/kita/">Bendra informacija</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/apie-mus/misija/">Misija</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/apie-mus/komanda/">Komanda</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/apie-mus/steigejai/">Steigėjai</a>
+</li>
+</ul>
+</div>
+<div class="footer-nav__item">
+<h4 class="title">Taisyklės</h4>
+<ul class="footer-nav__list">
+<li>
+<a href="https://www.bernardinai.lt/taisykles/naudojimosi-taisykles/">Naudojimosi taisyklės</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/taisykles/privatumo-nuostatai/">Privatumo nuostatai</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/reklama-9/reklamos-galimybes/">Reklamos galimybės</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/taisykles/komentavimo-taisykles/">Komentavimo taisyklės</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/taisykles/kita/">Naujienlaiškio prenumerata</a>
+</li>
+</ul>
+</div>
+<div class="footer-nav__item">
+<h4 class="title">Partneriai</h4>
+<ul class="footer-nav__list">
+<li>
+<a href="https://www.bernardinai.lt/partneriai/">Rėmėjai</a>
+</li>
+<li>
+<a href="/partneriai/#draugai">Draugai</a>
+</li>
+</ul>
+</div>
+<div class="footer-nav__item">
+<h4 class="title">Parama</h4>
+<ul class="footer-nav__list">
+<li>Tapk kokybiškos žiniasklaidos rėmėju!</li>
+<li class="btn">
+<a href="https://www.bernardinai.lt/parama/">Paremti</a>
+</li>
+</ul>
+</div>
+<div class="footer-nav__item">
+<h4 class="title">Kontaktai</h4>
+<ul class="footer-nav__list">
+<li>
+<a href="/cdn-cgi/l/email-protection#98eafdfcf9f3fbf1f2f9d8fafdeaf6f9eafcf1f6f9f1b6f4ec"><span class="__cf_email__" data-cfemail="d7a5b2b3b6bcb4bebdb697b5b2a5b9b6a5b3beb9b6bef9bba3">[email protected]</span></a>
+</li>
+<li>
+<a href="/cdn-cgi/l/email-protection#5d3c39303433342e292f3c3e34373c1d3f382f333c2f3934333c34733129"><span class="__cf_email__" data-cfemail="2a4b4e47434443595e584b4943404b6a484f58444b584e43444b4304465e">[email protected]</span></a>
+</li>
+<li>Tel: <a href="tel:+370 673 45416">+370 673 45416</a></li>
+<li>Maironio g. 10<br/>LT-01124 Vilnius</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<p class="footer-copyright__text">© 2004 - 2020 VšĮ „Bernardinai.lt“</p>
+</div>
+</div>
+</footer>
+<div class="modal" id="search">
+<div class="modal_outer">
+<div class="modal_inner">
+<div class="container">
+<div class="close-wrap">
+<div class="modal_close">
+<span class="modal_close-cross"></span>
+</div>
+</div>
+</div>
+<div class="search-container">
+<h4 class="title h1">Paieška</h4>
+<form action="https://www.bernardinai.lt/paieska/" data-searchform="" id="search-form" novalidate="">
+<div class="form_input form_input--search">
+<input data-text="" id="search-input" name="q" placeholder="Įveskite paieškos žodį ar frazę" type="text"/>
+<input name="search-type" type="hidden" value="search-by-title"/>
+<input type="submit" value=""/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="modal" id="mega-menu">
+<div class="modal_outer">
+<div class="modal_inner">
+<div class="container">
+<div class="close-wrap">
+<div class="modal_close">
+<span class="modal_close-cross"></span>
+</div>
+</div>
+</div>
+<div class="container">
+<nav class="mega-menu">
+<div class="wrapper">
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/kategorija/religija/">
+                                Religija                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/kategorija/religija/tikejimas/">Tikėjimas</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/religija/baznycia-lietuvoje/">Bažnyčia Lietuvoje</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/religija/baznycia-pasaulyje/">Bažnyčia pasaulyje</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/religija/kitos-konfesijos-ir-religijos/">Kitos konfesijos ir religijos</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/religija/sv-pranciskus/">Šv. Pranciškus</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/religija/religija-archyvas/">Archyvas</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/kategorija/visuomene/">
+                                Visuomenė                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/kategorija/visuomene/sankirtos/">Sankirtos</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/visuomene/istorija/">Istorija</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/visuomene/idejos/">Idėjos</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/visuomene/svietimas/">Švietimas</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/visuomene/solidarumas/">Solidarumas</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/visuomene/visuomene-archyvas/">Archyvas</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/kategorija/kultura/">
+                                Kultūra                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/kategorija/kultura/literatura/">Literatūra</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/kultura/kinas-ir-fotografija/">Kinas ir fotografija</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/kultura/scenos-menai/">Scenos menai</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/kultura/muzika/">Muzika</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/kultura/daile-ir-architektura/">Dailė ir architektūra</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/kultura/kultura-archyvas/">Archyvas</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/seima-104/">
+                                Šeima                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/kategorija/seima/psichologija/">Psichologija</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/seima/sveikata/">Sveikata</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/seima/santuoka/">Santuoka</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/seima/vaikai/">Vaikai</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/seima/kasdienybe/">Kasdienybė</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/diena-su-dievu/">
+                                Diena su Dievu                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/kategorija/diena-su-dievu/dienos-sventasis/">Dienos šventasis</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/kategorija/diena-su-dievu/evangelijos-komentaras/">Evangelijos komentaras</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/multimedija/">
+                                Mediateka                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/multimedija/video-irasai/">Video įrašai</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/multimedija/audio-irasai/">Audio įrašai</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/multimedija/nuotrauku-galerijos/">Nuotraukų galerijos</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/ciklai/">
+                                Ciklai                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/ciklai/">Ciklai</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/autoriai/">
+                                Autoriai                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/autoriai/">Autoriai</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">
+<a href="https://www.bernardinai.lt/kontaktai/">
+                                Kontaktai                                </a>
+</h4>
+<ul class="mega-menu-block__list">
+<li>
+<a href="https://www.bernardinai.lt/kontaktai/">Kontaktai</a>
+</li>
+<li>
+<a href="https://www.bernardinai.lt/apie-mus/komanda/">Komanda</a>
+</li>
+</ul>
+</div>
+<div class="mega-menu-block">
+<h4 class="title">Parama</h4>
+<ul class="mega-menu-block__list">
+<li>Tapk kokybiškos žiniasklaidos rėmėju!</li>
+<li class="btn">
+<a href="https://www.bernardinai.lt/parama/">Paremti</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="corner-popup corner-popup--color-set2 js-popup js-popup-desk no-mob" data-show-after="10">
+<div class="corner-popup__outer">
+<div class="corner-popup__inner">
+<div class="popup-close js-set-modal-session js-popup-close" data-action="/wp-json/endpoints/popup-close" data-method="post">
+<div class="popup-close__cross"></div>
+</div>
+<div class="modal-newsletter__logo">
+<svg viewbox="0 0 209.683 54.958" xmlns="http://www.w3.org/2000/svg">
+<g stroke="rgba(0,0,0,0)" stroke-miterlimit="10">
+<path class="logo-font" d="M199.432 49.114V31.54H196.9v-1.06h2.528l.218-6h4.49v6h4.489v1.021h-4.485v17.4c0 2.252.871 3.4 2.571 3.4a2.719 2.719 0 002.18-1.016l.218.221a4.593 4.593 0 01-4.664 2.958c-3.312-.007-5.013-1.994-5.013-5.35zm-44.162 3.8a6.318 6.318 0 01-1.433-4.326c0-2.883 1.264-4.776 4.1-6.138 1.192-.583 3.087-1.332 6.146-2.428v-6.23c0-1.924-.686-2.782-2.223-2.782-1.6.088-2.521.788-7.018 5.343l-.218-.088.218-4.151a18.935 18.935 0 018.021-2.12 6.835 6.835 0 014.38 1.225 4.319 4.319 0 011.5 3.544v19.208h-4.621l-.041-2.47a5.582 5.582 0 01-5.056 2.957 4.9 4.9 0 01-3.755-1.547zm4.332-9.427c-.835.985-1.04 2.292-1.1 4.084a7.126 7.126 0 00.626 3.45 2.157 2.157 0 002.033 1.1h.147a3.535 3.535 0 002.73-1.283V40.99c-2.184.842-3.611 1.521-4.438 2.494zm-84.561 9.424a6.329 6.329 0 01-1.427-4.326c0-2.883 1.258-4.776 4.081-6.138 1.189-.583 3.076-1.332 6.121-2.428v-6.227c0-1.924-.683-2.782-2.214-2.782-1.6.088-2.51.788-6.989 5.343l-.218-.088.218-4.151a18.8 18.8 0 017.987-2.119 6.793 6.793 0 014.363 1.225 4.328 4.328 0 011.5 3.544v19.207h-4.6l-.047-2.47a5.554 5.554 0 01-5.035 2.957 4.868 4.868 0 01-3.74-1.547zm4.314-9.427c-.832.985-1.036 2.293-1.1 4.084a7.142 7.142 0 00.624 3.45 2.144 2.144 0 002.024 1.1h.147a3.479 3.479 0 002.719-1.283V40.99c-2.169.842-3.592 1.521-4.415 2.494zm-55.8 7.71c-1.477-2.063-2.258-5.1-2.258-8.793a15.736 15.736 0 012.303-8.946 7.624 7.624 0 016.51-3.417 6.989 6.989 0 015.742 2.727 11.168 11.168 0 012.029 6.9c0 .5-.039 1.087-.08 1.707l-.007.1H26.2v.31c0 3.229.462 5.562 1.411 7.131a4.753 4.753 0 004.406 2.363 5.915 5.915 0 003.24-.905 6.534 6.534 0 002.231-2.495l.3.176c-.96 4.129-3.643 6.4-7.554 6.4a7.757 7.757 0 01-6.68-3.257zm3.489-18.11a16.909 16.909 0 00-.844 6.317v1.015h6.947V38.56a16.6 16.6 0 00-.662-5.713 2.531 2.531 0 00-2.551-1.838 2.972 2.972 0 00-2.89 2.076zM106.5 51.327a16.061 16.061 0 01-1.976-8.483c0-3.955.825-7.235 2.388-9.488a7.4 7.4 0 016.3-3.361 7 7 0 013.988 1.236v-5.917c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v33.426h-4.646l-.086-2.826a6.06 6.06 0 01-10.657.182zm4.152-17.657c-.715 1.683-1.048 4.289-1.048 8.2 0 3.673.3 6.134.955 7.749a3.344 3.344 0 003.3 2.451 4.314 4.314 0 003.343-1.633V32.158h-.043a5.805 5.805 0 00-3.083-.927 3.467 3.467 0 00-3.423 2.439zM2.28 53.265V25.27c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v12.275a6.817 6.817 0 015.47-2.826c4.54.046 7.25 4.272 7.25 11.3 0 4.252-.9 7.541-2.687 9.775s-4.437 3.384-7.863 3.384a22.513 22.513 0 01-6.859-1.144zm4.689-19.826v19.737a11.229 11.229 0 002.128.176c2.122-.048 3.379-.741 4.2-2.318.856-1.643 1.248-4.32 1.27-8.677 0-3.723-.293-6.2-.922-7.788a3.344 3.344 0 00-3.333-2.456 4.943 4.943 0 00-3.343 1.326zm174.068 17.838a2.964 2.964 0 112.964 3h-.08a2.907 2.907 0 01-2.884-3zm7.977 2.694v-.31a8.8 8.8 0 001.308-1.854 5.092 5.092 0 00.305-1.855V25.314c-.043-1.987-.174-2.253-1.831-4.46v-.309h6.5v29.408a4.313 4.313 0 00.305 1.855 7.407 7.407 0 001.299 1.853v.31zm-17.872 0v-.31a9.489 9.489 0 001.352-1.854 5.093 5.093 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-26.153 0v-.309a10.166 10.166 0 001.264-1.855 5.1 5.1 0 00.305-1.854V36.265c0-2.34-1-3.8-3.313-3.8a4.96 4.96 0 00-3.488 1.457v16.032a4.306 4.306 0 00.305 1.854 7.733 7.733 0 001.22 1.855v.309h-7.846v-.309a9.5 9.5 0 001.352-1.855 5.1 5.1 0 00.305-1.854V34.985c0-1.811-.175-2.165-1.7-4.195v-.31h6.233l.13 2.826a6.65 6.65 0 015.8-3.311c3.618 0 5.71 2.34 5.71 6.137v13.822h-.043a4.306 4.306 0 00.305 1.854 7.416 7.416 0 001.308 1.855v.309zm-20.75 0v-.31a9.49 9.49 0 001.352-1.854 5.092 5.092 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-59.44 0v-.309a10.117 10.117 0 001.259-1.855 5.105 5.105 0 00.3-1.854V36.265c0-2.34-1-3.8-3.3-3.8a4.931 4.931 0 00-3.473 1.457v16.032a4.321 4.321 0 00.3 1.854 7.727 7.727 0 001.215 1.855v.309h-7.806v-.309a9.5 9.5 0 001.346-1.855 5.108 5.108 0 00.3-1.854V34.985c0-1.811-.174-2.165-1.693-4.195v-.31h6.208l.131 2.826a6.618 6.618 0 015.774-3.311c3.6 0 5.687 2.34 5.687 6.137v13.822h-.043a4.321 4.321 0 00.3 1.854 7.407 7.407 0 001.3 1.855v.309zm26.05-.044v-.31a9.523 9.523 0 001.351-1.854 5.117 5.117 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.693-4.195v-.309h6.208l.174 3.621c1.346-2.87 3.039-4.107 4.732-4.107a3.371 3.371 0 012.128.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.82-1.413a2.479 2.479 0 00-1.867.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm-51.8 0v-.31a9.484 9.484 0 001.351-1.854 5.114 5.114 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.694-4.195v-.309h6.209l.174 3.621c1.345-2.87 3.038-4.107 4.732-4.107a3.369 3.369 0 012.127.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.819-1.413a2.48 2.48 0 00-1.868.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm132.965-29.626a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.008-2.914zm-46.9 0a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.011-2.914z"></path>
+<path class="logo-fish" d="M59.583 5.757c-6.043 2.844-16.726 4.744-28.974 4.744-12.611 0-23.609-2.017-29.5-5 5.891-2.983 16.889-5 29.5-5 12.276 0 23.023 1.911 29.019 4.764C65.548 2.436 76.073.541 88.109.501v10c-12.067 0-22.615-1.9-28.526-4.744z" fill="#ee4d30"></path>
+</g>
+</svg>
+</div>
+<h4 class="title h1">Mūsų misija</h4>
+<div class="full-content full-content--light">
+<p class="p1"><strong>Kurti krikščionišką pasaulėžiūrą atskleidžiantį, aktualų, viltingą ir išliekantį turinį.</strong></p>
+<p>Prisidėkite skirdami paramą.</p>
+</div>
+<div class="btn-center-wrap">
+<a class="btn-pr btn-pr--auto-wd js-popup-used-event" data-action="/wp-json/endpoints/popup-used" data-method="post" href="https://www.bernardinai.lt/parama/">Taip – paremsiu!</a>
+</div>
+</div>
+</div>
+</div>
+<div class="modal modal-newsletter modal-newsletter--colorset-2 js-popup js-popup-mob only-mob" data-show-after="10" id="modal-newsletter-mob" style="display: none;">
+<div class="modal_outer">
+<div class="modal_inner">
+<div class="modal-newsletter__content-wrap">
+<div class="modal-newsletter__content">
+<div class="modal_close js-set-modal-session" data-action="/wp-json/endpoints/popup-close" data-method="post">
+<span class="modal_close-cross"></span>
+</div>
+<div class="modal-newsletter__logo">
+<svg viewbox="0 0 209.683 54.958" xmlns="http://www.w3.org/2000/svg">
+<g stroke="rgba(0,0,0,0)" stroke-miterlimit="10">
+<path class="logo-font" d="M199.432 49.114V31.54H196.9v-1.06h2.528l.218-6h4.49v6h4.489v1.021h-4.485v17.4c0 2.252.871 3.4 2.571 3.4a2.719 2.719 0 002.18-1.016l.218.221a4.593 4.593 0 01-4.664 2.958c-3.312-.007-5.013-1.994-5.013-5.35zm-44.162 3.8a6.318 6.318 0 01-1.433-4.326c0-2.883 1.264-4.776 4.1-6.138 1.192-.583 3.087-1.332 6.146-2.428v-6.23c0-1.924-.686-2.782-2.223-2.782-1.6.088-2.521.788-7.018 5.343l-.218-.088.218-4.151a18.935 18.935 0 018.021-2.12 6.835 6.835 0 014.38 1.225 4.319 4.319 0 011.5 3.544v19.208h-4.621l-.041-2.47a5.582 5.582 0 01-5.056 2.957 4.9 4.9 0 01-3.755-1.547zm4.332-9.427c-.835.985-1.04 2.292-1.1 4.084a7.126 7.126 0 00.626 3.45 2.157 2.157 0 002.033 1.1h.147a3.535 3.535 0 002.73-1.283V40.99c-2.184.842-3.611 1.521-4.438 2.494zm-84.561 9.424a6.329 6.329 0 01-1.427-4.326c0-2.883 1.258-4.776 4.081-6.138 1.189-.583 3.076-1.332 6.121-2.428v-6.227c0-1.924-.683-2.782-2.214-2.782-1.6.088-2.51.788-6.989 5.343l-.218-.088.218-4.151a18.8 18.8 0 017.987-2.119 6.793 6.793 0 014.363 1.225 4.328 4.328 0 011.5 3.544v19.207h-4.6l-.047-2.47a5.554 5.554 0 01-5.035 2.957 4.868 4.868 0 01-3.74-1.547zm4.314-9.427c-.832.985-1.036 2.293-1.1 4.084a7.142 7.142 0 00.624 3.45 2.144 2.144 0 002.024 1.1h.147a3.479 3.479 0 002.719-1.283V40.99c-2.169.842-3.592 1.521-4.415 2.494zm-55.8 7.71c-1.477-2.063-2.258-5.1-2.258-8.793a15.736 15.736 0 012.303-8.946 7.624 7.624 0 016.51-3.417 6.989 6.989 0 015.742 2.727 11.168 11.168 0 012.029 6.9c0 .5-.039 1.087-.08 1.707l-.007.1H26.2v.31c0 3.229.462 5.562 1.411 7.131a4.753 4.753 0 004.406 2.363 5.915 5.915 0 003.24-.905 6.534 6.534 0 002.231-2.495l.3.176c-.96 4.129-3.643 6.4-7.554 6.4a7.757 7.757 0 01-6.68-3.257zm3.489-18.11a16.909 16.909 0 00-.844 6.317v1.015h6.947V38.56a16.6 16.6 0 00-.662-5.713 2.531 2.531 0 00-2.551-1.838 2.972 2.972 0 00-2.89 2.076zM106.5 51.327a16.061 16.061 0 01-1.976-8.483c0-3.955.825-7.235 2.388-9.488a7.4 7.4 0 016.3-3.361 7 7 0 013.988 1.236v-5.917c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v33.426h-4.646l-.086-2.826a6.06 6.06 0 01-10.657.182zm4.152-17.657c-.715 1.683-1.048 4.289-1.048 8.2 0 3.673.3 6.134.955 7.749a3.344 3.344 0 003.3 2.451 4.314 4.314 0 003.343-1.633V32.158h-.043a5.805 5.805 0 00-3.083-.927 3.467 3.467 0 00-3.423 2.439zM2.28 53.265V25.27c0-1.914-.166-2.331-1.78-4.46v-.309h6.469v12.275a6.817 6.817 0 015.47-2.826c4.54.046 7.25 4.272 7.25 11.3 0 4.252-.9 7.541-2.687 9.775s-4.437 3.384-7.863 3.384a22.513 22.513 0 01-6.859-1.144zm4.689-19.826v19.737a11.229 11.229 0 002.128.176c2.122-.048 3.379-.741 4.2-2.318.856-1.643 1.248-4.32 1.27-8.677 0-3.723-.293-6.2-.922-7.788a3.344 3.344 0 00-3.333-2.456 4.943 4.943 0 00-3.343 1.326zm174.068 17.838a2.964 2.964 0 112.964 3h-.08a2.907 2.907 0 01-2.884-3zm7.977 2.694v-.31a8.8 8.8 0 001.308-1.854 5.092 5.092 0 00.305-1.855V25.314c-.043-1.987-.174-2.253-1.831-4.46v-.309h6.5v29.408a4.313 4.313 0 00.305 1.855 7.407 7.407 0 001.299 1.853v.31zm-17.872 0v-.31a9.489 9.489 0 001.352-1.854 5.093 5.093 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-26.153 0v-.309a10.166 10.166 0 001.264-1.855 5.1 5.1 0 00.305-1.854V36.265c0-2.34-1-3.8-3.313-3.8a4.96 4.96 0 00-3.488 1.457v16.032a4.306 4.306 0 00.305 1.854 7.733 7.733 0 001.22 1.855v.309h-7.846v-.309a9.5 9.5 0 001.352-1.855 5.1 5.1 0 00.305-1.854V34.985c0-1.811-.175-2.165-1.7-4.195v-.31h6.233l.13 2.826a6.65 6.65 0 015.8-3.311c3.618 0 5.71 2.34 5.71 6.137v13.822h-.043a4.306 4.306 0 00.305 1.854 7.416 7.416 0 001.308 1.855v.309zm-20.75 0v-.31a9.49 9.49 0 001.352-1.854 5.092 5.092 0 00.305-1.855V34.984c0-1.81-.175-2.164-1.7-4.195v-.309h6.364v19.473a4.313 4.313 0 00.305 1.855 7.432 7.432 0 001.308 1.854v.31zm-59.44 0v-.309a10.117 10.117 0 001.259-1.855 5.105 5.105 0 00.3-1.854V36.265c0-2.34-1-3.8-3.3-3.8a4.931 4.931 0 00-3.473 1.457v16.032a4.321 4.321 0 00.3 1.854 7.727 7.727 0 001.215 1.855v.309h-7.806v-.309a9.5 9.5 0 001.346-1.855 5.108 5.108 0 00.3-1.854V34.985c0-1.811-.174-2.165-1.693-4.195v-.31h6.208l.131 2.826a6.618 6.618 0 015.774-3.311c3.6 0 5.687 2.34 5.687 6.137v13.822h-.043a4.321 4.321 0 00.3 1.854 7.407 7.407 0 001.3 1.855v.309zm26.05-.044v-.31a9.523 9.523 0 001.351-1.854 5.117 5.117 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.693-4.195v-.309h6.208l.174 3.621c1.346-2.87 3.039-4.107 4.732-4.107a3.371 3.371 0 012.128.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.82-1.413a2.479 2.479 0 00-1.867.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm-51.8 0v-.31a9.484 9.484 0 001.351-1.854 5.114 5.114 0 00.3-1.855V34.94c0-1.81-.174-2.164-1.694-4.195v-.309h6.209l.174 3.621c1.345-2.87 3.038-4.107 4.732-4.107a3.369 3.369 0 012.127.751v4.549l-.217.088c-2.561-1.06-3.777-1.413-4.819-1.413a2.48 2.48 0 00-1.868.662v15.366c0 1.678.174 2.031 1.737 3.665v.31zm132.965-29.626a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.008-2.914zm-46.9 0a3.009 3.009 0 113.008 2.914 2.888 2.888 0 01-3.011-2.914z"></path>
+<path class="logo-fish" d="M59.583 5.757c-6.043 2.844-16.726 4.744-28.974 4.744-12.611 0-23.609-2.017-29.5-5 5.891-2.983 16.889-5 29.5-5 12.276 0 23.023 1.911 29.019 4.764C65.548 2.436 76.073.541 88.109.501v10c-12.067 0-22.615-1.9-28.526-4.744z" fill="#ee4d30"></path>
+</g>
+</svg>
+</div>
+<h4 class="title h1">Mūsų misija</h4>
+<div class="full-content full-content--light">
+<p class="p1"><strong>Kurti krikščionišką pasaulėžiūrą atskleidžiantį, aktualų, viltingą ir išliekantį turinį.</strong></p>
+<p>Prisidėkite skirdami paramą.</p>
+</div>
+<div>
+<a class="btn-pr js-popup-used-event" data-action="/wp-json/endpoints/popup-used" data-method="post" href="https://www.bernardinai.lt/parama/">Taip – paremsiu!</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<form class="cookie" data-action="/wp-json/endpoints/cookies" data-method="post">
+<div class="cookie-container">
+<div class="cookie__content">
+<p class="p1">Šioje svetainėje naudojami slapukai (angl. cookies) svetainės statistinių duomenų rinkimui. Galite atsisakyti slapukų išjungdami šią juostą arba sutikti su jų naudojimu spustelėdami „SUTINKU“.</p>
+<div class="cookie__btns">
+<input class="btn-pr" id="cookieClose" type="submit" value="Sutinku"/>
+<div class="cookie_close">
+<span class="cookie_close-cross"></span>
+</div>
+</div>
+</div>
+</div>
+</form>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.bernardinai.lt/wp-content/themes/bernardinai/assets/app.js?ver=5.4.2" type="text/javascript"></script>
+<script src="https://www.bernardinai.lt/wp-includes/js/wp-embed.min.js?ver=5.4.2" type="text/javascript"></script>
+</body>
+</html>

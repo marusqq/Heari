@@ -15,7 +15,7 @@ def save_in_file(text_to_save, filename, testing = False):
     if testing:
         o.write(text_to_save)
         return
-    #for text in text_to_save:
+        
     for i in range(0, len(text_to_save[0]) - 1):
         o.write(text_to_save[0][i] + '\n')
         o.write(text_to_save[1][i] + '\n')

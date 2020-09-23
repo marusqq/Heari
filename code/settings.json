@@ -1,15 +1,32 @@
 {
     "webpages": {
-        "delfi"         : true,
-        "15min"         : true,
-        "lrytas"        : true,
-        "verslozinios"  : true
+        "delfi"         	: true,
+        "15min"         	: true,
+        "lrytas"        	: true,
+        "verslozinios"  	: true,
+		"alfa"         		: false,
+        "bernardinai"   	: true,
+        "lrt-lt"        	: false,
+		"tv3-lt"        	: false,
+        "respublika"  		: false,
+		"valstietis"    	: false,
+        "vakaruekspresas"   : false,
+		"diena"				: false
+		
     },
 
     "url": {
-        "delfi"         : "https://www.delfi.lt/",
-        "15min"         : "https://www.15min.lt/",
-        "lrytas"        : "https://www.lrytas.lt/",
-        "verslozinios"  : "https://www.vz.lt/visos-naujienos"
-    }
+        "delfi"         	: "https://www.delfi.lt/",
+        "15min"         	: "https://www.15min.lt/",
+        "lrytas"        	: "https://www.lrytas.lt/",
+        "verslozinios"  	: "https://www.vz.lt/visos-naujienos",
+		"alfa"         		: "https://www.alfa.lt/",
+        "bernardinai"   	: "https://www.bernardinai.lt/",
+        "lrt-lt"        	: "https://www.lrt.lt/",
+		"tv3-lt"        	: "https://www.tv3.lt/",
+        "respublika"  		: "https://www.respublika.lt/",
+		"valstietis"    	: "https://www.valstietis.lt/",
+        "vakaruekspresas"   : "https://www.ve.lt/",
+		"diena"				: "https://www.diena.lt/"
+	}
 }
