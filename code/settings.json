@@ -16,10 +16,10 @@
     },
 
     "comments": {
-        "delfi"         	: true,
-        "15min"         	: true,
-        "lrytas"        	: true,
-        "verslozinios"  	: true,
+        "delfi"         	: "need refactoring",
+        "15min"         	: "need refactoring",
+        "lrytas"        	: "need refactoring",
+        "verslozinios"  	: "need refactoring",
 		"alfa"         		: "stupid json, hard to make it work",
         "bernardinai"   	: "working on, only non-video articles done",
         "lrt-lt"        	: false,

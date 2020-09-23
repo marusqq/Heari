@@ -154,9 +154,10 @@ def delfi_scrape(url_to_connect, article_count, return_html = False):
     return_html    -- True if you want pure html returned (testing purposes)
 
     returns:
-    articles[][]   -- article_text, article_link, article_photo
+    articles       -- array of article dicts
     '''
     
+    #try to connect
     try:
         page = requests.get(url_to_connect)
 
@@ -166,27 +167,49 @@ def delfi_scrape(url_to_connect, article_count, return_html = False):
         print('Exc info:', error_type, error_info, error_obj)
         print('Error line', error_info.tb_lineno)
 
-    soup = bs(page.text, "html.parser")
+    soup = bs(page.text, "lxml")
 
     if return_html:
         return str(soup)
 
     articles = []
-    article_titles = []
-    article_links = []
-    article_photos = []
+    article_no = 0
+    newspaper = 'delfi'
 
-    for article in soup.find_all('h3', class_ = "headline-title"):
-        article_title = article.find('a', class_ = "CBarticleTitle")
-        article_link = article.find('a')['href']
-        if article_title:
-            article_titles.append(article_title.text)
-            article_links.append(article_link)
-            article_photos.append('photo')
+    #loop through articles
+    for article in soup.find_all("div"):
+        try:
+            div_class = article.get('class')
+            if div_class:
+                if str(div_class[0]) == 'headline':
+                    link = article.find('a')['href']
+                    img = article.find('img')['data-src']
+                    title_html = article.find('h3')
+                    title = ''
 
-    articles.append(article_titles)
-    articles.append(article_links)
-    articles.append(article_photos)
+                    for t in title_html.strings:
+                        title += t
+                    
+                    #fix titles
+                    title = title[:title.find('(')]
+                    
+                    #update article_no
+                    article_no += 1
+
+                    #create new article
+                    new_article = set_article_properties(
+                        no = article_no, newspaper = newspaper,
+                        title = title, link = link, photo = img)
+
+                    #add it to articles
+                    articles, articles_count = add_article(articles, new_article, article_count)
+        
+                    
+        except:
+            continue
+
+    print_articles(articles)
+    quit()
 
     return articles
 
@@ -199,7 +222,7 @@ def _15min_scrape(url_to_connect, article_count, return_html = False):
     return_html    -- True if you want pure html returned (testing purposes)
 
     returns:
-    articles[][]   -- article_text, article_link, article_photo
+    articles       -- array of article dicts
     '''
     
     try:
@@ -211,7 +234,7 @@ def _15min_scrape(url_to_connect, article_count, return_html = False):
         print('Exc info:', error_type, error_info, error_obj)
         print('Error line', error_info.tb_lineno)
 
-    soup = bs(page.text, "html.parser")
+    soup = bs(page.text, "lxml")
 
     if return_html:
         return str(soup)
@@ -344,8 +367,9 @@ def alfa_scrape(url_to_connect, article_count, return_html = False):
     return_html    -- True if you want pure html returned (testing purposes)
 
     returns:
-    articles[][]   -- article_text, article_link, article_photo
+    articles       -- array of article dicts
     '''
+    #connection to the page
     try:
         page = requests.get(url_to_connect)
 
@@ -497,15 +521,15 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
     return articles
 
 # scrape('delfi')
+print(scrape('delfi'), return_html = False)
 # scrape('15min')
 # scrape('lrytas')
 # scrape('verslozinios')
 # #not finished
 # scrape('alfa')
-
-util.save_in_file(scrape('bernardinai', return_html = False), 
-                        'bernardinai_pure_html.txt', 
-                        False)
+# util.save_in_file(scrape('bernardinai', return_html = False), 
+                        #'bernardinai_pure_html.txt', 
+                        #False)
 
 # scrape('lrt-lt')
 # scrape('tv3-lt')
