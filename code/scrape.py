@@ -8,7 +8,6 @@ import json, requests, sys
 import utilities as util
 from bs4 import BeautifulSoup as bs
 
-
 def scrape(newspaper, last_articles = 20, return_html = False):
     '''scraping controller
 
@@ -67,6 +66,15 @@ def scrape(newspaper, last_articles = 20, return_html = False):
             print('Newspaper with name', newspaper, "can't be scraped")
             return [' ', ' ', ' ']
 
+def split_time(time_with_date, newspaper):
+    if newspaper == 'delfi':
+        s_time = time_with_date.split('T')
+        date = s_time[0]
+        s_time = s_time[1].split('+')
+        time = s_time[0]
+    
+    return date, time
+
 def print_articles(articles):
     for article in articles:
         for key, value in article.items():
@@ -94,7 +102,15 @@ def add_article(articles, new_article, article_count):
 
     return articles, article_count
 
-def set_article_properties(no, newspaper, date = None, time = None, title = None, link = None, photo = None, author = None, flex = None):
+def get_new_id(articles):
+    max_id = 0
+    for article in articles:
+        if int(article['article_no']) > max_id:
+            max_id = int(article['article_no'])
+
+    return max_id + 1 
+
+def set_article_properties(no, newspaper, date = None, time = None, title = None, link = None, photo = None, author = None, flex = None, category = None):
     '''function to set article properties
 
     mandatory arguments:
@@ -108,7 +124,9 @@ def set_article_properties(no, newspaper, date = None, time = None, title = None
     link              -- article link
     photo             -- article photo
     author            -- article author
+    category          -- article category
     flex              -- article flex
+
 
     returns:
     articles          -- articles array with new added dict new_article
@@ -123,8 +141,9 @@ def set_article_properties(no, newspaper, date = None, time = None, title = None
     'article_link'      :   '',
     'article_photo'     :   '',
     'article_author'    :   '',
+    'article_category'  :   '',
     'article_flex'      :   ''
-    }   
+    }
 
     article['article_no'] = no
     article['article_newspaper'] = newspaper
@@ -142,7 +161,9 @@ def set_article_properties(no, newspaper, date = None, time = None, title = None
         article['article_author'] = author
     if flex is not None:
         article['article_flex'] = flex
-
+    if category is not None:
+        article['article_category'] = category
+    
     return article
 
 def delfi_scrape(url_to_connect, article_count, return_html = False):
@@ -182,9 +203,27 @@ def delfi_scrape(url_to_connect, article_count, return_html = False):
             div_class = article.get('class')
             if div_class:
                 if str(div_class[0]) == 'headline':
+
+                    #maybe it's enough
+                    if article_count == 0:
+                        return articles
+
                     link = article.find('a')['href']
                     img = article.find('img')['data-src']
                     title_html = article.find('h3')
+
+                    #categories
+                    category = ''
+                    categories = link.split('/')
+                    for i in range(3, len(categories) - 1):
+                        if '-' in categories[i]:
+                            pass
+                        else:        
+                            if len(category) < 1:
+                                category += categories[i].capitalize()
+                            else:
+                                category = category + ', ' + categories[i].capitalize()
+
                     title = ''
 
                     for t in title_html.strings:
@@ -194,24 +233,54 @@ def delfi_scrape(url_to_connect, article_count, return_html = False):
                     title = title[:title.find('(')]
                     
                     #update article_no
-                    article_no += 1
+                    article_no = get_new_id(articles)
 
                     #create new article
                     new_article = set_article_properties(
                         no = article_no, newspaper = newspaper,
-                        title = title, link = link, photo = img)
+                        title = title, link = link, photo = img, category = category)
+
+                    #try to scrape other info
+                    new_article = delfi_article_scrape(article = new_article, url = link)
 
                     #add it to articles
-                    articles, articles_count = add_article(articles, new_article, article_count)
-        
-                    
+                    articles, article_count = add_article(articles, new_article, article_count)
+           
         except:
-            continue
-
-    print_articles(articles)
-    quit()
+            pass
 
     return articles
+
+def delfi_article_scrape(article, url):
+
+    try:
+        page = requests.get(url)
+
+    except:
+        print('Error with:', url)
+        error_type, error_obj, error_info = sys.exc_info()
+        print('Exc info:', error_type, error_info, error_obj)
+        print('Error line', error_info.tb_lineno)
+
+    soup = bs(page.text, "lxml")
+
+    for meta in soup.find_all("meta"):
+        meta_type = meta.get('name')
+        if meta_type:
+            if str(meta_type) == "cXenseParse:recs:author":
+                article_author = meta['content']
+
+            elif str(meta_type) == "cXenseParse:recs:publishtime":
+                article_date, article_time = split_time(meta['content'], 'delfi')
+
+    if article_author is not None:
+        article['article_author'] = article_author
+    if article_date is not None:
+        article['article_date'] = article_date
+    if article_time is not None:
+        article['article_time'] = article_time
+        
+    return article
 
 def _15min_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for 15min
@@ -472,7 +541,7 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
                 title = title_first + title_second.text
                 
                 #update article_no
-                article_no += 1
+                article_no = get_new_id(articles)
 
                 #set scraped properties
                 new_article = set_article_properties(no = article_no, newspaper = newspaper,
@@ -503,7 +572,7 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
             _author = ', '.join(authors)
             
             #update article_no
-            article_no += 1
+            article_no = get_new_id(articles)
 
             #create a new article
             new_article = set_article_properties(
@@ -521,7 +590,8 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
     return articles
 
 # scrape('delfi')
-print(scrape('delfi'), return_html = False)
+articles = scrape('delfi', return_html = False, last_articles= 5)
+
 # scrape('15min')
 # scrape('lrytas')
 # scrape('verslozinios')
@@ -537,3 +607,5 @@ print(scrape('delfi'), return_html = False)
 # scrape('valstietis')
 # scrape('vakaruekspresas')
 # scrape('diena')
+
+print_articles(articles)

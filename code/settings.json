@@ -16,7 +16,7 @@
     },
 
     "comments": {
-        "delfi"         	: "need refactoring",
+        "delfi"         	: "refactored, working with details",
         "15min"         	: "need refactoring",
         "lrytas"        	: "need refactoring",
         "verslozinios"  	: "need refactoring",
