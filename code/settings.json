@@ -15,6 +15,22 @@
 		
     },
 
+    "comments": {
+        "delfi"         	: true,
+        "15min"         	: true,
+        "lrytas"        	: true,
+        "verslozinios"  	: true,
+		"alfa"         		: "stupid json, hard to make it work",
+        "bernardinai"   	: "working on, only non-video articles done",
+        "lrt-lt"        	: false,
+		"tv3-lt"        	: false,
+        "respublika"  		: false,
+		"valstietis"    	: false,
+        "vakaruekspresas"   : false,
+		"diena"				: false
+		
+    },
+
     "url": {
         "delfi"         	: "https://www.delfi.lt/",
         "15min"         	: "https://www.15min.lt/",

@@ -409,6 +409,8 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
     returns:
     articles       -- array of article dicts
     '''
+
+    #try to connect
     try:
         page = requests.get(url_to_connect)
 
@@ -418,9 +420,9 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
         print('Exc info:', error_type, error_info, error_obj)
         print('Error line', error_info.tb_lineno)
 
-    soup = bs(page.text, "html.parser")
+    soup = bs(page.text, "lxml")
 
-    if return_html:
+    if return_html: 
         return str(soup)
 
     articles = []
@@ -455,44 +457,43 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
                 #add new_article to articles
                 articles, article_count = add_article(articles, new_article, article_count)
 
-    quit(print_articles(articles))
+    #loop through articles
     for article in soup.find_all('article'):
-        #find content div
-        quit(article)
-        # content_div = article.find_next('div')
-        # content_after = content_div.next_sibling('a')
-        print(content_after)
-        input()
-        # details_block = content_div.find_next()
-        # link = details_block.find_parent()
-        # quit(link)
+        try:
+            authors = []
+            for author in article.find_all("p"):
+                p_class = author.get('class')
+                if "author" in str(p_class):
+                    authors.append(author.text)
+            title = article.find('h3')
+            link = title.parent
+            long_title = title.find_next('p')
+            img = article.find('img')
 
+            #add up long and short titles
+            _title = title.text[:-1] + '. ' + long_title.text
 
+            #fix up other properties of articles
+            _link = link['href']
+            _img = img['src']
+            _author = ', '.join(authors)
+            
+            #update article_no
+            article_no += 1
 
-        # fake_link = article.find('a')
-        # link = fake_link.find_next('a')
-        # print('link', link['href'])
-        # title = link.find('h3')
-        # print('title', title.text)
-        # second_title = title.find_next('p')
-        # print('second_title', second_title)
-        # photo = article.find('img')
-        # print('photo', photo['src'])
-        # second_title = link.find_previous('a')
+            #create a new article
+            new_article = set_article_properties(
+            no = article_no, newspaper = newspaper, 
+            title = _title, link = _link, photo = _img, author = _author)
+    
+            #add it to articles
+            articles, article_count = add_article(articles, new_article, article_count)
         
-        input()
-
-
-    # for article in soup.find_all('a'):
-    #     if article.find('h3'):
-
-    #         if article_count == 0:
-    #                 return articles
-
-    #         articles, article_count = add_article(article_info = articles, 
-    #             article_title = article.text, article_link = article['href'], article_photo = 'photo',
-    #             article_count = article_count)
-
+        except:
+            continue
+        
+    print_articles(articles)
+    
     return articles
 
 # scrape('delfi')
