@@ -24,7 +24,8 @@ if from_file:
 
 else:
 
-    url = "https://www.delfi.lt/verslas/transportas/kaunietis-sena-automobili-iskeite-i-paspirtukus-bet-liko-be-800-eur-kompensacijos-lesos-istirpo-per-pora-dienu.d?id=85305323"
+    #url = "https://www.delfi.lt/verslas/transportas/kaunietis-sena-automobili-iskeite-i-paspirtukus-bet-liko-be-800-eur-kompensacijos-lesos-istirpo-per-pora-dienu.d?id=85305323"
+    url = "https://15min.lt/max/naujiena/gyvenimas/ka-reiskia-saviizoliacijoje-susirgti-inkstu-uzdegimu-istaigos-bijojo-padaryti-kazka-ne-taip-todel-moteriai-teko-eiti-kryziaus-kelius-1222-1378508"
     #url = "https://www.delfi.lt"
     try:
         page = requests.get(url)
@@ -34,6 +35,9 @@ else:
         error_type, error_obj, error_info = sys.exc_info()
         print('Exc info:', error_type, error_info, error_obj)
         print('Error line', error_info.tb_lineno)
+
+    util.save_in_file(text_to_save = page.text, filename = 'test.html', testing = True)
+    quit()
 
     soup = BeautifulSoup(page.text, "lxml")
     
@@ -50,7 +54,6 @@ else:
     print(time)
     print(article_author)
 
-    util.save_in_file(text_to_save = page.text, filename = 'test.html', testing = True)
 
 
 

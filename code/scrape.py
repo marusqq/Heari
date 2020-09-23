@@ -279,7 +279,7 @@ def delfi_article_scrape(article, url):
         article['article_date'] = article_date
     if article_time is not None:
         article['article_time'] = article_time
-        
+
     return article
 
 def _15min_scrape(url_to_connect, article_count, return_html = False):
@@ -293,7 +293,7 @@ def _15min_scrape(url_to_connect, article_count, return_html = False):
     returns:
     articles       -- array of article dicts
     '''
-    
+    #connect to the page
     try:
         page = requests.get(url_to_connect)
 
@@ -309,24 +309,43 @@ def _15min_scrape(url_to_connect, article_count, return_html = False):
         return str(soup)
 
     articles = []
-    article_titles = []
-    article_links = []
-    article_photos = []
+    newspaper = '15min'
 
-    for article in soup.find_all('h4', class_ = "vl-title"):
+    #loop through articles
+    for article in soup.find_all('article'):
+        try:
+            #maybe it's enough
+            if article_count == 0:
+                return articles
+
+            title_link = article.find('a')
+            link = 'https://15min.lt' + title_link['href']
+            title = title_link['title']
+            img = article.find('img')['data-src']
         
-        article_text = str(article.text).replace("\n", "")
-        article_link = article.find('a')['href']
+        except:
+            print('Error with:', article)
+            error_type, error_obj, error_info = sys.exc_info()
+            print('Exc info:', error_type, error_info, error_obj)
+            print('Error line', error_info.tb_lineno)
+        
+        #get safe article_no
+        article_no = get_new_id(articles)
+        
+        #set scraped properties
+        new_article = set_article_properties(no = article_no, newspaper = newspaper,
+            title = title, link = link, photo = img)
+        
+        #try to scrape for more in article page
+        #new_article = _15min_article_scrape(article = new_article, url = link)
 
-        article_titles.append(article_text)
-        article_links.append('https://15min.lt' + article_link)
-        article_photos.append('photo')
-
-    articles.append(article_titles)
-    articles.append(article_links)
-    articles.append(article_photos)
+        #add new_article to articles
+        articles, article_count = add_article(articles, new_article, article_count)
 
     return articles    
+
+def _15min_article_scrape(article, url):
+    
 
 def lrytas_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for lrytas
@@ -519,7 +538,6 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
         return str(soup)
 
     articles = []
-    article_no = 0
     newspaper = 'bernardinai'
 
     #get two headers
@@ -590,8 +608,8 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
     return articles
 
 # scrape('delfi')
-articles = scrape('delfi', return_html = False, last_articles= 5)
-
+articles = scrape('15min', return_html = False, last_articles= 5)
+#util.save_in_file(articles, '15min.html', True)
 # scrape('15min')
 # scrape('lrytas')
 # scrape('verslozinios')
