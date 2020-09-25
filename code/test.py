@@ -3,30 +3,46 @@ import sys
 import utilities as util
 import requests
 
-def split_time(time_with_date, newspaper):
-    if newspaper == 'delfi':
-        s_time = time_with_date.split('T')
-        date = s_time[0]
-        s_time = s_time[1].split('+')
-        time = s_time[0]
-    
-    return date, time
 
-from_file = False
+from_file = True
 
 if from_file:
 
 
     with open('test.html', 'r', encoding = 'utf8') as f:
-
+        article = []
         contents = f.read()
         soup = BeautifulSoup(contents, 'lxml')
 
+        #look for more info
+    for meta in soup.find_all('meta'):
+        
+        meta_property = meta.get('property')
+        if meta_property:
+            
+            #category
+            if str(meta_property) == "article:section":
+                if meta['content']:
+                    print(meta['content'])
+                    
+            #publish time
+            elif str(meta_property) == "article:published_time":
+                if meta['content']:
+                    print(meta['content'])
+
+            #image
+            elif str(meta_property) == "og:image":
+                if meta['content']:
+                    print(meta['content'])
+        input()
+
+        
+
+
 else:
 
-    #url = "https://www.delfi.lt/verslas/transportas/kaunietis-sena-automobili-iskeite-i-paspirtukus-bet-liko-be-800-eur-kompensacijos-lesos-istirpo-per-pora-dienu.d?id=85305323"
-    url = "https://15min.lt/max/naujiena/gyvenimas/ka-reiskia-saviizoliacijoje-susirgti-inkstu-uzdegimu-istaigos-bijojo-padaryti-kazka-ne-taip-todel-moteriai-teko-eiti-kryziaus-kelius-1222-1378508"
-    #url = "https://www.delfi.lt"
+    #url = 'https://www.lrytas.lt/lietuvosdiena/kriminalai/2020/09/24/news/r-daskeviciaus-zmogzudystes-pedsakai-atvede-pas-buvusi-biciuli-kaip-is-eilinio-torpedos-jis-virto-mafijos-sulu-16455629/'
+    url = 'https://www.lrytas.lt/sveikata/medicinos-zinios/2020/09/24/news/po-koronaviruso-protrukio-lietuvoje-a-verygos-kreipimasis-i-savivaldybes-su-vienu-prasymu-16452763/'
     try:
         page = requests.get(url)
 
@@ -41,18 +57,6 @@ else:
 
     soup = BeautifulSoup(page.text, "lxml")
     
-    for meta in soup.find_all("meta"):
-        meta_type = meta.get('name')
-        if meta_type:
-            if str(meta_type) == "cXenseParse:recs:author":
-                article_author = meta['content']
-
-            elif str(meta_type) == "cXenseParse:recs:publishtime":
-                date, time = split_time(meta['content'], 'delfi')
-                
-    print(date)
-    print(time)
-    print(article_author)
 
 
 
