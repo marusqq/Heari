@@ -85,6 +85,11 @@ def split_time(time_with_date, newspaper):
         s_time = time_with_date.split(' ')
         date = s_time[0]
         time = s_time[1]
+
+    elif newspaper == 'vz':
+        s_time = time_with_date.split('T')
+        date = s_time[0]
+        time = s_time[1]
     
     return date, time
 
@@ -584,7 +589,7 @@ def verslozinios_scrape(url_to_connect, article_count, return_html = False):
     return_html    -- True if you want pure html returned (testing purposes)
 
     returns:
-    articles[][]   -- article_text, article_link, article_photo
+    articles[]     -- array of article dicts
     '''
     
     try:
@@ -596,29 +601,115 @@ def verslozinios_scrape(url_to_connect, article_count, return_html = False):
         print('Exc info:', error_type, error_info, error_obj)
         print('Error line', error_info.tb_lineno)
 
-    soup = bs(page.text, "html.parser")
+    soup = bs(page.text, "lxml")
 
     if return_html:
         return str(soup)
 
     articles = []
-    article_titles = []
-    article_links = []
-    article_photos = []
+    newspaper = 'verslozinios'
 
     for article in soup.find_all('div', class_ = "one-article"):
-        article_text = article.find('a')['title']
-        article_link = article.find('a')['href']
-            
-        article_titles.append(article_text)
-        article_links.append(article_link)
-        article_photos.append('photo')
+        '''get title, link, image'''
 
-    articles.append(article_titles)
-    articles.append(article_links)
-    articles.append(article_photos)
+        #if its enough
+        if article_count == 0:
+            return articles
+
+        #title
+        title = article.find('a')['title'].rstrip(' ')
+        
+        #link
+        link = article.find('a')['href']
+        
+        #image
+        img = article.find('img')['src']
+        
+        #category
+        category = article.find('a', class_ = 'cat').text
+        
+        #second title
+        second_title = article.find('p')
+        second_title_class = second_title.get('class')
+
+        if second_title_class:
+            if 'visible-lg' in str(second_title_class):
+                if title[len(title) - 1] in ['!', '.', '?']:
+                    title = title + ' ' + second_title.text
+                else:
+                    title = title + '. ' + second_title.text
+
+        #get article_no
+        article_no = get_new_id(articles)
+
+        #create new articles
+        new_article = set_article_properties(
+            no = article_no, newspaper = newspaper, category = category,
+            title = title, link = link, photo = img, 
+        )
+
+        #try to get more info
+        new_article = verslozinios_article_scrape(article = new_article)
+
+        #add it to articles
+        articles, article_count = add_article(articles, new_article, article_count)
+
 
     return articles
+
+def verslozinios_article_scrape(article):
+    '''scraping function for vzinios article scrapes
+    for more article properties
+
+    arguments:
+    article dict       -- article 
+
+    returns:
+    article dict       -- article with more properties
+    '''
+
+    try:
+        page = requests.get(article['article_link'])
+
+    except:
+        print('Error with:', article['article_link'])
+        error_type, error_obj, error_info = sys.exc_info()
+        print('Exc info:', error_type, error_info, error_obj)
+        print('Error line', error_info.tb_lineno)
+
+    soup = bs(page.text, "lxml")
+
+    #get author
+    for meta in soup.find_all('meta'):
+        meta_prop = meta.get('property')
+        if meta_prop:
+            if 'og:article:author' in str(meta_prop):
+                article['article_author'] = meta['content']
+    
+    #get date published, date modified and premium access
+    for meta in soup.find_all('meta'):
+        meta_itemprop = str(meta.get('itemprop'))
+        if meta_itemprop:
+            if 'datePublished' in meta_itemprop:
+                date, time = split_time(meta['content'], 'vz')
+                article['article_publish_date'] = date
+                article['article_publish_time'] = time
+
+
+            elif 'dateModified' in meta_itemprop:
+                date, time = split_time(meta['content'], 'vz')
+                article['article_modify_date'] = date
+                article['article_modify_time'] = time
+                
+
+            elif 'isAccessibleForFree' in meta_itemprop:
+                is_free = meta['content']
+                article['article_flex'] = is_free
+
+    
+
+
+    return article
 
 def alfa_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for alfa
@@ -781,11 +872,8 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
     
     return articles
 
-# scrape('delfi')
-articles = scrape('15min', return_html = False, last_articles=5)
+articles = scrape('verslozinios', return_html = False, last_articles = 4)
 #util.save_in_file(articles, '15min.html', True)
-# scrape('15min')
-# scrape('lrytas')
 # scrape('verslozinios')
 # #not finished
 # scrape('alfa')

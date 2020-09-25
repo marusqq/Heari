@@ -4,7 +4,7 @@ import utilities as util
 import requests
 
 
-from_file = True
+from_file = False
 
 if from_file:
 
@@ -14,27 +14,24 @@ if from_file:
         contents = f.read()
         soup = BeautifulSoup(contents, 'lxml')
 
-        #look for more info
-    for meta in soup.find_all('meta'):
-        
-        meta_property = meta.get('property')
-        if meta_property:
-            
-            #category
-            if str(meta_property) == "article:section":
-                if meta['content']:
-                    print(meta['content'])
-                    
-            #publish time
-            elif str(meta_property) == "article:published_time":
-                if meta['content']:
-                    print(meta['content'])
+    for article in soup.find_all('div', class_ = "one-article"):
 
-            #image
-            elif str(meta_property) == "og:image":
-                if meta['content']:
-                    print(meta['content'])
-        input()
+        title = article.find('a')['title'].rstrip(' ')
+
+        link = article.find('a')['href']
+
+        img = article.find('img')['src']
+
+        category = article.find('a', class_ = 'cat').text
+        
+        second_title = article.find('p')
+        second_title_class = second_title.get('class')
+        if second_title_class:
+            if 'visible-lg' in str(second_title_class):
+                if title[len(title) - 1] in ['!', '.', '?']:
+                    title = title + ' ' + second_title.text
+                else:
+                    title = title + '. ' + second_title.text
 
         
 
@@ -42,7 +39,9 @@ if from_file:
 else:
 
     #url = 'https://www.lrytas.lt/lietuvosdiena/kriminalai/2020/09/24/news/r-daskeviciaus-zmogzudystes-pedsakai-atvede-pas-buvusi-biciuli-kaip-is-eilinio-torpedos-jis-virto-mafijos-sulu-16455629/'
-    url = 'https://www.lrytas.lt/sveikata/medicinos-zinios/2020/09/24/news/po-koronaviruso-protrukio-lietuvoje-a-verygos-kreipimasis-i-savivaldybes-su-vienu-prasymu-16452763/'
+    #url = 'https://www.vz.lt/verslo-aplinka/2020/09/25/del-koronaviruso-kai-kur-uzsienyje-balsavimas-vyks-tik-pastu'
+    url = "https://www.vz.lt/paslaugos/2020/09/25/garantijas-uz-kelioniu-organizatoriu-prievoliu-ivykdymo-uztikrinimainvega-teiks-ir-luminor-bankui"
+    
     try:
         page = requests.get(url)
 

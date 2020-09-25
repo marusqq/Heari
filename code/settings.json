@@ -17,9 +17,9 @@
 
     "comments": {
         "delfi"         	: "modify time/date - in js",
-        "15min"         	: "buggy category",
+        "15min"         	: "test category",
         "lrytas"        	: "author, modify time/date left - in js",
-        "verslozinios"  	: "need refactoring",
+        "verslozinios"  	: "test premium on flex, seems like everything is true",
 		"alfa"         		: "whole page in javascript",
         "bernardinai"   	: "working on, only non-video articles done",
         "lrt-lt"        	: false,
