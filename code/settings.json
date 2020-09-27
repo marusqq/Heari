@@ -1,66 +1,92 @@
 {
-    "webpages": {
-        "delfi"         	: true,
-        "15min"         	: true,
-        "lrytas"        	: true,
-        "verslozinios"  	: true,
-		"alfa"         	    : false,
-        "bernardinai"   	: true,
-        "lrt-lt"        	: false,
-		"tv3-lt"        	: false,
-        "respublika"  		: false,
-		"valstietis"    	: false,
-        "vakaruekspresas"   : false,
-		"diena"				: false
-		
+    "webpages":{
+       "delfi":true,
+       "15min":true,
+       "lrytas":true,
+       "verslozinios":true,
+       "alfa":false,
+       "bernardinai":true,
+       "lrt-lt":false,
+       "tv3-lt":false,
+       "respublika":false,
+       "valstietis":false,
+       "vakaruekspresas":false,
+       "diena":false
     },
 
-    "comments": {
-        "delfi"         	: "modify time/date - in js",
-        "15min"         	: "test category",
-        "lrytas"        	: "author, modify time/date left - in js",
-        "verslozinios"  	: "test premium on flex, seems like everything is true",
-		"alfa"         		: "whole page in javascript",
-        "bernardinai"   	: "working on, only non-video articles done",
-        "lrt-lt"        	: false,
-		"tv3-lt"        	: false,
-        "respublika"  		: false,
-		"valstietis"    	: false,
-        "vakaruekspresas"   : false,
-		"diena"				: false
-		
+    "comments":{
+       "delfi":"modify time/date - in js",
+       "15min":"test category",
+       "lrytas":"author, modify time/date left - in js",
+       "verslozinios":"test premium on flex, seems like everything is true",
+       "alfa":"whole page in javascript",
+       "bernardinai":"working on, only non-video articles done",
+       "lrt-lt":false,
+       "tv3-lt":false,
+       "respublika":false,
+       "valstietis":false,
+       "vakaruekspresas":false,
+       "diena":false
     },
 
-    "url": {
-        "delfi"         	: "https://www.delfi.lt/",
-        "15min"         	: "https://www.15min.lt/",
-        "lrytas"        	: "https://www.lrytas.lt/",
-        "verslozinios"  	: "https://www.vz.lt/visos-naujienos",
-		"alfa"         		: "https://www.alfa.lt/",
-        "bernardinai"   	: "https://www.bernardinai.lt/",
-        "lrt-lt"        	: "https://www.lrt.lt/",
-		"tv3-lt"        	: "https://www.tv3.lt/",
-        "respublika"  		: "https://www.respublika.lt/",
-		"valstietis"    	: "https://www.valstietis.lt/",
-        "vakaruekspresas"   : "https://www.ve.lt/",
-		"diena"				: "https://www.diena.lt/"
+    "url":{
+       "delfi":"https://www.delfi.lt/",
+       "15min":"https://www.15min.lt/",
+       "lrytas":"https://www.lrytas.lt/",
+       "verslozinios":"https://www.vz.lt/visos-naujienos",
+       "alfa":"https://www.alfa.lt/",
+       "bernardinai":"https://www.bernardinai.lt/",
+       "lrt-lt":"https://www.lrt.lt/",
+       "tv3-lt":"https://www.tv3.lt/",
+       "respublika":"https://www.respublika.lt/",
+       "valstietis":"https://www.valstietis.lt/",
+       "vakaruekspresas":"https://www.ve.lt/",
+       "diena":"https://www.diena.lt/"
     },
-    
-    "example_article": {
-        "MANDATORY PROPERTIES"      :    true,
-        "article_no"                :    0,
-        "article_newspaper"         :    "news",
-        "article_link"              :    "https://example.org/article/023",
 
-        "NOT MANDATORY PROPERTIES"  :    true,
-        "article_publish_date"      :    "2010-02-01",
-        "article_publish_time"      :    "19:30",
-        "article_modify_date"       :    "2010-02-01",
-        "article_modify_time"       :    "19:45",
-        "article_title"             :    "This is an article.",
-        "article_photo"             :    "article_photo.jpg",
-        "article_author"            :    "Author Authorization",
-        "article_category"          :    "Basketball",
-        "article_flex"              :    "Anything goes here, really"
+    "example_article":{
+       "MANDATORY PROPERTIES":true,
+       "article_no":0,
+       "article_newspaper":"news",
+       "article_link":"https://example.org/article/023",
+       "NOT MANDATORY PROPERTIES":true,
+       "article_publish_date":"2010-02-01",
+       "article_publish_time":"19:30",
+       "article_modify_date":"2010-02-01",
+       "article_modify_time":"19:45",
+       "article_title":"This is an article.",
+       "article_photo":"article_photo.jpg",
+       "article_author":"Author Authorization",
+       "article_category":"Basketball",
+       "article_flex":"Anything goes here, really"
+    },
+
+    "all_newspapers":{
+       "lt":{
+          "delfi":"https://www.delfi.lt/",
+          "15min":"https://www.15min.lt/",
+          "lrytas":"https://www.lrytas.lt/",
+          "verslozinios":"https://www.vz.lt/visos-naujienos",
+          "alfa":"https://www.alfa.lt/",
+          "bernardinai":"https://www.bernardinai.lt/",
+          "lrt-lt":"https://www.lrt.lt/",
+          "tv3-lt":"https://www.tv3.lt/",
+          "respublika":"https://www.respublika.lt/",
+          "valstietis":"https://www.valstietis.lt/",
+          "vakaruekspresas":"https://www.ve.lt/",
+          "diena":"https://www.diena.lt/"
+       },
+       "ru":{
+          "agentura":"http://agentura.ru/",
+          "aru":"http://aru.tv/",
+          "lenta":"https://lenta.ru/"
+       },
+       "en":{
+          "cnn":"https://edition.cnn.com/",
+          "usatoday":"https://eu.usatoday.com/",
+          "bbc":"https://www.bbc.com/news",
+          "nytimes":"https://www.nytimes.com/"
+
+       }
     }
-}
+ }

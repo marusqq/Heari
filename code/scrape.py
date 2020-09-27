@@ -4,11 +4,32 @@ __author__ = "Marius Pozniakovas"
 __email__ = "pozniakovui@gmail.com"
 '''controller script for scraping websites'''
 
-import json, requests, sys
-import utilities as util
+import json, requests, sys, os
 from bs4 import BeautifulSoup as bs
 
-def scrape(newspaper, last_articles = 20, return_html = False):
+
+def scrape_main():
+    '''first function to scrape
+    arguments:
+    none
+
+    returns:
+    articles       -- array of article dicts
+    '''
+
+    data = _read_json()
+    articles = []
+
+    for webpage in data['webpages']:
+        #if the webpage is set to true
+
+        if data['webpages'][webpage]:
+            webpage_url = data['url'][webpage].rstrip('\n')
+            articles += _scrape(newspaper = webpage, url = webpage_url, last_articles = 1)
+
+    return articles
+
+def _scrape(newspaper, url, last_articles = 3, return_html = False):
     '''scraping controller
 
     arguments:
@@ -19,54 +40,55 @@ def scrape(newspaper, last_articles = 20, return_html = False):
     returns:
     articles[dicts]     -- array of article dicts
     '''
-    data = util.read_json()
+    
+    if newspaper == 'delfi':
+        return _delfi_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-    if data['webpages'][newspaper]:
+    elif newspaper == '15min':
+        return _15min_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        url = data['url'][newspaper]
+    elif newspaper == 'lrytas':
+        return _lrytas_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        if newspaper == 'delfi':
-            return delfi_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    elif newspaper == 'verslozinios':
+        return _verslozinios_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        elif newspaper == '15min':
-            return _15min_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    #TODO alfa retarded html scraping
+    elif newspaper == 'alfa':
+        return _alfa_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        elif newspaper == 'lrytas':
-            return lrytas_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    elif newspaper == 'bernardinai':
+        return _bernardinai_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        elif newspaper == 'verslozinios':
-            return verslozinios_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    # elif newspaper == 'lrt-lt':
+    #     return lrt-lt_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    
+    # elif newspaper == 'tv3-lt':
+    #     return tv3-lt_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        #TODO alfa retarded html scraping
-        elif newspaper == 'alfa':
-            return alfa_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    # elif newspaper == 'respublika':
+    #     return respublika_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        elif newspaper == 'bernardinai':
-            return bernardinai_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    # elif newspaper == 'valstietis':
+    #     return valstietis_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        # elif newspaper == 'lrt-lt':
-        #     return lrt-lt_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
-        
-        # elif newspaper == 'tv3-lt':
-        #     return tv3-lt_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    # elif newspaper == 'vakaruekspresas':
+    #     return vakaruekspresas_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        # elif newspaper == 'respublika':
-        #     return respublika_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    # elif newspaper == 'diena':
+    #     return diena_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
 
-        # elif newspaper == 'valstietis':
-        #     return valstietis_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+    else:
+        print('Newspaper with name', newspaper, "can't be scraped")
+        return [' ', ' ', ' ']
 
-        # elif newspaper == 'vakaruekspresas':
-        #     return vakaruekspresas_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
+def _read_json(filename = 'settings.json'):
+    with open(os.getcwd() + '/' + filename) as f:
+        data = json.load(f)
+    
+    return data
 
-        # elif newspaper == 'diena':
-        #     return diena_scrape(url_to_connect = url, article_count = last_articles, return_html = return_html)
-
-        else:
-            print('Newspaper with name', newspaper, "can't be scraped")
-            return [' ', ' ', ' ']
-
-def split_time(time_with_date, newspaper):
+def _split_time(time_with_date, newspaper):
     '''
     function to read different time strings from webpages
     arguments:
@@ -93,13 +115,13 @@ def split_time(time_with_date, newspaper):
     
     return date, time
 
-def print_articles(articles):
+def _print_articles(articles):
     for article in articles:
         for key, value in article.items():
             print(key, ':', value)
         print('-----')
 
-def add_article(articles, new_article, article_count):
+def _add_article(articles, new_article, article_count):
     '''function to add new article
 
     arguments:
@@ -120,7 +142,16 @@ def add_article(articles, new_article, article_count):
 
     return articles, article_count
 
-def get_new_id(articles):
+def _get_new_id(articles):
+    '''function to find next id in articles dict array
+
+    arguments:
+    articles            --      article dict array
+
+    returns:
+    max_id              --      next possible id
+    '''
+
     max_id = 0
     for article in articles:
         if int(article['article_no']) > max_id:
@@ -128,7 +159,7 @@ def get_new_id(articles):
 
     return max_id + 1 
 
-def set_article_properties(no, newspaper, link, publish_date = None, publish_time = None, modify_date = None, modify_time = None, title = None,  photo = None, author = None, flex = None, category = None):
+def _set_article_properties(no, newspaper, link, publish_date = None, publish_time = None, modify_date = None, modify_time = None, title = None,  photo = None, author = None, flex = None, category = None):
     '''function to set article properties
 
     mandatory arguments:
@@ -194,7 +225,7 @@ def set_article_properties(no, newspaper, link, publish_date = None, publish_tim
     
     return article
 
-def delfi_scrape(url_to_connect, article_count, return_html = False):
+def _delfi_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for delfi
 
     arguments:
@@ -260,25 +291,28 @@ def delfi_scrape(url_to_connect, article_count, return_html = False):
                     title = title[:title.find('(')]
                     
                     #update article_no
-                    article_no = get_new_id(articles)
+                    article_no = _get_new_id(articles)
 
                     #create new article
-                    new_article = set_article_properties(
+                    new_article = _set_article_properties(
                         no = article_no, newspaper = newspaper,
                         title = title, link = link, photo = img, category = category)
 
                     #try to scrape other info
-                    new_article = delfi_article_scrape(article = new_article)
+                    new_article = _delfi_article_scrape(article = new_article)
 
                     #add it to articles
-                    articles, article_count = add_article(articles, new_article, article_count)
+                    articles, article_count = _add_article(articles, new_article, article_count)
            
         except:
-            pass
+            print('Error with:', article['article_link'])
+            error_type, error_obj, error_info = sys.exc_info()
+            print('Exc info:', error_type, error_info, error_obj)
+            print('Error line', error_info.tb_lineno)
 
     return articles
 
-def delfi_article_scrape(article):
+def _delfi_article_scrape(article):
     '''
     scraping function for delfi articles
 
@@ -308,7 +342,7 @@ def delfi_article_scrape(article):
                 article_author = meta['content']
 
             elif str(meta_type) == "cXenseParse:recs:publishtime":
-                article_publish_date, article_publish_time = split_time(meta['content'], 'delfi')
+                article_publish_date, article_publish_time = _split_time(meta['content'], 'delfi')
 
     if article_author is not None:
         article['article_author'] = article_author
@@ -367,17 +401,17 @@ def _15min_scrape(url_to_connect, article_count, return_html = False):
             print('Error line', error_info.tb_lineno)
         
         #get safe article_no
-        article_no = get_new_id(articles)
+        article_no = _get_new_id(articles)
         
         #set scraped properties
-        new_article = set_article_properties(no = article_no, newspaper = newspaper,
+        new_article = _set_article_properties(no = article_no, newspaper = newspaper,
             title = title, link = link, photo = img)
         
         #try to scrape for more in article page
         new_article = _15min_article_scrape(article = new_article)
 
         #add new_article to articles
-        articles, article_count = add_article(articles, new_article, article_count)
+        articles, article_count = _add_article(articles, new_article, article_count)
 
     return articles    
 
@@ -422,14 +456,14 @@ def _15min_article_scrape(article):
         meta_type = meta.get('itemprop')
         if meta_type:
             if str(meta_type) == 'datePublished':
-                date, time = split_time(meta['content'], 'delfi')
+                date, time = _split_time(meta['content'], 'delfi')
                 if date is not None:
                     article['article_publish_date'] = date
                 if time is not None:
                     article['article_publish_time'] = time
 
             elif str(meta_type) == 'dateModified':
-                date, time = split_time(meta['content'], 'delfi')
+                date, time = _split_time(meta['content'], 'delfi')
                 if date is not None:
                     article['article_modify_date'] = date
                 if time is not None:
@@ -469,7 +503,7 @@ def _15min_article_scrape(article):
 
     return article
 
-def lrytas_scrape(url_to_connect, article_count, return_html = False):
+def _lrytas_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for lrytas
 
     arguments:
@@ -516,24 +550,24 @@ def lrytas_scrape(url_to_connect, article_count, return_html = False):
 
 
             #get new article id
-            article_no = get_new_id(articles)
+            article_no = _get_new_id(articles)
 
             #create new article
-            new_article = set_article_properties(
+            new_article = _set_article_properties(
                 no = article_no, newspaper = newspaper, title = title,
                 link = link
             )
 
             #try for more info
-            new_article = lrytas_article_scrape(article = new_article)
+            new_article = _lrytas_article_scrape(article = new_article)
 
             #add it to our articles
-            articles, article_count = add_article(articles, new_article, article_count)
+            articles, article_count = _add_article(articles, new_article, article_count)
 
 
     return articles
 
-def lrytas_article_scrape(article):
+def _lrytas_article_scrape(article):
     '''scraping function for lrytas article scrapes
     for more article properties
 
@@ -569,7 +603,7 @@ def lrytas_article_scrape(article):
             #publish time
             elif str(meta_property) == "article:published_time":
                 if meta['content']:
-                    date, time = split_time(meta['content'], 'lrytas')
+                    date, time = _split_time(meta['content'], 'lrytas')
                     article['article_publish_date'] = date
                     article['article_publish_time'] = time
 
@@ -580,7 +614,7 @@ def lrytas_article_scrape(article):
 
     return article
 
-def verslozinios_scrape(url_to_connect, article_count, return_html = False):
+def _verslozinios_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for verslozinios
 
     arguments:
@@ -640,24 +674,24 @@ def verslozinios_scrape(url_to_connect, article_count, return_html = False):
                     title = title + '. ' + second_title.text
 
         #get article_no
-        article_no = get_new_id(articles)
+        article_no = _get_new_id(articles)
 
         #create new articles
-        new_article = set_article_properties(
+        new_article = _set_article_properties(
             no = article_no, newspaper = newspaper, category = category,
             title = title, link = link, photo = img, 
         )
 
         #try to get more info
-        new_article = verslozinios_article_scrape(article = new_article)
+        new_article = _verslozinios_article_scrape(article = new_article)
 
         #add it to articles
-        articles, article_count = add_article(articles, new_article, article_count)
+        articles, article_count = _add_article(articles, new_article, article_count)
 
 
     return articles
 
-def verslozinios_article_scrape(article):
+def _verslozinios_article_scrape(article):
     '''scraping function for vzinios article scrapes
     for more article properties
 
@@ -691,13 +725,13 @@ def verslozinios_article_scrape(article):
         meta_itemprop = str(meta.get('itemprop'))
         if meta_itemprop:
             if 'datePublished' in meta_itemprop:
-                date, time = split_time(meta['content'], 'vz')
+                date, time = _split_time(meta['content'], 'vz')
                 article['article_publish_date'] = date
                 article['article_publish_time'] = time
 
 
             elif 'dateModified' in meta_itemprop:
-                date, time = split_time(meta['content'], 'vz')
+                date, time = _split_time(meta['content'], 'vz')
                 article['article_modify_date'] = date
                 article['article_modify_time'] = time
                 
@@ -711,7 +745,7 @@ def verslozinios_article_scrape(article):
 
     return article
 
-def alfa_scrape(url_to_connect, article_count, return_html = False):
+def _alfa_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for alfa
     
     arguments:
@@ -775,7 +809,7 @@ def alfa_scrape(url_to_connect, article_count, return_html = False):
     #return 'articles'
     return articles
 
-def bernardinai_scrape(url_to_connect, article_count, return_html = False):
+def _bernardinai_scrape(url_to_connect, article_count, return_html = False):
     '''scraping function for bernardinai
 
     arguments:
@@ -807,14 +841,14 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
 
     #get two headers
     for article in soup.find_all('p'):
-
-        #check - maybe it's enough
-        if article_count == 0:
-            return articles
         
         p_class = article.get('class')
         if p_class:
             if "header-quote" in p_class:
+
+                #check - maybe it's enough
+                if article_count == 0:
+                    return articles
                 
                 #scrape the properties
                 title_first = article.find('span').text
@@ -824,17 +858,22 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
                 title = title_first + title_second.text
                 
                 #update article_no
-                article_no = get_new_id(articles)
+                article_no = _get_new_id(articles)
 
                 #set scraped properties
-                new_article = set_article_properties(no = article_no, newspaper = newspaper,
+                new_article = _set_article_properties(no = article_no, newspaper = newspaper,
                     title = title, link = link)
                 
                 #add new_article to articles
-                articles, article_count = add_article(articles, new_article, article_count)
+                articles, article_count = _add_article(articles, new_article, article_count)
 
     #loop through articles
     for article in soup.find_all('article'):
+
+        #check - maybe it's enough
+        if article_count == 0:
+            return articles
+
         try:
             authors = []
             for author in article.find_all("p"):
@@ -855,24 +894,27 @@ def bernardinai_scrape(url_to_connect, article_count, return_html = False):
             _author = ', '.join(authors)
             
             #update article_no
-            article_no = get_new_id(articles)
+            article_no = _get_new_id(articles)
 
             #create a new article
-            new_article = set_article_properties(
+            new_article = _set_article_properties(
             no = article_no, newspaper = newspaper, 
             title = _title, link = _link, photo = _img, author = _author)
     
             #add it to articles
-            articles, article_count = add_article(articles, new_article, article_count)
+            articles, article_count = _add_article(articles, new_article, article_count)
         
         except:
-            continue
-        
-    print_articles(articles)
+            print('Error with:', url_to_connect)
+            error_type, error_obj, error_info = sys.exc_info()
+            print('Exc info:', error_type, error_info, error_obj)
+            print('Error line', error_info.tb_lineno)
     
     return articles
 
-articles = scrape('verslozinios', return_html = False, last_articles = 4)
+
+'''testing grounds...'''
+#articles = scrape('verslozinios', return_html = False, last_articles = 4)
 #util.save_in_file(articles, '15min.html', True)
 # scrape('verslozinios')
 # #not finished
@@ -888,4 +930,4 @@ articles = scrape('verslozinios', return_html = False, last_articles = 4)
 # scrape('vakaruekspresas')
 # scrape('diena')
 
-print_articles(articles)
+#print_articles(articles)

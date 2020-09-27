@@ -23,12 +23,6 @@ def save_in_file(text_to_save, filename, testing = False):
     o.close()
     return
 
-def read_json(filename = 'settings.json'):
-    with open(os.getcwd() + '/' + filename) as f:
-        data = json.load(f)
-    
-    return data
-
 def to_word(text, filename):
   document = Document()
   

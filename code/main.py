@@ -4,8 +4,8 @@ __author__ = "Marius Pozniakovas"
 __email__ = "pozniakovui@gmail.com"
 '''controller script'''
 
-import newspaper_scrape as ns
+import scrape as sc
 import generate_html as html
 
-articles = ns.scrape_newspapers()
+articles = sc.scrape_main()
 html.generate_html(articles)
