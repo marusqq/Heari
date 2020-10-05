@@ -1,4 +1,7 @@
 # Heari
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/efe2f97e512742369f1eaabba6c00ad4)](https://app.codacy.com/gh/marusqq/Heari?utm_source=github.com&utm_medium=referral&utm_content=marusqq/Heari&utm_campaign=Badge_Grade)
+
 Automated webpage which collects news from news sites and stores them in beautiful way for people to read it more easily.
 
 # Things to think about
